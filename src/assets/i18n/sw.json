@@ -5,7 +5,8 @@
     "element_two":"HANDLA OM",
     "element_three":"DOMÄNER",
     "element_four":"PROGRAM",
-    "element_five":"BLOGG"
+    "element_five":"BLOGG",
+    "element_six":"AVDELNING"
   },
   "home":{
     "subtitle":"innovation och social påverkan"

@@ -27,6 +27,12 @@ import { MixtAboutComponent } from './components/about/mixt-about/mixt-about.com
 import { DomainComponent } from './components/domain/domain.component';
 import { ProgrammsComponent } from './components/programms/programms.component';
 import { NewsLetterComponent } from './components/news-letter/news-letter.component';
+import { DepartmentHomeComponent } from './components/home/department-home/department-home.component';
+import { DepartmentComponent } from './components/department/department.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -53,7 +59,9 @@ export function createTranslateLoader(http: HttpClient) {
     MixtAboutComponent,
     DomainComponent,
     ProgrammsComponent,
-    NewsLetterComponent
+    NewsLetterComponent,
+    DepartmentHomeComponent,
+    DepartmentComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +77,10 @@ export function createTranslateLoader(http: HttpClient) {
           useFactory: (createTranslateLoader),
           deps: [HttpClient]
       }
-  })
+  }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]
