@@ -9,7 +9,13 @@
     "element_six":"AVDELNING"
   },
   "home":{
-    "subtitle":"innovation och social påverkan"
+    "title":"KUNSKAP OCH PÅVERKAN HANDELSHUB",
+    "subtitle":"innovation och social påverkan",
+    "cata_message":"CATA (Creative Art and Talent Advocacy): Avdelning som ansvarar för att främja kreativitet och innovation, samt medföljande talanger. Vi visar upp talang och skapar ramar som underlättar kreativiteten.",
+    "comlab_message":"ComLab (Community Lab): Avdelning som ansvarar för att leda människor med idéer och studenter för att skapa sysselsättning och återuppfinna arbetskraften.",
+    "wea_message":"WEA (Women Empowerment Advocacy): Avdelning för empowerment av unga flickor och kvinnor, samt främja jämställdhet och social påverkan genom en inkluderande och entreprenöriell digital transformation.",
+    "hudi_message":"HuDI (Humanitarian Direct Impact): Denna avdelning handlar om att skapa en mer mänsklig gemenskap genom att ta upp idén om kollektivt arbete och ansvar.",
+    "dep_home_btn":"SE MER"
   },
   "about":{
     "title":"HANDLA OM"

@@ -9,7 +9,13 @@
     "element_six":"DÉPARTEMENT"
   },
   "home":{
-    "subtitle":"innovation et impact social"
+    "title":"PÔLE COMMERCIAL DE CONNAISSANCES ET D'IMPACT",
+    "subtitle":"innovation et impact social",
+    "cata_message":"CATA (Creative Art and Talent Advocacy) : Département chargé de la promotion de la créativité et de l'innovation, ainsi que de l'accompagnement des talents. Nous mettons en valeur les talents et créons des cadres qui facilitent la créativité.",
+    "comlab_message":"ComLab (Community Lab) : Département chargé d'accompagner les porteurs d'idées et les étudiants pour la création d'emploi et la réinvention de la main d'œuvre.",
+    "wea_message":"WEA (Women Empowerment Advocacy): Département pour l'autonomisation des jeunes filles et des femmes, ainsi que pour la promotion de l'égalité des sexes et de l'impact social à travers une transformation numérique inclusive et entrepreneuriale.",
+    "hudi_message":"HuDI (Humanitarian Direct Impact) : Ce département vise à créer une communauté plus humaine en mettant sur la table l'idée de travail collectif et de responsabilité.",
+    "dep_home_btn":"VOIR PLUS"
   },
   "about":{
     "title":"À PROPOS DE"

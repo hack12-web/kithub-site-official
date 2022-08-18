@@ -9,7 +9,13 @@
     "element_six":"IDARA"
   },
   "home":{
-    "subtitle":"uvumbuzi na athari za kijamii"
+    "title":"KITOVU CHA BIASHARA CHA MAARIFA NA ATHARI",
+    "subtitle":"uvumbuzi na athari za kijamii",
+    "cata_message":"CATA (Sanaa ya Ubunifu na Utetezi wa Vipaji): Idara inayohusika na kukuza ubunifu na uvumbuzi, pamoja na talanta inayoandamana. Tunaonyesha talanta na kuunda mifumo inayowezesha ubunifu.",
+    "comlab_message":"ComLab (Maabara ya Jumuiya): Idara inayohusika na kusindikiza watu na mawazo na wanafunzi kwa ajili ya kuunda ajira na kurejesha nguvu kazi.",
+    "wea_message":"WEA (Utetezi wa Uwezeshaji wa Wanawake): Idara ya uwezeshaji wasichana na wanawake wachanga, pamoja na kuendeleza usawa wa kijinsia na Athari za Kijamii kupitia mageuzi ya kidijitali yanayojumuisha ujasiriamali.",
+    "hudi_message":"HuDI (Athari za Moja kwa Moja za Kibinadamu): Idara hii inahusu kuunda jumuiya zaidi ya binadamu kwa kuleta mezani wazo la kazi ya pamoja na wajibu.",
+    "dep_home_btn":"ONA ZAIDI"
   },
   "about":{
     "title":"KUHUSU"

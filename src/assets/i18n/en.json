@@ -9,7 +9,13 @@
     "element_six":"DEPARTMENT"
   },
   "home":{
-    "subtitle":"innovation and social impact"
+    "title":"KNOWLEDGE AND IMPACT TRADE HUB",
+    "subtitle":"innovation and social impact",
+    "cata_message":"CATA (Creative Art and Talent Advocacy): Department responsible for promoting creativity and innovation, as well as accompanying talent. We showcase talent and create frameworks that facilitate creativity.",
+    "comlab_message":"ComLab (Community Lab): Department in charge of accompanying people with ideas and students for the creation of employment and the reinvention of the workforce.",
+    "wea_message":"WEA (Women Empowerment Advocacy): Department for the empowerment of young girls and women, as well as advancing gender equality and Social Impact through an inclusive and entrepreneurial digital transformation.",
+    "hudi_message":"HuDI (Humanitarian Direct Impact): This department is about creating a more human community by bring on the table the idea of collective work and responsibility .",
+    "dep_home_btn":"SEE MORE"
   },
   "about":{
     "title":"ABOUT"
