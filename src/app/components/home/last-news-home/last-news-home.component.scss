@@ -1,0 +1,62 @@
+.last-news{
+  background-color: #495e57;
+  width: 100%;
+  height: auto;
+}
+.last-news{
+  background-color: #495e57;
+  width: 100%;
+  height: auto;
+}
+.anim-last-news{
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+  color: #ffffff;
+}
+.anim-last-news::before{
+  content: '';
+  position: absolute;
+  background-color: #ffffff;
+  height: 3px;
+  width: 100px;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate{
+  0%{
+    width: 100px;
+  }
+  50%{
+    width: 200px;
+  }
+  100%{
+    width: 100px;
+  }
+}
+.anim-last-news:hover{
+  color: #bac7c3;
+  transform: scale(0.8);
+}
+.last-news-img{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/fire-frontend-e1265.appspot.com/o/home_page%2Fcard_3.jpg?alt=media&token=7d60f35f-ad69-4322-9e1c-b1873a88d37a');
+  background-repeat: no-repeat scroll center;
+  background-size: cover;
+  height: 400px;
+}
+.last-news-img_two{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/fire-frontend-e1265.appspot.com/o/home_page%2Fcard_2.jpg?alt=media&token=44055c1b-8cf7-4dd8-bce5-5b6efbd4210f');
+  background-repeat: no-repeat scroll center;
+  background-size: cover;
+  height: 400px;
+}
+.small-text{
+  background: #495e57;
+  width: 100px;
+  height: 20px;
+  color: white;
+  border-radius: 60px;
+  margin: 5px;
+}

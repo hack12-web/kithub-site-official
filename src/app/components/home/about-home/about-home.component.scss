@@ -1,0 +1,26 @@
+.kithub-logo{
+  transition: 1s;
+  cursor: pointer;
+}
+.kithub-logo:hover{
+  transform: scale(1.1);
+}
+.nos-prog{
+  cursor: pointer;
+  transition: 1s;
+}
+.nos-prog:hover{
+  color: #495e57;
+  transform: scale(1.1);
+}
+.text-femm-dev{
+  text-align: justify;
+}
+.more-btn{
+  transition: 1s;
+}
+.more-btn:hover{
+  background: #495e57;
+  color: white;
+  transform: scale(1.2);
+}

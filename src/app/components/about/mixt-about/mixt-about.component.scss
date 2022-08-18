@@ -1,0 +1,31 @@
+.sec-3{
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+.card-1{
+  background-color: #495e57;
+  transition: 1s;
+}
+.card-1:hover{
+  transform: scale(1.1);
+}
+.objectifif-text{
+  text-align: justify;
+}
+.card-2{
+  background-color: #ffffff;
+  border-left: solid 4px #495e57;
+  color: #495e57;
+  transition: 1s;
+}
+.card-2:hover{
+  transform: scale(1.1);
+}
+.card-3{
+  background-color: #495e57;
+  transition: 1s;
+}
+.card-3:hover{
+  transform: scale(1.1);
+}

@@ -1,0 +1,17 @@
+{
+  "header":{
+    "langue":"Langues",
+    "element_one":"ACCUEIL",
+    "element_two":"À PROPOS",
+    "element_three":"DOMAINES",
+    "element_four":"PROGRAMMES",
+    "element_five":"BLOG",
+    "element_six":"CONTACTEZ NOUS"
+  },
+  "home":{
+    "subtitle":"innovation et impact social"
+  },
+  "about":{
+    "title":"À PROPOS DE"
+  }
+}

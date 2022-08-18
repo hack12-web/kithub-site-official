@@ -1,0 +1,42 @@
+<div class="container">
+  <br><br>
+  <div class="display-6 text-center"><label class="anim-domaine">NOS PARTENAIRES</label></div><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_all()" >Tous</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_burundi()" >Burundi</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_france()" >France</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_russie()" >Russie</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_usa()" >Usa</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_all()" >Tous</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_burundi()" >Burundi</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <div id="tous" *ngIf="tous">
+      <p>Tous nos partenaire !</p>
+    </div>
+    <div id="burundi" *ngIf="burundi">
+      <p>Nos partenaire au burundi</p>
+    </div>
+    <div id="tanzanie" *ngIf="tanzanie">
+      <p>Nos partenaire en tanzanie</p>
+    </div>
+    <div class="france" *ngIf="france">
+      <p>Nos partenaire en france </p>
+    </div>
+    <div id="russie" *ngIf="russie">
+      <p>Nos partenaire en russie</p>
+    </div>
+    <div class="usa" *ngIf="usa">
+      <p>Nos partenaire aux usa </p>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <!--<app-news-letters></app-news-letters>-->
+  </div>
+  <br><br>
+</div>

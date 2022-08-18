@@ -1,0 +1,16 @@
+{
+  "header":{
+    "langue":"Lugha",
+    "element_one":"UKURASA WA NYUMBANI",
+    "element_two":"KUHUSU",
+    "element_three":"VIKOA",
+    "element_four":"PROGRAMS",
+    "element_five":"BLOG"
+  },
+  "home":{
+    "subtitle":"uvumbuzi na athari za kijamii"
+  },
+  "about":{
+    "title":"KUHUSU"
+  }
+}

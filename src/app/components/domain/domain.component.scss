@@ -1,0 +1,85 @@
+.slide{
+  background: white url("/assets/img/13.png") no-repeat scroll center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+.wrapper{
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+}
+.devise-txt{
+  text-align: justify;
+}
+.d-sec-one{
+  background-color: #495e57;
+  width: 100%;
+  height: auto;
+}
+.anim-text{
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+}
+.anim-text::before{
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 100px;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate{
+  0%{
+    width: 100px;
+  }
+  50%{
+    width: 200px;
+  }
+  100%{
+    width: 100px;
+  }
+}
+.anim-text:hover{
+  color: #a2a9a7;
+  transform: scale(0.8);
+}
+.rd-1{
+  border: 4px solid white;
+}
+.cd-1{
+  background-color: white;
+  color: black;
+}
+.rd-2{
+  border: 4px solid white;
+}
+.cd-2{
+  background-color: white;
+  color: black;
+}
+.rd-3{
+  border: 4px solid white;
+}
+.cd-3{
+  background-color: white;
+  color: black;
+}
+.rd-4{
+  border: 4px solid white;
+}
+.cd-4{
+  background-color: white;
+  color: black;
+}
+.rd-5{
+  border: 4px solid white;
+}
+.cd-5{
+  background-color: white;
+  color: black;
+}

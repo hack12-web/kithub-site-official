@@ -1,0 +1,16 @@
+{
+  "header":{
+    "langue":"språk",
+    "element_one":"HEMSIDA",
+    "element_two":"HANDLA OM",
+    "element_three":"DOMÄNER",
+    "element_four":"PROGRAM",
+    "element_five":"BLOGG"
+  },
+  "home":{
+    "subtitle":"innovation och social påverkan"
+  },
+  "about":{
+    "title":"HANDLA OM"
+  }
+}

@@ -1,0 +1,54 @@
+.loading-footer{
+  background: white url("/assets/img/4.png") no-repeat scroll center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  color: #cdb3b3;
+}
+.wrapper{
+  background-color: rgba(0,0,0,0.9);
+  height: 100%;
+}
+.footer-text{
+  text-align: justify;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+  transition: 1s;
+}
+li:hover{
+  color: #a59292;
+}
+.footer-title{
+  transition: 1s;
+  cursor: pointer;
+}
+.footer-title:hover{
+  transform: rotate(-3deg);
+  color: hsl(0, 59%, 63%);
+}
+.icons{
+  transition: 1s;
+  cursor: pointer;
+}
+.icons:hover{
+  transform: rotate(360deg);
+  color: #061260;
+}
+.icons-t{
+  transition: 1s;
+  cursor: pointer;
+}
+.icons-t:hover{
+  transform: rotate(360deg);
+  color: #2943ea;
+}
+.icons-g{
+  transition: 1s;
+  cursor: pointer;
+}
+.icons-g:hover{
+  transform: rotate(360deg);
+  color: #660a0a;
+}

@@ -1,0 +1,60 @@
+small a{
+  text-decoration: none;
+  color: black;
+}
+.c-toolbar{
+  background-color: #495e57;
+}
+.menu{
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+.menu .menu-item{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  transition: 1s;
+  font-size: 12px;
+}
+.menu .menu-item:hover{
+  border-top: 1px solid white;
+  color: #a9c4bb;
+}
+.menu_point{
+  display: none;
+}
+.calender{
+  border-left: 2px solid white;
+
+}
+.element-cal{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.img-logo{
+  padding-right: 10px;
+}
+.language{
+  padding: 10px;
+}
+.inside-menu{
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .language{
+    display: none;
+  }
+  .inside-menu{
+    display: block;
+  }
+}
+@media only screen and (max-width: 1190px){
+  .menu{
+    display: none;
+  }
+  .menu_point{
+    display: block;
+  }
+}

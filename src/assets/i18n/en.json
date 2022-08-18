@@ -1,0 +1,17 @@
+{
+  "header":{
+    "langue":"Languages",
+    "element_one":"HOME",
+    "element_two":"ABOUT",
+    "element_three":"DOMAINS",
+    "element_four":"PROGRAMS",
+    "element_five":"BLOG",
+    "element_six":"CONTACT US"
+  },
+  "home":{
+    "subtitle":"innovation and social impact"
+  },
+  "about":{
+    "title":"ABOUT"
+  }
+}
