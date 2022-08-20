@@ -4,9 +4,10 @@
     "element_one":"HEMSIDA",
     "element_two":"HANDLA OM",
     "element_three":"DOMÄNER",
-    "element_four":"PROGRAM",
+    "element_four":"EVENEMANG",
     "element_five":"BLOGG",
-    "element_six":"AVDELNING"
+    "element_six":"AVDELNING",
+    "element_seven":"PROGRAM"
   },
   "home":{
     "title":"KUNSKAP OCH PÅVERKAN HANDELSHUB",

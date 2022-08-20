@@ -4,9 +4,10 @@
     "element_one":"ACCUEIL",
     "element_two":"À PROPOS",
     "element_three":"DOMAINES",
-    "element_four":"PROGRAMMES",
+    "element_four":"ÉVÉNEMENTS",
     "element_five":"BLOG",
-    "element_six":"DÉPARTEMENT"
+    "element_six":"DÉPARTEMENT",
+    "element_seven":"PROGRAMMES"
   },
   "home":{
     "title":"PÔLE COMMERCIAL DE CONNAISSANCES ET D'IMPACT",

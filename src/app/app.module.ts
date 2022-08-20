@@ -33,6 +33,8 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogSlideComponent } from './components/blog/blog-slide/blog-slide.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -61,7 +63,9 @@ export function createTranslateLoader(http: HttpClient) {
     ProgrammsComponent,
     NewsLetterComponent,
     DepartmentHomeComponent,
-    DepartmentComponent
+    DepartmentComponent,
+    BlogComponent,
+    BlogSlideComponent
   ],
   imports: [
     BrowserModule,

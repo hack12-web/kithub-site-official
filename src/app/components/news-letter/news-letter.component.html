@@ -11,7 +11,7 @@
         <div class="col-sm-6">
           <p class="h6">Newsletter</p>
           <form [formGroup]="newsLetterForm" (submit)="sendNewsLetters(newsLetterForm.value)">
-            <mat-form-field class="width-exp text-white " appearance="outline" color="primary">
+            <mat-form-field class="width-exp text-white" appearance="outline" color="primary">
               <mat-label>Email</mat-label>
               <input formControlName="email" name="email" type="email" matInput placeholder="Ex. sarahsolo@gmail.com">
             </mat-form-field>

@@ -4,9 +4,10 @@
     "element_one":"HOME",
     "element_two":"ABOUT",
     "element_three":"DOMAINS",
-    "element_four":"PROGRAMS",
+    "element_four":"EVENTS",
     "element_five":"BLOG",
-    "element_six":"DEPARTMENT"
+    "element_six":"DEPARTMENT",
+    "element_seven":"PROGRAMS"
   },
   "home":{
     "title":"KNOWLEDGE AND IMPACT TRADE HUB",
