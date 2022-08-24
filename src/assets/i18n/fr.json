@@ -7,7 +7,8 @@
     "element_four":"ÉVÉNEMENTS",
     "element_five":"BLOG",
     "element_six":"DÉPARTEMENT",
-    "element_seven":"PROGRAMMES"
+    "element_seven":"PROGRAMMES",
+    "element_eight":"CONTACTER NOUS"
   },
   "home":{
     "title":"PÔLE COMMERCIAL DE CONNAISSANCES ET D'IMPACT",
@@ -20,5 +21,8 @@
   },
   "about":{
     "title":"À PROPOS DE"
+  },
+  "blog":{
+    "title":"BLOG"
   }
 }

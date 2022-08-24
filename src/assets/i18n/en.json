@@ -7,7 +7,8 @@
     "element_four":"EVENTS",
     "element_five":"BLOG",
     "element_six":"DEPARTMENT",
-    "element_seven":"PROGRAMS"
+    "element_seven":"PROGRAMS",
+    "element_eight":"CONTACT US"
   },
   "home":{
     "title":"KNOWLEDGE AND IMPACT TRADE HUB",
@@ -20,5 +21,8 @@
   },
   "about":{
     "title":"ABOUT"
+  },
+  "blog":{
+    "title":"BLOG"
   }
 }

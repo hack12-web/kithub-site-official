@@ -20,7 +20,7 @@
     <mat-divider></mat-divider>
     <button mat-menu-item>
       <mat-icon>calendar_today</mat-icon>
-      <small><a routerLink="event" translate>header.element_four</a></small>
+      <small><a routerLink="events" translate>header.element_four</a></small>
     </button>
     <mat-divider></mat-divider>
     <button mat-menu-item>
@@ -32,6 +32,11 @@
       <small><a routerLink="department" translate>header.element_six <small>&</small><a translate> header.element_seven</a></a></small>
     </button>
     <mat-divider></mat-divider>
+    <br>
+    <div class="contact">
+      <button class="contact-mob" routerLink=""  translate>header.element_eight</button>
+    </div>
+    <br>
     <mat-divider></mat-divider>
     <div class="inside-menu">
       <a mat-button class="text-dark" (click)="changeLanguage('en')">english</a>
@@ -48,7 +53,7 @@
     <a routerLink="/"  class="menu-item" translate>header.element_one</a>
     <a routerLink="about"  class="menu-item" translate>header.element_two</a>
     <a routerLink="domain"  class="menu-item" translate>header.element_three</a>
-    <a routerLink="event"  class="menu-item" translate>header.element_four</a>
+    <a routerLink="events"  class="menu-item" translate>header.element_four</a>
     <a routerLink="blog"  class="menu-item" translate>header.element_five</a>
     <a routerLink="department" class="menu-item" translate>header.element_six <small>&</small><a translate> header.element_seven</a></a>
   </div>
@@ -77,5 +82,8 @@
         <a mat-button >kirundi</a>
       </button>
     </mat-menu>
+  </div>
+  <div class="contact">
+    <button class="header-contact" routerLink=""  translate>header.element_eight</button>
   </div>
 </mat-toolbar>

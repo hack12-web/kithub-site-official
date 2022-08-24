@@ -7,7 +7,8 @@
     "element_four":"MATUKIO",
     "element_five":"BLOG",
     "element_six":"IDARA",
-    "element_seven":"PROGRAMS"
+    "element_seven":"PROGRAMS",
+    "element_eight":"WASILIANA NASI"
   },
   "home":{
     "title":"KITOVU CHA BIASHARA CHA MAARIFA NA ATHARI",
@@ -19,6 +20,9 @@
     "dep_home_btn":"ONA ZAIDI"
   },
   "about":{
-    "title":"KUHUSU"
+    "title":"KUHUSU",
+    "blog":{
+      "title":"BLOG"
+    }
   }
 }

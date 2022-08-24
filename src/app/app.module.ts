@@ -35,6 +35,12 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogSlideComponent } from './components/blog/blog-slide/blog-slide.component';
+import { BlogContentComponent } from './components/blog/blog-content/blog-content.component';
+import { provideStorage, getStorage } from '@angular/fire/storage';
+import { EventsComponent } from './components/events/events.component';
+import { EventSlideComponent } from './components/events/event-slide/event-slide.component';
+import { EventDetailsComponent } from './components/events/event-details/event-details.component';
+import { EventDialogComponent } from './components/events/event-dialog/event-dialog.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -65,7 +71,12 @@ export function createTranslateLoader(http: HttpClient) {
     DepartmentHomeComponent,
     DepartmentComponent,
     BlogComponent,
-    BlogSlideComponent
+    BlogSlideComponent,
+    BlogContentComponent,
+    EventsComponent,
+    EventSlideComponent,
+    EventDetailsComponent,
+    EventDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -84,7 +95,9 @@ export function createTranslateLoader(http: HttpClient) {
   }),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
+    provideStorage(() => getStorage())
+
   ],
   providers: [],
   bootstrap: [AppComponent]

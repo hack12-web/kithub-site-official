@@ -41,6 +41,34 @@ small a{
 .inside-menu{
   display: none;
 }
+.header-contact{
+  width: auto;
+  height: auto;
+  background-color: #495e57;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+  transition: 1s;
+  font-size: 15px;
+}
+.header-contact:hover{
+  background-color: white;
+  color: #495e57;
+}
+.contact-mob{
+  width: auto;
+  height: auto;
+  background-color: #495e57;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+  transition: 1s;
+  font-size: 15px;
+}
+.contact-mob:hover{
+  background-color: white;
+  color: #495e57;
+}
 @media only screen and (max-width: 700px) {
   .language{
     display: none;
@@ -55,5 +83,11 @@ small a{
   }
   .menu_point{
     display: block;
+  }
+}
+@media only screen and (max-width: 1310px)
+{
+  .header-contact{
+    display: none;
   }
 }

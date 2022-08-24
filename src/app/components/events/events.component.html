@@ -1,0 +1,18 @@
+<app-event-slide></app-event-slide>
+<section class="container" *ngFor="let event of events$ ">
+  <div class="row">
+    <div class="col-sm-12 mt-3 py-3">
+      <mat-card class="shadow-lg">
+        <mat-card-title>
+          <p>{{ event.event_name }}</p>
+        </mat-card-title>
+        <mat-card-content>
+          <p class="py-3 txt-css">{{ event.event_details }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <p class="h6">{{ event.event_date.toDate() | date:'fullDate'}}</p>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</section>
