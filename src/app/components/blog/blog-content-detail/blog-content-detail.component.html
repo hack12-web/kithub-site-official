@@ -1,0 +1,14 @@
+<div class="content" *ngFor="let event of events$" (click)="selectEvent(event)">
+  <mat-card class="shadow-lg anim-card">
+    <mat-card-title>
+      <p class="h4">{{event.event_name}}</p>
+    </mat-card-title>
+    <mat-card-content>
+      <!--<p class="py-3">{{event.event_details}}</p>-->
+    </mat-card-content>
+    <mat-card-actions>
+      <p>{{ event.event_date.toDate() | date:'fullDate'}}</p>
+    </mat-card-actions>
+  </mat-card>
+  <br>
+</div>

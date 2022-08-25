@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { SharedService } from 'src/app/services/shared.service';
 import { Storage, ref, uploadBytesResumable, getDownloadURL } from '@angular/fire/storage';
@@ -23,15 +23,19 @@ import { Observable } from 'rxjs';
   styleUrls: ['./blog-content.component.scss']
 })
 export class BlogContentComponent implements OnInit {
-  public events$: Observable<any[]> | any;
+
+  public selectedEvents$: Observable<any[]> | any;
+
   public file: any = {} ;
   public myForm: FormGroup | any;
   public formComment: FormGroup | any;
+
 
   public img_url: any;
 
   constructor(private fb: FormBuilder, private s_service: SharedService, private firestore: Firestore, private storage: Storage, private http: HttpClient) {
   }
+  /*
   public chooseFile(event: any){
     this.file = event.target.files[0];
   }
@@ -54,8 +58,9 @@ export class BlogContentComponent implements OnInit {
       });
     });
     this.myForm.reset();
-    this.getEvent();
+    //this.getEvent();
   }
+  /*
   public async getEvent(){
     const DbInstance = await collection(this.firestore, 'events');
      await getDocs(DbInstance).then((response) =>{
@@ -65,14 +70,13 @@ export class BlogContentComponent implements OnInit {
       console.log(this.events$);
     })
   }
+
   public async post_comment(val: any){
     await this.s_service.post_comment(val);
     await this.formComment.reset();
-  }
+  }*/
   ngOnInit(): void {
-    this.getEvent();
-
-    this.formComment = this.fb.group({
+   /* this.formComment = this.fb.group({
       name:['', Validators.required],
       email:['', Validators.required],
       comment:['', Validators.required],
@@ -85,6 +89,6 @@ export class BlogContentComponent implements OnInit {
       event_date: new FormControl(''),
       event_img_name: new FormControl('')
     });
+    */
   }
-
 }

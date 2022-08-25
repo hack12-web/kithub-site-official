@@ -1,75 +1,11 @@
-<section>
+<section class="the_contenent">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 mt-3">
-        <div *ngIf="true">
-          <form [formGroup]="myForm" (submit)="postEvent(myForm.value)" class="example-form">
-            <mat-form-field class="example-full-width" appearance="fill">
-              <mat-label>Favorite food</mat-label>
-              <input matInput placeholder="event name" formControlName="event_name">
-            </mat-form-field>
-            <mat-form-field class="example-full-width" appearance="fill">
-              <mat-label>Leave a comment</mat-label>
-              <textarea matInput placeholder="Ex. It makes me feel..." formControlName="event_details"  ></textarea>
-            </mat-form-field>
-            <mat-form-field appearance="fill">
-              <mat-label>Choose a date</mat-label>
-              <input matInput [matDatepicker]="picker" formControlName="event_date"  >
-              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-              <mat-datepicker #picker></mat-datepicker>
-            </mat-form-field>
-            <input type="file" id="fileUpload" name="fileUpload" formControlName="event_img_name"   (change)="chooseFile($event)"  />
-            <br>
-            <button mat-raised-button color="primary" >Submit</button>
-          </form>
-        </div>
-        <br>
-        <div class="content" *ngFor="let event of events$ ">
-          <mat-card class="shadow-lg">
-            <mat-card-title>
-              <p class="h4">{{event.event_name}}</p>
-            </mat-card-title>
-            <mat-card-content>
-              <p class="py-3">{{event.event_details}}</p>
-            </mat-card-content>
-            <mat-card-actions>
-              <p>{{ event.event_date.toDate() | date:'fullDate'}}</p>
-            </mat-card-actions>
-            <mat-card-footer>
-              <form [formGroup]="formComment" (submit)="post_comment(formComment.value)">
-                <div *ngIf="false">
-                  <mat-form-field appearance="fill">
-                    <input type="text" matInput [formControlName]="event.id">
-                  </mat-form-field>
-                  &nbsp;
-                  <mat-form-field appearance="fill">
-                    <input type="text" matInput [formControlName]="event.name">
-                  </mat-form-field>
-                </div>
-                <mat-form-field class="example-full-width" appearance="fill">
-                  <mat-label>Leave a comment</mat-label>
-                  <textarea matInput placeholder="Comment..." formControlName="comment" ></textarea>
-                </mat-form-field>
-                <mat-form-field appearance="fill">
-                  <mat-label>Leave your name</mat-label>
-                  <input type="text" matInput placeholder="ex: Sarah Solo" formControlName="name">
-                </mat-form-field>
-                &nbsp;
-                <mat-form-field appearance="fill">
-                  <mat-label>Leave your email</mat-label>
-                  <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" formControlName="email">
-                </mat-form-field>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <button mat-raised-button color="primary" [disabled]="formComment.invalid" >Comment</button>
-              </form>
-            </mat-card-footer>
-          </mat-card>
-          <br>
-        </div>
-        <br>
+      <div class="col-sm-4 mt-3">
+        <app-blog-content-detail (sendEvents)="selectedEvents$=$event" ></app-blog-content-detail>
       </div>
-      <div class="col-sm-4 mt-3 sidebar">
-
+      <div class="col-sm-8 mt-3">
+        <app-blog-content-card [selectedEvents]="selectedEvents$" ></app-blog-content-card>
       </div>
     </div>
   </div>

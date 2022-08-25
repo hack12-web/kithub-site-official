@@ -1,0 +1,42 @@
+
+<mat-card class="shadow-lg" *ngIf="isNotEmpty()">
+  <mat-card-title>
+    <p class="h4">{{selectedEvents.event_name}}</p>
+  </mat-card-title>
+  <mat-card-content>
+    <p class="py-3">{{selectedEvents.event_details}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <p>{{ selectedEvents.event_date.toDate() | date:'fullDate'}}</p>
+  </mat-card-actions>
+  <mat-divider></mat-divider>
+  <mat-card-footer>
+    <p class="text-center py-3 h6">COMMENTAIRES</p>
+    <form [formGroup]="formComment">
+      <div *ngIf="false">
+        <mat-form-field appearance="fill">
+          <input type="text" name="event_id" id="event_id" [disabled]="true" matInput >
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field appearance="fill">
+          <input type="text" name="event_name" id="event_name" [disabled]="true" matInput >
+        </mat-form-field>
+      </div>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Leave a comment</mat-label>
+        <textarea matInput placeholder="Comment..." name="comment" id="comment" ></textarea>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Leave your name</mat-label>
+        <input type="text" matInput placeholder="ex: Sarah Solo" name="name" id="name" >
+      </mat-form-field>
+      &nbsp;
+      <mat-form-field appearance="fill">
+        <mat-label>Leave your email</mat-label>
+        <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" name="email" id="email">
+      </mat-form-field>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button mat-raised-button color="primary" >Envoyer</button>
+    </form>
+  </mat-card-footer>
+</mat-card>

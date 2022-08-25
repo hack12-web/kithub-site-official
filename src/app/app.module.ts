@@ -41,6 +41,9 @@ import { EventsComponent } from './components/events/events.component';
 import { EventSlideComponent } from './components/events/event-slide/event-slide.component';
 import { EventDetailsComponent } from './components/events/event-details/event-details.component';
 import { EventDialogComponent } from './components/events/event-dialog/event-dialog.component';
+import { BlogContentDetailComponent } from './components/blog/blog-content-detail/blog-content-detail.component';
+import { BlogContentCardComponent } from './components/blog/blog-content-card/blog-content-card.component';
+import { BlogDialogComponent } from './components/blog/blog-dialog/blog-dialog.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -76,7 +79,10 @@ export function createTranslateLoader(http: HttpClient) {
     EventsComponent,
     EventSlideComponent,
     EventDetailsComponent,
-    EventDialogComponent
+    EventDialogComponent,
+    BlogContentDetailComponent,
+    BlogContentCardComponent,
+    BlogDialogComponent
   ],
   imports: [
     BrowserModule,
