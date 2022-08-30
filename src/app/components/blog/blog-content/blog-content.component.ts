@@ -24,7 +24,7 @@ import { Observable } from 'rxjs';
 })
 export class BlogContentComponent implements OnInit {
 
-  public selectedEvents$: Observable<any[]> | any;
+  public selectedEvents: any = [];
 
   public file: any = {} ;
   public myForm: FormGroup | any;

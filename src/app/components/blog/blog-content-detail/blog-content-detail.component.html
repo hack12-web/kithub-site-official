@@ -1,7 +1,7 @@
-<div class="content" *ngFor="let event of events$" (click)="selectEvent(event)">
+<div class="content" *ngFor="let event of events" (click)="selectEvent(event)">
   <mat-card class="shadow-lg anim-card">
     <mat-card-title>
-      <p class="h4">{{event.event_name}}</p>
+      <p class="h4">{{event.event_name }}</p>
     </mat-card-title>
     <mat-card-content>
       <!--<p class="py-3">{{event.event_details}}</p>-->

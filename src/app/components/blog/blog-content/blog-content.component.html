@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4 mt-3">
-        <app-blog-content-detail (sendEvents)="selectedEvents$=$event" ></app-blog-content-detail>
+        <app-blog-content-detail (sendEvents)="selectedEvents=$event" ></app-blog-content-detail>
       </div>
       <div class="col-sm-8 mt-3">
-        <app-blog-content-card [selectedEvents]="selectedEvents$" ></app-blog-content-card>
+        <app-blog-content-card [selectedEvents]="selectedEvents" ></app-blog-content-card>
       </div>
     </div>
   </div>

@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class BlogDialogComponent implements OnInit {
 
-  public selectedEvents$: Observable<any[]> | any;
+  public selectedEvents: any = [];
   constructor() { }
 
   ngOnInit(): void {

@@ -1,5 +1,7 @@
-
-<mat-card class="shadow-lg" *ngIf="isNotEmpty()">
+<div *ngIf="!isNotEmpty()">
+  <p class="display-6 text-center py-5">CLICK TO THE EVENT TO READ MORE</p>
+</div>
+<mat-card class="shadow-lg mb-3 " *ngIf="isNotEmpty()">
   <mat-card-title>
     <p class="h4">{{selectedEvents.event_name}}</p>
   </mat-card-title>
@@ -9,34 +11,41 @@
   <mat-card-actions>
     <p>{{ selectedEvents.event_date.toDate() | date:'fullDate'}}</p>
   </mat-card-actions>
+  <p class="text-center h7">REACTION</p>
+  <mat-list *ngFor="let item of comments">
+    <mat-list-item *ngIf="item.event_name === selectedEvents.event_name"><small class="name">{{ item.name }}</small> :&nbsp; <span class="comment">{{ item.comment }}</span> </mat-list-item>
+  </mat-list>
   <mat-divider></mat-divider>
   <mat-card-footer>
-    <p class="text-center py-3 h6">COMMENTAIRES</p>
-    <form [formGroup]="formComment">
-      <div *ngIf="false">
+    <p class="text-center py-3 h7">COMMENTAIRES</p>
+    <div class="container">
+      <form [formGroup]="formComment" (submit)="send_comment(formComment.value)">
+        <div *ngIf="true">
+          <mat-form-field appearance="fill" *ngIf="false">
+            <input type="text" matInput placeholder="event id..." [value]="selectedEvents.id" name="event_id" id="event_id">
+          </mat-form-field>
+          &nbsp;
+          <mat-form-field appearance="fill">
+            <mat-label>Event name</mat-label>
+            <input type="text" matInput placeholder="Ex: Tech kuribose " formControlName="event_name"  name="event_name" id="event_name" autocomplete="off">
+          </mat-form-field>
+        </div>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Leave a comment</mat-label>
+          <textarea matInput placeholder="Comment..." formControlName="comment" name="comment" id="comment" autocomplete="off"></textarea>
+        </mat-form-field>
         <mat-form-field appearance="fill">
-          <input type="text" name="event_id" id="event_id" [disabled]="true" matInput >
+          <mat-label>Leave your name</mat-label>
+          <input type="text" matInput placeholder="ex: Sarah Solo" formControlName="name" name="name" id="name" autocomplete="off">
         </mat-form-field>
         &nbsp;
         <mat-form-field appearance="fill">
-          <input type="text" name="event_name" id="event_name" [disabled]="true" matInput >
+          <mat-label>Leave your email</mat-label>
+          <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" formControlName="email" name="email" id="email" autocomplete="off">
         </mat-form-field>
-      </div>
-      <mat-form-field class="example-full-width" appearance="fill">
-        <mat-label>Leave a comment</mat-label>
-        <textarea matInput placeholder="Comment..." name="comment" id="comment" ></textarea>
-      </mat-form-field>
-      <mat-form-field appearance="fill">
-        <mat-label>Leave your name</mat-label>
-        <input type="text" matInput placeholder="ex: Sarah Solo" name="name" id="name" >
-      </mat-form-field>
-      &nbsp;
-      <mat-form-field appearance="fill">
-        <mat-label>Leave your email</mat-label>
-        <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" name="email" id="email">
-      </mat-form-field>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <button mat-raised-button color="primary" >Envoyer</button>
-    </form>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button color="primary" [disabled]="formComment.invalid">Envoyer</button>
+      </form>
+    </div>
   </mat-card-footer>
 </mat-card>

@@ -11,6 +11,9 @@ import {
   deleteDoc,
   snapToData
  } from '@angular/fire/firestore';
+import { BehaviorSubject } from 'rxjs';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { BlogContentCardComponent } from '../components/blog/blog-content-card/blog-content-card.component';
 
 @Injectable({
   providedIn: 'root'
@@ -18,22 +21,35 @@ import {
 export class SharedService {
   public events: any = [];
 
-  constructor(private firestore: Firestore) { }
+  private _loading = new BehaviorSubject<boolean>(false);
+  public readonly loading$ = this._loading.asObservable();
 
-  public async post_events(val : any){
-    const DbInstance = await collection(this.firestore, 'events');
-    await addDoc(DbInstance, val).then(() =>{
+  constructor(private firestore: Firestore, private _snackBar: MatSnackBar) { }
+
+  public show(): void{
+    this._loading.next(true);
+  }
+  public hide(): void{
+    this._loading.next(false);
+  }
+
+  public post_events(val : any){
+    const DbInstance = collection(this.firestore, 'events');
+    addDoc(DbInstance, val).then(() =>{
       alert('Event posted');
     }).catch((error) =>{
       alert(error.message);
     });
   }
-  public async post_comment(val : any){
-    const DbInstance = await collection(this.firestore, 'comments');
-    await addDoc(DbInstance, val).then(() =>{
-      alert("Thanks for your comment");
+  public openSnackBar(message: string, action: string){
+   this._snackBar.open(message, action);
+  }
+  public post_comment(val : any){
+    const DbInstance = collection(this.firestore, 'comments');
+    addDoc(DbInstance, val).then(() =>{
+      this.openSnackBar('Thanks for your comment','close');
     }).catch((error) =>{
-      alert("sorry something want wrong refresh page and try again ! (:");
+      this.openSnackBar('sorry something want wrong refresh page and try again ! (:','close');
     });
   }
 }

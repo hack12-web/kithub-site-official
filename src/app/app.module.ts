@@ -17,7 +17,7 @@ import { EventHomeComponent } from './components/home/event-home/event-home.comp
 import { LastNewsHomeComponent } from './components/home/last-news-home/last-news-home.component';
 import { PatnerHomeComponent } from './components/home/patner-home/patner-home.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { SlideAboutComponent } from './components/about/slide-about/slide-about.component';
@@ -44,6 +44,7 @@ import { EventDialogComponent } from './components/events/event-dialog/event-dia
 import { BlogContentDetailComponent } from './components/blog/blog-content-detail/blog-content-detail.component';
 import { BlogContentCardComponent } from './components/blog/blog-content-card/blog-content-card.component';
 import { BlogDialogComponent } from './components/blog/blog-dialog/blog-dialog.component';
+import { NetworkInterceptor } from './network.interceptor';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -105,7 +106,11 @@ export function createTranslateLoader(http: HttpClient) {
     provideStorage(() => getStorage())
 
   ],
-  providers: [],
+  providers: [{
+    provide : HTTP_INTERCEPTORS,
+    useClass: NetworkInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

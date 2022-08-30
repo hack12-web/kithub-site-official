@@ -25,16 +25,16 @@ import { BlogDialogComponent } from '../blog-dialog/blog-dialog.component';
 export class BlogContentDetailComponent implements OnInit {
 
   @Output() sendEvents = new EventEmitter();
-  public events$: Observable<any[]> | any;
+  public events: any = [];
   constructor(private firestore: Firestore, private dialog: MatDialog) { }
 
-  public async getEvent(){
-    const DbInstance = await collection(this.firestore, 'events');
-     await getDocs(DbInstance).then((response) =>{
-      this.events$ = [...response.docs.map((item) =>{
+  public getEvent(){
+    const DbInstance = collection(this.firestore, 'events');
+      getDocs(DbInstance).then((response) =>{
+      this.events = [...response.docs.map((item) =>{
         return{...item.data(), id: item.id}
       })]
-      console.log(this.events$);
+      console.log(this.events);
     })
   }
 
