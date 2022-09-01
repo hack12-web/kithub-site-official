@@ -17,7 +17,20 @@
     "comlab_message":"ComLab (Community Lab): Department in charge of accompanying people with ideas and students for the creation of employment and the reinvention of the workforce.",
     "wea_message":"WEA (Women Empowerment Advocacy): Department for the empowerment of young girls and women, as well as advancing gender equality and Social Impact through an inclusive and entrepreneurial digital transformation.",
     "hudi_message":"HuDI (Humanitarian Direct Impact): This department is about creating a more human community by bring on the table the idea of collective work and responsibility .",
-    "dep_home_btn":"SEE MORE"
+    "dep_home_btn":"SEE MORE",
+    "program_name_four":"FemDev educates girls about digital profession and equality women-men, in the middle school and in the structures youth",
+    "about_title":"ABOUT US",
+    "about_message":"The KIT Hub is a social and professional platform which aims to train, supervise and support the Burundian population in the realization of their projects, with particular emphasis on young people with innovative projects and the inclusion of women. in the Tech and STEM environment in Burundi, as well as to promote an inclusive society. It is also a multidimensional network for capacity building for youth employability and improving social protection.",
+    "domain_one":"INNOVATION AND SOCIAL IMPACT",
+    "domain_two":"RETURN OF LOCAL WORKFORCE",
+    "domain_three":"JOB CREATION",
+    "domain_one_message":"We carry out activities that aim for positive change with the public and the community. Thus, we develop and implement creative and innovative solutions.",
+    "domain_two_message":"We offer another way of working based on pooling and networking.",
+    "domain_three_message":"The creation of employment and in particular for young people in the labor market remains a fundamental problem inherent in each society. To make our contribution to the reduction of youth unemployment and underemployment, we have adopted the ''UJIMA'' model which is a model of community planning and shared decision-making in the communities so that they have impact and initiate development through collective investment.",
+    "equipe_title":"MANAGEMENT TEAMS",
+    "event_btn":"SEE EVENTS",
+    "event_btn_sm":"event"
+
   },
   "about":{
     "title":"ABOUT"

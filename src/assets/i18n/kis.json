@@ -17,7 +17,19 @@
     "comlab_message":"ComLab (Maabara ya Jumuiya): Idara inayohusika na kusindikiza watu na mawazo na wanafunzi kwa ajili ya kuunda ajira na kurejesha nguvu kazi.",
     "wea_message":"WEA (Utetezi wa Uwezeshaji wa Wanawake): Idara ya uwezeshaji wasichana na wanawake wachanga, pamoja na kuendeleza usawa wa kijinsia na Athari za Kijamii kupitia mageuzi ya kidijitali yanayojumuisha ujasiriamali.",
     "hudi_message":"HuDI (Athari za Moja kwa Moja za Kibinadamu): Idara hii inahusu kuunda jumuiya zaidi ya binadamu kwa kuleta mezani wazo la kazi ya pamoja na wajibu.",
-    "dep_home_btn":"ONA ZAIDI"
+    "dep_home_btn":"ONA ZAIDI",
+    "program_name_four":"FemDev inaelimisha wasichana kuhusu taaluma ya kidijitali na usawa wanawake-wanaume, katikati shuleni na katika miundo vijana",
+    "about_title":"KUHUSU SISI",
+    "about_message":"KIT Hub ni jukwaa la kijamii na kitaaluma ambalo linalenga kutoa mafunzo, kusimamia na kusaidia idadi ya watu wa Burundi katika utekelezaji wa miradi yao, kwa msisitizo hasa kwa vijana wenye miradi ya ubunifu na ushirikishwaji wa wanawake. katika mazingira ya Tech na STEM nchini Burundi. , pamoja na kukuza jamii jumuishi. Pia ni mtandao wa pande nyingi kwa ajili ya kujenga uwezo kwa vijana kuajiriwa na kuboresha ulinzi wa kijamii.",
+    "domain_one":"UBUNIFU NA ATHARI ZA KIJAMII",
+    "domain_two":"KURUDISHA WAFANYAKAZI WA MTAA",
+    "domain_three":"KUTENGENEZA KAZI",
+    "domain_one_message":"Tunafanya shughuli zinazolenga kuleta mabadiliko chanya na umma na jamii. Kwa hivyo, tunakuza na kutekeleza suluhisho za ubunifu na ubunifu.",
+    "domain_two_message":"Tunatoa njia nyingine ya kufanya kazi kulingana na kuunganisha na mitandao.",
+    "domain_three_message":"Uundwaji wa ajira na hasa kwa vijana katika soko la ajira bado ni tatizo la msingi katika kila jamii. Ili kutoa mchango wetu katika kupunguza ukosefu wa ajira kwa vijana na ukosefu wa ajira, tumechukua mtindo wa ''UJIMA'' ambao ni kielelezo cha mipango ya jamii na kufanya maamuzi ya pamoja katika jamii ili ziwe na athari na kuanzisha maendeleo kupitia uwekezaji wa pamoja.",
+    "equipe_title":"TIMU ZA USIMAMIZI",
+    "event_btn":"ANGALIA MATUKIO",
+    "event_btn_sm":"tukio"
   },
   "about":{
     "title":"KUHUSU",

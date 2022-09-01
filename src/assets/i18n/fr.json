@@ -17,7 +17,19 @@
     "comlab_message":"ComLab (Community Lab) : Département chargé d'accompagner les porteurs d'idées et les étudiants pour la création d'emploi et la réinvention de la main d'œuvre.",
     "wea_message":"WEA (Women Empowerment Advocacy): Département pour l'autonomisation des jeunes filles et des femmes, ainsi que pour la promotion de l'égalité des sexes et de l'impact social à travers une transformation numérique inclusive et entrepreneuriale.",
     "hudi_message":"HuDI (Humanitarian Direct Impact) : Ce département vise à créer une communauté plus humaine en mettant sur la table l'idée de travail collectif et de responsabilité.",
-    "dep_home_btn":"VOIR PLUS"
+    "dep_home_btn":"VOIR PLUS",
+    "program_name_four":"FemDev sensibilise les filles au métier du numérique et à lʼ égalité femmes-hommes, en milieu scolaire et dans les structures jeunes",
+    "about_title":"À PROPOS DE NOUS",
+    "about_message":"Le KIT Hub est une plateforme sociale et professionnelle qui a pour but de former, d’encadrer et d’accompagner la population Burundaise dans la réalisation de leurs projets en mettant un accent particulier sur les jeunes ayant des projets innovateurs et l’inclusion des femmes dans le milieu Tech and STIM au Burundi , ainsi pour promouvoir une société inclusive. Il est en outre un réseau multidimensionnel pour le renforcement des capacités pour l’employabilité des jeunes et l’amélioration de la protection sociale.",
+    "domain_one":"INNOVATION ET IMPACT SOCIAL",
+    "domain_two":"REIVENTION DE LA MAIN D'OEUVRE LOCALE",
+    "domain_three":"CREATION D'EMPLOIS",
+    "domain_one_message":"Nous réalisons des activités qui visent un changement positif avec le public et la communauté. Ainsi, nous développons et mettons en œuvre des solutions créatives et innovantes.",
+    "domain_two_message":"Nous proposons une autre façon de travailler basée sur la mutualisation et le travail en réseau.",
+    "domain_three_message":"La création d'emplois et en particulier pour les jeunes sur le marché du travail reste un problème fondamental inhérent à chaque société. Pour apporter notre contribution à la réduction du chômage et du sous-emploi des jeunes, nous avons adopté le modèle ''UJIMA'' qui est un modèle de planification communautaire et de prise de décision partagée dans les communautés afin qu'elles aient un impact et initient le développement par l'investissement collectif.",
+    "equipe_title":"ÉQUIPES DE DIRECTION",
+    "event_btn":"VOIR LES ÉVÉNEMENTS",
+    "event_btn_sm":"événement"
   },
   "about":{
     "title":"À PROPOS DE"

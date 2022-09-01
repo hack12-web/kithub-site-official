@@ -17,7 +17,19 @@
     "comlab_message":"ComLab (Community Lab): Avdelning som ansvarar för att leda människor med idéer och studenter för att skapa sysselsättning och återuppfinna arbetskraften.",
     "wea_message":"WEA (Women Empowerment Advocacy): Avdelning för empowerment av unga flickor och kvinnor, samt främja jämställdhet och social påverkan genom en inkluderande och entreprenöriell digital transformation.",
     "hudi_message":"HuDI (Humanitarian Direct Impact): Denna avdelning handlar om att skapa en mer mänsklig gemenskap genom att ta upp idén om kollektivt arbete och ansvar.",
-    "dep_home_btn":"SE MER"
+    "dep_home_btn":"SE MER",
+    "program_name_four":"FemDev utbildar tjejer om digitalt yrke och jämställdhet kvinnor-män, i mitten skolan och i strukturerna ungdom",
+    "about_title":"OM OSS",
+    "about_message":"KIT Hub är en social och professionell plattform som syftar till att utbilda, övervaka och stödja den burundiska befolkningen i förverkligandet av deras projekt, med särskild tonvikt på unga människor med innovativa projekt och inkludering av kvinnor. i Tech- och STEM-miljön i Burundi. , samt att främja ett inkluderande samhälle. Det är också ett multidimensionellt nätverk för kapacitetsuppbyggnad för ungdomars anställningsbarhet och för att förbättra det sociala skyddet.",
+    "domain_one":"INNOVATION OCH SOCIAL PÅVERKAN",
+    "domain_two":"ÅTERKOMMANDE AV LOKAL ARBETSKRAFTA",
+    "domain_three":"SKAPA JOBB",
+    "domain_one_message":"Vi genomför aktiviteter som syftar till positiv förändring med allmänheten och samhället. Därför utvecklar och implementerar vi kreativa och innovativa lösningar.",
+    "domain_two_message":"Vi erbjuder ett annat sätt att arbeta baserat på pooling och nätverkande.",
+    "domain_three_message":"Skapandet av sysselsättning och i synnerhet för ungdomar på arbetsmarknaden är fortfarande ett grundläggande problem i varje samhälle. För att ge vårt bidrag till att minska ungdomsarbetslösheten och undersysselsättningen har vi antagit ''UJIMA''-modellen som är en modell för samhällsplanering och delat beslutsfattande i samhällena så att de har inverkan och initierar utveckling genom kollektiva investeringar.",
+    "equipe_title":"LEDNINGSTEAM",
+    "event_btn":"SE HÄNDELSER",
+    "event_btn_sm":"händelse"
   },
   "about":{
     "title":"HANDLA OM"

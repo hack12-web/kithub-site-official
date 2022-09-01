@@ -37,9 +37,7 @@ export class EventsComponent implements OnInit {
     console.log(`Dialog result: ${result}`);
   });
   }
-
   ngOnInit(): void {
     this.get_all_events();
   }
-
 }

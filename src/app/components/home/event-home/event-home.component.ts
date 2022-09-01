@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { collection, Firestore, getDocs } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-event-home',
@@ -7,12 +9,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventHomeComponent implements OnInit {
 
-  public event_img_one:string = 'https://firebasestorage.googleapis.com/v0/b/fire-frontend-e1265.appspot.com/o/home_page%2Fcard_1.jpg?alt=media&token=7ea1afa8-b9c6-4e68-a23d-da77f4991141';
-  public event_img_two:string = 'https://firebasestorage.googleapis.com/v0/b/fire-frontend-e1265.appspot.com/o/home_page%2Fcard_2.jpg?alt=media&token=44055c1b-8cf7-4dd8-bce5-5b6efbd4210f';
+  public events: any = [];
+  public event_filter: any = {};
 
-  constructor() { }
+  constructor(private firestore: Firestore ) { }
 
+  public get_all_events(){
+    const DbInstance = collection(this.firestore, 'events');
+    getDocs(DbInstance).then((response) =>{
+      this.events = [...response.docs.map((item) =>{
+        return {...item.data(), id: item.id }
+      })]
+      for (let index = 2; index < this.events.length; index++) {
+         const element:[] = this.events[index];
+         this.event_filter = element;
+      }
+    })
+  }
   ngOnInit(): void {
+    this.get_all_events();
   }
 
 }
