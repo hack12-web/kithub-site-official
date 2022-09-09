@@ -1,9 +1,9 @@
-<div class="container" >
+<div class="container">
   <div class="display-6 text-center"><label class="anim-domaine" translate>header.element_four</label></div><br><br>
   <div class="container">
     <div class="row">
       <pre>{{ event_filter | json }}</pre>
-      <div class="col-sm-6 mt-3" *ngFor="let list of event_filter">
+      <div class="col-sm-6 mt-3">
         <mat-card class="shadow-lg">
           <mat-card-header>
             <mat-card-subtitle class="sub-title text-center"> <a routerLink="#" translate>home.event_btn_sm</a></mat-card-subtitle>

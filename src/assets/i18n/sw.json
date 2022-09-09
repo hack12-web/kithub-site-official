@@ -29,12 +29,24 @@
     "domain_three_message":"Skapandet av sysselsättning och i synnerhet för ungdomar på arbetsmarknaden är fortfarande ett grundläggande problem i varje samhälle. För att ge vårt bidrag till att minska ungdomsarbetslösheten och undersysselsättningen har vi antagit ''UJIMA''-modellen som är en modell för samhällsplanering och delat beslutsfattande i samhällena så att de har inverkan och initierar utveckling genom kollektiva investeringar.",
     "equipe_title":"LEDNINGSTEAM",
     "event_btn":"SE HÄNDELSER",
-    "event_btn_sm":"händelse"
+    "event_btn_sm":"händelse",
+    "devise":"POOLING OCH NÄTVERK SOM EN NYCKEL TILL INNOVATION OCH ÅTERKOMMANDE AV ARBETSKRAFTEN",
+    "devise_title":"VALUTA"
   },
   "about":{
     "title":"HANDLA OM"
   },
   "blog":{
     "title":"BLOGG"
+  },
+  "domain":{
+    "title":"DOMÄNER"
+  },
+  "dialog":{
+    "title":"KONTAKTA OSS FÖR MER INFORMATION",
+    "name":"NAMN",
+    "email":"E-POST",
+    "message":"MEDDELANDE",
+    "send_btn":"SKICKA"
   }
 }

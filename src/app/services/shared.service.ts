@@ -41,6 +41,14 @@ export class SharedService {
       alert(error.message);
     });
   }
+  public post_contact_us(val: any):void{
+    const DbInstance = collection(this.firestore, 'contactUs');
+    addDoc(DbInstance, val).then(() =>{
+      this.openSnackBar("Thanks","close");
+    }).catch((error) =>{
+      this.openSnackBar('sorry something want wrong refresh page and try again ! (:','close')
+    });
+  }
   public openSnackBar(message: string, action: string){
    this._snackBar.open(message, action);
   }

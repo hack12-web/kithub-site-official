@@ -29,12 +29,24 @@
     "domain_three_message":"La création d'emplois et en particulier pour les jeunes sur le marché du travail reste un problème fondamental inhérent à chaque société. Pour apporter notre contribution à la réduction du chômage et du sous-emploi des jeunes, nous avons adopté le modèle ''UJIMA'' qui est un modèle de planification communautaire et de prise de décision partagée dans les communautés afin qu'elles aient un impact et initient le développement par l'investissement collectif.",
     "equipe_title":"ÉQUIPES DE DIRECTION",
     "event_btn":"VOIR LES ÉVÉNEMENTS",
-    "event_btn_sm":"événement"
+    "event_btn_sm":"événement",
+    "devise":"LA MUTUALISATION ET LE TRAVAIL EN RESEAUX COMME CLE DE L'INNOVATION ET DE LA REIVENTION DE LA MAIN D'OEUVRE",
+    "devise_title":"DEVISE"
   },
   "about":{
     "title":"À PROPOS DE"
   },
   "blog":{
     "title":"BLOG"
+  },
+  "domain":{
+    "title":"DOMAINES DE"
+  },
+  "dialog":{
+    "title":"CONTACTER NOUS POUR PLUS D'INFORMATIONS",
+    "name":"NOM",
+    "email":"E-MAIL",
+    "message":"MESSAGE",
+    "send_btn":"ENVOYER"
   }
 }

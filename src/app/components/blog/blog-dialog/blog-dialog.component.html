@@ -1,1 +1,42 @@
-<app-blog-content-card [selectedEvents]="selectedEvents" ></app-blog-content-card>
+<section class="container">
+  <div mat-dialog-title>
+    <p class="h4 txt-title" translate>dialog.title</p>
+  </div>
+  <div mat-dialog-content>
+    <form [formGroup]="myForm" (submit)="send_contact_us(myForm.value)">
+      <div class="mt-3">
+        <label translate>dialog.name</label>
+        <br>
+        <input type="text" formControlName="name" placeholder="NYONGERO Claude" autocomplete="off" class="form-control inputs">
+        <div *ngIf=" myForm.get('name').touched && myForm.get('name').errors?.required ">
+          <span class="text-danger">the full name is required is required</span>
+        </div>
+      </div>
+      <br>
+      <div class="mt-3">
+        <label translate>dialog.email</label>
+        <br>
+        <input type="email" formControlName="email" placeholder="Eg: nyongeroclaude@gmail.com" autocomplete="off" class="form-control">
+        <div *ngIf=" myForm.get('email').touched && myForm.get('email').errors?.required ">
+          <span class="text-danger">the email is required</span>
+        </div>
+        <div *ngIf=" myForm.get('email').touched && myForm.get('email').errors?.email ">
+          <span class="text-danger">the email is invalid</span>
+        </div>
+      </div>
+      <br>
+      <div class="mt-3">
+        <label translate>dialog.message</label>
+        <br>
+        <textarea rows="5" class="text-area" type="text" formControlName="message" placeholder="Eg: Hello world" autocomplete="off" class="form-control"></textarea>
+        <div *ngIf=" myForm.get('message').touched && myForm.get('message').errors?.required ">
+          <span class="text-danger">the message is required</span>
+        </div>
+      </div>
+      <p class="mt-3 text-center">
+        <button type="submit" class="btn btn-sm btn-primary" color="primary" [mat-dialog-close]="true" cdkFocusInitial translate [disabled]="myForm.invalid">dialog.send_btn</button>
+      </p>
+    </form>
+  </div>
+</section>
+<!--&nbsp;&nbsp;&nbsp;-->

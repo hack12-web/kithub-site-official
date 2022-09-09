@@ -14,8 +14,6 @@ import {
   deleteDoc,
   snapToData
  } from '@angular/fire/firestore';
-import { MatDialog } from '@angular/material/dialog';
-import { BlogDialogComponent } from '../blog-dialog/blog-dialog.component';
 
 @Component({
   selector: 'app-blog-content-detail',
@@ -26,7 +24,7 @@ export class BlogContentDetailComponent implements OnInit {
 
   @Output() sendEvents = new EventEmitter();
   public events: any = [];
-  constructor(private firestore: Firestore, private dialog: MatDialog) { }
+  constructor(private firestore: Firestore) { }
 
   public getEvent(){
     const DbInstance = collection(this.firestore, 'events');
@@ -40,13 +38,6 @@ export class BlogContentDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getEvent();
-  }
-
-  public openDialog(){
-    const dialogRef = this.dialog.open(BlogDialogComponent);
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
   }
   public selectEvent(event : any){
     this.sendEvents.emit(event);

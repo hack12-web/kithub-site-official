@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { TranslateConfigService } from 'src/app/services/translate-config.service';
+import { BlogDialogComponent } from '../blog/blog-dialog/blog-dialog.component';
 
 @Component({
   selector: 'app-header',
@@ -10,7 +12,7 @@ export class HeaderComponent implements OnInit {
 
   public time:string = new Date().toLocaleTimeString();
 
-  constructor( private serviceTranslate: TranslateConfigService ) {
+  constructor( private serviceTranslate: TranslateConfigService, private dialog: MatDialog ) {
     this.getTime();
   }
 
@@ -25,6 +27,13 @@ export class HeaderComponent implements OnInit {
   }
   public changeLanguage(type:string){
     this.serviceTranslate.changeLanguage(type);
+  }
+  public openDialog(){
+    //this.dialog.open(BlogDialogComponent);
+    const dialogRef = this.dialog.open(BlogDialogComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
   ngOnInit(): void {
   }

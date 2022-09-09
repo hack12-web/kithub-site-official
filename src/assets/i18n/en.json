@@ -29,13 +29,24 @@
     "domain_three_message":"The creation of employment and in particular for young people in the labor market remains a fundamental problem inherent in each society. To make our contribution to the reduction of youth unemployment and underemployment, we have adopted the ''UJIMA'' model which is a model of community planning and shared decision-making in the communities so that they have impact and initiate development through collective investment.",
     "equipe_title":"MANAGEMENT TEAMS",
     "event_btn":"SEE EVENTS",
-    "event_btn_sm":"event"
-
+    "event_btn_sm":"event",
+    "devise":"POOLING AND NETWORKING AS A KEY TO INNOVATION AND WORKFORCE RETURN",
+    "devise_title":"CURRENCY"
   },
   "about":{
     "title":"ABOUT"
   },
   "blog":{
     "title":"BLOG"
+  },
+  "domain":{
+    "title":"DOMAINS OF"
+  },
+  "dialog":{
+    "title":"CONTACT US FOR MORE INFORMATION",
+    "name":"NAME",
+    "email":"EMAIL",
+    "message":"MESSAGE",
+    "send_btn":"SEND"
   }
 }
