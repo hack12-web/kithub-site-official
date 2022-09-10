@@ -1,9 +1,9 @@
 <div class="container">
   <br><br>
-  <div class="display-6 text-center"><label class="anim-domaine">NOS PARTENAIRES</label></div><br><br>
+  <div class="display-6 text-center"><label class="anim-domaine" translate>home.patner_title</label></div><br><br>
   <div class="container">
     <div class="row">
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_all()" >Tous</button></div>
+      <div class="col-6 col-sm mt-3"><button  class="btn-paternaire" (click)="show_all()" translate>home.btn_all_name</button></div>
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_burundi()" >Burundi</button></div>
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div>
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_france()" >France</button></div>
@@ -16,7 +16,7 @@
   </div>
   <div class="container mt-3">
     <div id="tous" *ngIf="tous">
-      <p>Tous nos partenaire !</p>
+      <p>Tous nos partenaires !</p>
     </div>
     <div id="burundi" *ngIf="burundi">
       <p>Nos partenaire au burundi</p>

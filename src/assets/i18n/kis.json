@@ -31,10 +31,22 @@
     "event_btn":"ANGALIA MATUKIO",
     "event_btn_sm":"tukio",
     "devise":"KUUNGANISHA NA MTANDAO IKIWA UFUNGUO WA UBUNIFU NA KUREJESHA NGUVU KAZI",
-    "devise_title":"SARAFU"
+    "devise_title":"SARAFU",
+    "last_news_title":"HABARI ZA HIVI KARIBUNI",
+    "last_mini":"TANGAZO",
+    "patner_title":"WADAU WETU",
+    "btn_all_name":"Wote"
   },
   "about":{
-    "title":"KUHUSU"
+    "title":"KUHUSU",
+    "about_title_one":"SISI NI NANI",
+    "about_historique_title":"Kihistoria",
+    "about_historique_msg":"Idadi ya watu wa Burundi ni changa mno, jambo ambalo ni lazima liwe rasilimali kubwa kwa maendeleo endelevu. Hakika, nusu ya idadi ya watu ni chini ya umri wa miaka 17; 2/3 ya Warundi wana umri wa chini ya miaka 25. Kwa upande mwingine, tunaona kiwango cha ukosefu wa ajira, hasa miongoni mwa vijana wanaoendelea kukua, na vijana kukosa fursa za kuonyesha vipaji vyao. Tunakubaliana na John Irons, Mkurugenzi Mtendaji wa Wakfu wa Rockefeller na mjumbe wa Bodi ya Wadhamini ya S4YE ambaye alisema, “Ukosefu wa ajira kwa vijana ni tatizo linaloongezeka duniani kote. Wakati wafanyakazi vijana hawawezi kuunganishwa na soko la ajira, hii ina madhara makubwa katika uwezo wao wa kushiriki kikamilifu katika uchumi na kutishia mustakabali wao wa kiuchumi na kijamii.” https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_414241/lang--fr/index.htm -Kuitikia wito wa Serikali na idadi ya watu ili kujibu mahitaji muhimu ambayo hayajafikiwa , kuajiriwa kwa vijana na kutengeneza ajira nchini Burundi, pamoja na kuimarisha upendo kwa nchi na jirani, Bw. Chris Clément Igiraneza na Bibi Amney Mzige Saleh kwa ari na watakuwa wameanzisha na kuunda mtandao wa msaada na utaalamu utakaochangia maendeleo endelevu. nchini Burundi, ili kuunda jumuiya inayojumuisha zaidi ambapo kila mtu anastahili fursa ya kuishi uwezo wake kamili na kwa uhuru safi. Kwa hivyo, lazima tuchukue hatua sasa na tuchukue hatua pamoja ikiwa tunataka kutambua uwezekano mkubwa unaotolewa kwetu na hawa vijana wengi wa Burundi leo. Ni kwa moyo huu ambapo KIT Hub (Knowledge and Impact Trade Hub) ilizaliwa ili kuwekeza kwa vijana wa Burundi na kuchangia Burundi ambayo inastawi kupitia maendeleo endelevu na shirikishi. KIT HUB ni jukwaa la kijamii na vuguvugu la jumuiya, dhamira ya Kiafrika katika uimarishaji wa demokrasia ya maarifa na fursa nchini Burundi, na athari za kijamii ili kuwafanya vijana wa Burundi waelimike zaidi, waliohitimu na kustawi zaidi. Tunaelimisha, kuhamasisha na kuunga mkono idadi ya watu wa Burundi kupitia programu kadhaa zinazolenga hasa vijana wenye mawazo bunifu, na ambao shughuli zao zinazingatia mabadiliko ya kidijitali jumuishi na ya ujasiriamali. KIT HUB inategemea ari ya UBUNTU na UJIMAA (wajibu na kazi ya pamoja) kwa ajili ya kuajiriwa kwa vijana wa Burundi, kurejesha nguvu kazi ya ndani na kuunda ajira. KIT Hub inawaweka vijana katika kitovu cha mafanikio ya SDGs (Malengo ya Maendeleo Endelevu), hivi ndivyo mipango yote inavyosukumwa na uelewa wa vijana wenyewe kama vile kuunganisha, mitandao, UBUNTU na UJIMAA ndio funguo za ubunifu na uundaji wa ajira. ili kuhakikisha maendeleo endelevu nchini Burundi. Ili, KIT Hub inataka kuwa: Incubator muhimu kwa wakazi wa Burundi na Burundi wanaostawi: Uongozi, Dijitali, Ubunifu, Ujasiriamali, Kibinadamu na uhisani. Mbeba matumaini kwa vijana wote wanaonufaika na programu zake nyingi, malaika mlezi kwa wanawake na watoto wote wanaoungwa mkono kupitia programu mbalimbali za kibinadamu.",
+    "about_title_two":"MAONO NA UTUME WETU",
+    "about_vis_title":"Maono",
+    "about_vis_msg":"“Tunasimama, tumegawanyika, tunaanguka” Maono yetu ni jumuiya ya Burundi inayojumuisha na ya ujasiriamali inayojikita katika ushirikiano wa amani wa jamii na inayojishughulisha na juhudi za kukuza na kusaidia Warundi wote kwa msisitizo kwa vijana wanaoleta mawazo bunifu kwa: Maisha ya utu, uhuru, usawa, haki na fursa za kiuchumi; Maendeleo ya usawa na shirikishi ya kijamii na kiuchumi.",
+    "about_miss_title":"Misheni",
+    "about_miss_msg":""
   },
   "blog":{
     "title":"BLOG"
@@ -48,5 +60,28 @@
     "email":"EMAIL",
     "message":"UJUMBE",
     "send_btn":"TUMA"
+  },
+  "news_letter":{
+    "title_one":"Pokea jarida letu",
+    "title_two":"Barua ya habari",
+    "news_info":"KITHUB kwenye ibada ya vijana kwa ajili yao Mawazo ya Ubunifu",
+    "subscribe_btn":"SUBSCRIBE"
+  },
+  "footer":{
+    "col_one":"Tufuatilie",
+    "col_two_one":"Nyumbani",
+    "col_two_two":"Kuhusu",
+    "col_two_three":"Vikoa",
+    "col_two_four":"Matukio",
+    "col_two_five":"Blog",
+    "col_two_six":"Idara",
+    "col_two_seven":"Mipango",
+    "col_three_title":"DOMAIN",
+    "col_three_one":"Innovation na athari za kijamii",
+    "col_three_two":"Kuanzisha upya nguvu kazi ya ndani",
+    "col_three_three":"Uundaji wa kazi",
+    "col_three_four":"Elimu ya kudumu",
+    "col_three_five":"Maendeleo ya talanta",
+    "col_four_title":"ANWANI"
   }
 }

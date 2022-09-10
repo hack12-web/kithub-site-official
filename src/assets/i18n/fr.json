@@ -31,10 +31,22 @@
     "event_btn":"VOIR LES ÉVÉNEMENTS",
     "event_btn_sm":"événement",
     "devise":"LA MUTUALISATION ET LE TRAVAIL EN RESEAUX COMME CLE DE L'INNOVATION ET DE LA REIVENTION DE LA MAIN D'OEUVRE",
-    "devise_title":"DEVISE"
+    "devise_title":"DEVISE",
+    "last_news_title":"DERNIERES NOUVELLES",
+    "last_mini":"ANNONCE",
+    "patner_title":"NOS PARTENAIRES",
+    "btn_all_name":"Tous"
   },
   "about":{
-    "title":"À PROPOS DE"
+    "title":"À PROPOS DE",
+    "about_title_one":"QUI NOUS SOMMES",
+    "about_historique_title":"Historique",
+    "about_historique_msg":"La population burundaise est extrêmement jeune ce qui devait être un atout énorme pour le développement durable. En effet, la moitié de la population est âgée de moins de 17 ans ; 2/3 des Burundais ont moins de 25 ans. Par contre, on observe un taux de chômage en majorité la jeunesse qui ne cesse que de croitre, et les jeunes en manque constant d’opportunités pour mettre en valeur leur talents. Nous sommes en accord avec John Irons, Directeur général de la Fondation Rockefeller et membre du Conseil d’administration de S4YE qui a déclaré que “ Le chômage des jeunes est un problème grandissant à l’échelle mondiale. Quand les jeunes travailleurs sont incapables de se connecter avec le marché du travail, cela a des profondes répercussions sur leur aptitude à participer pleinement à l’économie et menace leur avenir économique et social.” https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_414241/lang--fr/index.htm -Répondant à l'appel du Gouvernement et de la population dans l’optique de répondre aux besoins critiques non satisfaits, l'employabilité des jeunes et la création d'emploi au Burundi, ainsi que renforcer l'amour du patrie et du prochain , Mr Chris Clément Igiraneza et Mme Amney Mzige Saleh avec enthousiasme et volonté ont initié et créer un réseau du soutien et d’expertise qui contribuera dans le développement durable au Burundi , afin de créer une communauté plus inclusive où chacun(e) mérite une opportunité de vivre pleinement son potentiel et en pure liberté. Ainsi, nous devons agir maintenant et agir ensemble si nous voulons concrétiser les immenses possibilités que nous offrent ces nombreux jeunes burundais aujourd'hui. C’est dans cet esprit que KIT Hub (Knowledge and Impact Trade Hub) a vu jour pour investir dans la jeunesse burundaise et contribuer à un Burundi qui prospère à travers un développement durable et inclusif. KIT HUB est une plateforme sociale et mouvement communautaire, un engagement panafricain pour la démocratisation des connaissances et opportunités au Burundi, et l’impact social afin de rendre la jeunesse burundaise plus éduquée, qualifiée et prospère. Nous éduquons, inspirons et accompagnons la population burundaise à travers plusieurs programmes avec un accent particulier sur les jeunes porteurs d'idées innovantes, et dont les activités portent sur la transformation numérique inclusive et entrepreneuriale. KIT HUB est fondé sur l’esprit d’UBUNTU et d’ UJIMAA (responsabilité et travail collectif) pour l’employabilité de la jeunesse burundaise, la réinvention de la main d’oeuvre locale et la création de l’emploi. KIT Hub met la jeunesse au centre de la réalisation des ODD (Objectifs du Développement Durable), c’est ainsi que toutes les initiatives sont portées par une prise de conscience par la jeunesse elle – même que la mutualisation, le travail en réseau, UBUNTU et L’UJIMAA sont les clés de l’innovation et la création de l ‘emploi pour assurer un développement durable au Burundi. Afin, KIT Hub se veut être :  Un incubateur Incontournable pour la population burundaise et le Burundi qui prospèrent : Leadership, Numérique, Innovation, Entreprenariat, Humanitaire et la philanthropie.  Un porteur d’espoir pour tous les jeunes qui bénéficient de ses nombreux programmes, un ange gardien pour toutes les femmes et les enfants soutenus à travers différents programmes humanitaires.",
+    "about_title_two":"NOTRE VISION ET MISSION",
+    "about_vis_title":"Vision",
+    "about_vis_msg":"“Unis nous sommes, divisés nous tombons” Notre vision est une communauté burundaise inclusive et entrepreneuriale fondée sur la coopération communautaire pacifique et engagée dans les efforts visant la promotion et l'accompagnement de tous les Burundais  en mettant l’accent sur la jeunesse porteuse des idées innovatrice  pour : Une vie de dignité, de liberté, d'égalité, de justice et d'opportunités économiques; Développement social et économique équitable et inclusif.",
+    "about_miss_title":"Mision",
+    "about_miss_msg":"Notre mission est axée sur : *Innovation et Impact social : Nous menons des activités qui visent le changement positif auprès du public et de la communauté. Ainsi, nous développons et mettons en œuvre des solutions créatives et innovantes. *Réinvention de la main d’œuvre locale : Nous proposons une autre manière de travail axée sur la mutualisation et le travail en réseau. *Création d’emploi : La création d’emploi et en particulier pour les jeunes dans le marché de travail reste une problématique fondamentale inhérente à chaque société. Pour y apporter notre contribution à la réduction du chômage et du sous-emploi des jeunes, nous avons adoptés le modèle ‘’UJIMA’’ qui est un modèle de planification communautaire et de prise de décision partagée dans les communautés pour que celles-ci aient un impact et initient le développement grâce à un investissement collectif. *Éducation durable : Dans ce volet, nous mettons en place des programmes visant le renforcement du service public et des capacités éducatives. Ces programmes favorisent aussi l’accessibilité aux Technologies de l’Information et de la Communication. *Développement des talents : Nous aidons les jeunes talentueux à mieux se connaitre d’abord et ensuite, nous leur montrons comment faire valoir leurs talents dans la société."
   },
   "blog":{
     "title":"BLOG"
@@ -48,5 +60,28 @@
     "email":"E-MAIL",
     "message":"MESSAGE",
     "send_btn":"ENVOYER"
+  },
+  "news_letter":{
+    "title_one":"Recevez notre newsletter",
+    "title_two":"Lettre d'information",
+    "news_info":"KITHUB au service des Jeunes pour leurs Idées Innovantes",
+    "subscribe_btn":"S'ABONNER"
+  },
+  "footer":{
+    "col_one":"Suivez-nous sur",
+    "col_two_one":"Acceuil",
+    "col_two_two":"À propos",
+    "col_two_three":"Domaines",
+    "col_two_four":"Événements",
+    "col_two_five":"Blog",
+    "col_two_six":"Département",
+    "col_two_seven":"Programmes",
+    "col_three_title":"DOMAINES",
+    "col_three_one":"Innovation et impact social",
+    "col_three_two":"Reivention de la nmain d'oeuvre locale",
+    "col_three_three":"Creation d'emplois",
+    "col_three_four":"Education durable",
+    "col_three_five":"Developpement des talents",
+    "col_four_title":"ADDRESSE"
   }
 }

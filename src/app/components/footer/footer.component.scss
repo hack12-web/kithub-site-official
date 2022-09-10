@@ -14,41 +14,43 @@
 }
 li{
   list-style: none;
-  cursor: pointer;
   transition: 1s;
 }
 li:hover{
   color: #a59292;
 }
-.footer-title{
-  transition: 1s;
-  cursor: pointer;
-}
-.footer-title:hover{
-  transform: rotate(-3deg);
-  color: hsl(0, 59%, 63%);
-}
 .icons{
   transition: 1s;
-  cursor: pointer;
+  color: #3b5998;
 }
 .icons:hover{
   transform: rotate(360deg);
-  color: #061260;
 }
 .icons-t{
   transition: 1s;
-  cursor: pointer;
+  color: #1DA1F2
 }
 .icons-t:hover{
   transform: rotate(360deg);
-  color: #2943ea;
 }
-.icons-g{
+.icons-i{
   transition: 1s;
-  cursor: pointer;
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
-.icons-g:hover{
+.icons-i:hover{
   transform: rotate(360deg);
-  color: #660a0a;
+}
+.icon-l{
+  transition: 1s;
+  color: #0072b1;
+}
+.icon-l:hover{
+  transform: rotate(369deg);
+}
+.element_x{
+  text-decoration: none;
+  color: white;
 }

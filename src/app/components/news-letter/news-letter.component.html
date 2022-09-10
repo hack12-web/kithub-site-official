@@ -4,19 +4,16 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p class="h1">Recevez nos <br>News letters</p>
+          <p class="display-4" translate>news_letter.title_one</p>
           <br><br><br><br>
-          <p class="">KITHUB au service des Jeunes pour leurs <br>Idées Innovantes</p>
+          <p class="" translate>news_letter.news_info</p>
         </div>
         <div class="col-sm-6">
-          <p class="h6">Newsletter</p>
-          <form [formGroup]="newsLetterForm" (submit)="sendNewsLetters(newsLetterForm.value)">
-            <mat-form-field class="width-exp text-white" appearance="outline" color="primary">
-              <mat-label>Email</mat-label>
-              <input formControlName="email" name="email" type="email" matInput placeholder="Ex. sarahsolo@gmail.com">
-            </mat-form-field>
-            <br><br><br>
-            <button type="submit" mat-raised-button class="btn-send-news" [disabled]="newsLetterForm.invalid">SUBCRIBE</button>
+          <p class="display-6" translate>news_letter.title_two</p>
+          <form [formGroup]="myForm" (submit)="sendNewsLetters(myForm.value)">
+            <input formControlName="email" name="email" type="email" class="form-control"  placeholder="Ex. sarahsolo@gmail.com" autocomplete="off">
+            <br><br>
+            <button type="submit" class="btn btn-sm btn-primary" [disabled]="myForm.invalid" translate>news_letter.subscribe_btn</button>
           </form>
         </div>
       </div>

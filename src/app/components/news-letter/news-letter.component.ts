@@ -8,16 +8,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class NewsLetterComponent implements OnInit {
 
-  public newsLetterForm: FormGroup | any;
+  public myForm: FormGroup | any;
 
-  constructor(private formBuilder : FormBuilder ) { }
+  constructor(private fb : FormBuilder ) { }
 
   public sendNewsLetters(val:any):void{
-
+    alert(val);
+    this.myForm.reset();
   }
   ngOnInit(): void {
-    this.newsLetterForm = this.formBuilder.group({
-      email : ['']
+    this.myForm = this.fb.group({
+      email : ['', Validators.required, Validators.email]
     });
   }
 

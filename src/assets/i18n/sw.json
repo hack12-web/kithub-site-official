@@ -31,10 +31,22 @@
     "event_btn":"SE HÄNDELSER",
     "event_btn_sm":"händelse",
     "devise":"POOLING OCH NÄTVERK SOM EN NYCKEL TILL INNOVATION OCH ÅTERKOMMANDE AV ARBETSKRAFTEN",
-    "devise_title":"VALUTA"
+    "devise_title":"VALUTA",
+    "last_news_title":"SENASTE NYHETER",
+    "last_mini":"MEDDELANDE",
+    "patner_title":"VÅRA PARTNERS",
+    "btn_all_name":"Allt"
   },
   "about":{
-    "title":"HANDLA OM"
+    "title":"HANDLA OM",
+    "about_title_one":"VILKA VI ÄR",
+    "about_historique_title":"Historisk",
+    "about_historique_msg":"Den burundiska befolkningen är extremt ung, vilket måste ha varit en stor tillgång för hållbar utveckling. Faktum är att hälften av befolkningen är under 17 år; 2/3 av burundierna är under 25 år. Å andra sidan ser vi en arbetslöshet, mestadels bland unga människor som ständigt växer, och unga människor som ständigt saknar möjligheter att visa upp sina talanger. Vi håller med John Irons, VD för Rockefeller Foundation och medlem av S4YE Board of Trustees som sa: Ungdomsarbetslöshet är ett växande globalt problem. När unga arbetstagare inte kan knyta an till arbetsmarknaden får detta djupa återverkningar på deras förmåga att delta fullt ut i ekonomin och hotar deras ekonomiska och sociala framtid.” https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_414241/lang--fr/index.htm - Att svara på regeringens och befolkningens uppmaning för att svara på ouppfyllda kritiska behov , ungdomars anställningsbarhet och jobbskapande i Burundi, samt stärka kärleken till landet och grannarna, Chris Clément Igiraneza och fru Amney Mzige Saleh kommer med entusiasm att ha initierat och skapat ett nätverk av stöd och expertis som kommer att bidra till hållbar utveckling i Burundi, för att skapa en mer inkluderande gemenskap där alla förtjänar en möjlighet att leva sin fulla potential och i ren frihet. Därför måste vi agera nu och agera tillsammans om vi ska inse de enorma möjligheter som erbjuds oss av dessa många unga burundier idag. Det är i denna anda som KIT Hub (Knowledge and Impact Trade Hub) föddes för att investera i burundiska ungdomar och bidra till ett Burundi som blomstrar genom hållbar och inkluderande utveckling. KIT HUB är en social plattform och samhällsrörelse, ett panafrikanskt engagemang för demokratisering av kunskap och möjligheter i Burundi, och social påverkan för att göra burundiska ungdomar mer utbildade, kvalificerade och välmående. Vi utbildar, inspirerar och stödjer den burundiska befolkningen genom flera program med särskilt fokus på unga människor med innovativa idéer, och vars aktiviteter fokuserar på inkluderande och entreprenöriell digital transformation. KIT HUB är baserad på andan i UBUNTU och UJIMAA (ansvar och kollektivt arbete) för anställningsbarhet för burundiska ungdomar, återuppfinnandet av den lokala arbetskraften och skapande av sysselsättning. KIT Hub sätter ungdomar i centrum för uppnåendet av SDGs (Sustainable Development Goals), det är så alla initiativ drivs av en medvetenhet hos ungdomarna själva som pooling, nätverkande, UBUNTU och UJIMAA är nycklarna till innovation och jobbskapande för att säkerställa en hållbar utveckling i Burundi. I ordningen vill KIT Hub vara: En viktig inkubator för den burundiska befolkningen och Burundi som frodas: Ledarskap, Digital, Innovation, Entreprenörskap, Humanitär och filantropi. En bärare av hopp för alla ungdomar som drar nytta av dess många program, en skyddsängel för alla kvinnor och barn som stöds genom olika humanitära program.",
+    "about_title_two":"VÅR VISION OCH MISSION",
+    "about_vis_title":"Syn",
+    "about_vis_msg":"“Enade står vi, splittrade faller vi” Vår vision är en inkluderande och entreprenöriell burundisk gemenskap baserad på fredligt samhällssamarbete och engagerad i ansträngningar för att främja och stödja alla burundier med tonvikt på unga människor som kommer med innovativa idéer till: Ett liv i värdighet, frihet, jämlikhet, rättvisa och ekonomiska möjligheter; En rättvis och inkluderande social och ekonomisk utveckling.",
+    "about_miss_title":"Uppdrag",
+    "about_miss_msg":""
   },
   "blog":{
     "title":"BLOGG"
@@ -48,5 +60,28 @@
     "email":"E-POST",
     "message":"MEDDELANDE",
     "send_btn":"SKICKA"
+  },
+  "news_letter":{
+    "title_one":"Ta emot vårt nyhetsbrev",
+    "title_two":"Nyhetsbrev",
+    "news_info":"KITHUB till tjänst för unga människor för deras Innovativa idéer",
+    "subscribe_btn":"PRENUMERERA"
+  },
+  "footer":{
+    "col_one":"Följ oss på",
+    "col_two_one":"Hem",
+    "col_two_two":"Handla om",
+    "col_two_three":"Domäner",
+    "col_two_four":"evenemang",
+    "col_two_five":"Blogg",
+    "col_two_six":"Avdelning",
+    "col_two_seven":"Program",
+    "col_three_title":"DOMÄN",
+    "col_three_one":"Innovation och social påverkan",
+    "col_three_two":"Återuppfinna den lokala arbetskraften",
+    "col_three_three":"Skapande av jobb",
+    "col_three_four":"Utbildning hållbar",
+    "col_three_five":"Talangutveckling",
+    "col_four_title":"ADRESS"
   }
 }

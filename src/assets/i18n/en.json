@@ -1,52 +1,87 @@
 {
-  "header":{
-    "langue":"Languages",
-    "element_one":"HOME",
-    "element_two":"ABOUT",
-    "element_three":"DOMAINS",
-    "element_four":"EVENTS",
-    "element_five":"BLOG",
-    "element_six":"DEPARTMENT",
-    "element_seven":"PROGRAMS",
-    "element_eight":"CONTACT US"
+  "header": {
+    "langue": "Languages",
+    "element_one": "HOME",
+    "element_two": "ABOUT",
+    "element_three": "DOMAINS",
+    "element_four": "EVENTS",
+    "element_five": "BLOG",
+    "element_six": "DEPARTMENT",
+    "element_seven": "PROGRAMS",
+    "element_eight": "CONTACT US"
   },
-  "home":{
-    "title":"KNOWLEDGE AND IMPACT TRADE HUB",
-    "subtitle":"innovation and social impact",
-    "cata_message":"CATA (Creative Art and Talent Advocacy): Department responsible for promoting creativity and innovation, as well as accompanying talent. We showcase talent and create frameworks that facilitate creativity.",
-    "comlab_message":"ComLab (Community Lab): Department in charge of accompanying people with ideas and students for the creation of employment and the reinvention of the workforce.",
-    "wea_message":"WEA (Women Empowerment Advocacy): Department for the empowerment of young girls and women, as well as advancing gender equality and Social Impact through an inclusive and entrepreneurial digital transformation.",
-    "hudi_message":"HuDI (Humanitarian Direct Impact): This department is about creating a more human community by bring on the table the idea of collective work and responsibility .",
-    "dep_home_btn":"SEE MORE",
-    "program_name_four":"FemDev educates girls about digital profession and equality women-men, in the middle school and in the structures youth",
-    "about_title":"ABOUT US",
-    "about_message":"The KIT Hub is a social and professional platform which aims to train, supervise and support the Burundian population in the realization of their projects, with particular emphasis on young people with innovative projects and the inclusion of women. in the Tech and STEM environment in Burundi, as well as to promote an inclusive society. It is also a multidimensional network for capacity building for youth employability and improving social protection.",
-    "domain_one":"INNOVATION AND SOCIAL IMPACT",
-    "domain_two":"RETURN OF LOCAL WORKFORCE",
-    "domain_three":"JOB CREATION",
-    "domain_one_message":"We carry out activities that aim for positive change with the public and the community. Thus, we develop and implement creative and innovative solutions.",
-    "domain_two_message":"We offer another way of working based on pooling and networking.",
-    "domain_three_message":"The creation of employment and in particular for young people in the labor market remains a fundamental problem inherent in each society. To make our contribution to the reduction of youth unemployment and underemployment, we have adopted the ''UJIMA'' model which is a model of community planning and shared decision-making in the communities so that they have impact and initiate development through collective investment.",
-    "equipe_title":"MANAGEMENT TEAMS",
-    "event_btn":"SEE EVENTS",
-    "event_btn_sm":"event",
-    "devise":"POOLING AND NETWORKING AS A KEY TO INNOVATION AND WORKFORCE RETURN",
-    "devise_title":"CURRENCY"
+  "home": {
+    "title": "KNOWLEDGE AND IMPACT TRADE HUB",
+    "subtitle": "innovation and social impact",
+    "cata_message": "CATA (Creative Art and Talent Advocacy): Department responsible for promoting creativity and innovation, as well as accompanying talent. We showcase talent and create frameworks that facilitate creativity.",
+    "comlab_message": "ComLab (Community Lab): Department in charge of accompanying people with ideas and students for the creation of employment and the reinvention of the workforce.",
+    "wea_message": "WEA (Women Empowerment Advocacy): Department for the empowerment of young girls and women, as well as advancing gender equality and Social Impact through an inclusive and entrepreneurial digital transformation.",
+    "hudi_message": "HuDI (Humanitarian Direct Impact): This department is about creating a more human community by bring on the table the idea of collective work and responsibility .",
+    "dep_home_btn": "SEE MORE",
+    "program_name_four": "FemDev educates girls about digital profession and equality women-men, in the middle school and in the structures youth",
+    "about_title": "ABOUT US",
+    "about_message": "The KIT Hub is a social and professional platform which aims to train, supervise and support the Burundian population in the realization of their projects, with particular emphasis on young people with innovative projects and the inclusion of women. in the Tech and STEM environment in Burundi, as well as to promote an inclusive society. It is also a multidimensional network for capacity building for youth employability and improving social protection.",
+    "domain_one": "INNOVATION AND SOCIAL IMPACT",
+    "domain_two": "RETURN OF LOCAL WORKFORCE",
+    "domain_three": "JOB CREATION",
+    "domain_one_message": "We carry out activities that aim for positive change with the public and the community. Thus, we develop and implement creative and innovative solutions.",
+    "domain_two_message": "We offer another way of working based on pooling and networking.",
+    "domain_three_message": "The creation of employment and in particular for young people in the labor market remains a fundamental problem inherent in each society. To make our contribution to the reduction of youth unemployment and underemployment, we have adopted the ''UJIMA'' model which is a model of community planning and shared decision-making in the communities so that they have impact and initiate development through collective investment.",
+    "equipe_title": "MANAGEMENT TEAMS",
+    "event_btn": "SEE EVENTS",
+    "event_btn_sm": "event",
+    "devise": "POOLING AND NETWORKING AS A KEY TO INNOVATION AND WORKFORCE RETURN",
+    "devise_title": "CURRENCY",
+    "last_news_title": "RECENT NEWS",
+    "last_mini": "ANNOUNCEMENT",
+    "patner_title": "OUR PARTNERS",
+    "btn_all_name": "All"
   },
-  "about":{
-    "title":"ABOUT"
+  "about": {
+    "title": "ABOUT",
+    "about_title_one": "WHO WE ARE",
+    "about_historique_title": "Historical",
+    "about_historique_msg": "The Burundian population is extremely young, which must have been a huge asset for sustainable development. Indeed, half of the population is under the age of 17; 2/3 of Burundians are under 25 years old. On the other hand, we observe an unemployment rate, mostly among young people who are constantly growing, and young people in constant lack of opportunities to showcase their talents. We agree with John Irons, CEO of the Rockefeller Foundation and member of the S4YE Board of Trustees who said, “Youth unemployment is a growing global problem. When young workers are unable to connect with the labor market, this has profound repercussions on their ability to fully participate in the economy and threatens their economic and social future.” https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_414241/lang--fr/index.htm -Responding to the call of the Government and the population in order to respond unmet critical needs, youth employability and job creation in Burundi, as well as strengthening love of country and neighbor, Mr. Chris Clément Igiraneza and Mrs. Amney Mzige Saleh with enthusiasm and will have initiated and created a network of support and expertise that will contribute to sustainable development in Burundi, in order to create a more inclusive community where everyone deserves an opportunity to live their full potential and in pure freedom. Thus, we must act now and act together if we are to realize the immense possibilities offered to us by these many young Burundians today. It is in this spirit that KIT Hub (Knowledge and Impact Trade Hub) was born to invest in Burundian youth and contribute to a Burundi that prospers through sustainable and inclusive development. KIT HUB is a social platform and community movement, a pan-African commitment to the democratization of knowledge and opportunities in Burundi, and social impact in order to make Burundian youth more educated, qualified and prosperous. We educate, inspire and support the Burundian population through several programs with a particular focus on young people with innovative ideas, and whose activities focus on inclusive and entrepreneurial digital transformation. KIT HUB is based on the spirit of UBUNTU and UJIMAA (responsibility and collective work) for the employability of Burundian youth, the reinvention of the local workforce and the creation of employment. KIT Hub puts youth at the center of the achievement of the SDGs (Sustainable Development Goals), this is how all initiatives are driven by an awareness by young people themselves such as pooling, networking, UBUNTU and UJIMAA are the keys to innovation and job creation to ensure sustainable development in Burundi. In order, KIT Hub wants to be: An essential incubator for the Burundian population and Burundi who prosper: Leadership, Digital, Innovation, Entrepreneurship, Humanitarian and philanthropy. A bearer of hope for all the young people who benefit from its many programs, a guardian angel for all the women and children supported through various humanitarian programs.",
+    "about_title_two":"OUR VISION AND MISSION",
+    "about_vis_title":"Vision",
+    "about_vis_msg":"“United we stand, divided we fall” Our vision is an inclusive and entrepreneurial Burundian community based on peaceful community cooperation and engaged in efforts to promote and support all Burundians with an emphasis on young people who bring innovative ideas to: A life of dignity, freedom, equality, justice and economic opportunity; Equitable and inclusive social and economic development.",
+    "about_miss_title":"Mission",
+    "about_miss_msg":"Our mission is focused on: *Innovation and Social Impact: We carry out activities that aim for positive change with the public and the community. Thus, we develop and implement creative and innovative solutions. *Reinvention of the local workforce: We offer another way of working based on pooling and networking. *Job creation: Job creation, particularly for young people in the labor market, remains a fundamental problem inherent in every society. To make our contribution to the reduction of youth unemployment and underemployment, we have adopted the ''UJIMA'' model which is a model of community planning and shared decision-making in the communities so that they have impact and initiate development through collective investment. *Sustainable education: In this component, we set up programs aimed at strengthening public service and educational capacities. These programs also promote accessibility to Information and Communication Technologies. *Talent development: We help talented young people to get to know each other better and then we show them how to promote their talents in society."
   },
-  "blog":{
-    "title":"BLOG"
+  "blog": {
+    "title": "BLOG"
   },
-  "domain":{
-    "title":"DOMAINS OF"
+  "domain": {
+    "title": "DOMAINS OF"
   },
-  "dialog":{
-    "title":"CONTACT US FOR MORE INFORMATION",
-    "name":"NAME",
-    "email":"EMAIL",
-    "message":"MESSAGE",
-    "send_btn":"SEND"
+  "dialog": {
+    "title": "CONTACT US FOR MORE INFORMATION",
+    "name": "NAME",
+    "email": "EMAIL",
+    "message": "MESSAGE",
+    "send_btn": "SEND"
+  },
+  "news_letter": {
+    "title_one": "Receive our news letters",
+    "title_two": "Newsletter",
+    "news_info": "KITHUB at the service of young people for their Innovative Ideas",
+    "subscribe_btn": "SUBSCRIBE"
+  },
+  "footer": {
+    "col_one": "Follow us on",
+    "col_two_one": "Home",
+    "col_two_two": "About",
+    "col_two_three": "Domains",
+    "col_two_four": "Events",
+    "col_two_five": "Blog",
+    "col_two_six": "Department",
+    "col_two_seven": "Programs",
+    "col_three_title": "DOMAINS",
+    "col_three_one": "Innovation and social impact",
+    "col_three_two": "Return of local workforce",
+    "col_three_three": "Job creation",
+    "col_three_four": "Education durable",
+    "col_three_five": "Talent development",
+    "col_four_title": "ADDRESS"
   }
 }
