@@ -68,7 +68,18 @@
     "about_obje_glob_msg_3_g":"Goal 7 : Decent Work and Economic Growth",
     "about_obje_glob_msg_3_h":"Goal 8 : Innovation and infrastructure",
     "about_obje_glob_msg_3_i":"Goal 9 : Reduction of inequalities",
-    "about_obje_glob_msg_3_j":"Goal 10 : Partnership for Global Goals"
+    "about_obje_glob_msg_3_j":"Goal 10 : Partnership for Global Goals",
+    "about_obj_specif_title":"SPECIFIC OBJECTIVE",
+    "about_obj_specif_msg_1":"1. Innovation: Digital is at the center of our programs and initiatives. We are confident that digital is the much sought-after solution in Africa to meet the challenge of employability",
+    "about_obj_specif_msg_2":"2. Collaboration: We mobilize global experts and the business community around youth for learning. Support and creation of opportunities.",
+    "about_obj_specif_msg_3":"3. Authenticity or open communication: we encourage or even create frameworks for authentic and open dialogue between world experts and Burundian youth in order to allow Burundian youth to acquire real knowledge of the professional world and professional requirements.",
+    "about_obj_specif_msg_4":"4. Passion: Passion is the vessel of innovation, without passion we cannot change the world. We help young people to get to know each other and find their passion in order to be more motivated.",
+    "about_obj_specif_msg_5":"5. Social Impact: our programs or initiatives always aim to create a stable and sustainable community. We encourage youth to cultivate the spirit of UBUNTU, UJIMA.",
+    "about_access_title":"ACCESS TO KNOWLEDGE",
+    "about_access_msg":["Employability is one of big issues to be addressed if one needs to see a generational change in Burundi /Africa, most of graduated students have a limited practical or useable STEM knowledge.",
+    "The lack of project based learning and continuously innovation program is huge barrier to sustainable development and innovation.",
+    "The local business and industrial sector isn’t connected to the learning and education program, this is as well the huge barrier when it comes to employability.",
+    "The curriculum is both schools and organization teaching STEM is out of date, and basic compare to employability requirements. Schools don’t have adapted or update STEM program, teachers have to retrained in order to be able to equip students with adequate knowledge."]
   },
   "blog": {
     "title": "BLOG"

@@ -68,7 +68,18 @@
     "about_obje_glob_msg_3_g":"Mål 7 : Anständigt arbete och ekonomisk tillväxt",
     "about_obje_glob_msg_3_h":"Mål 8 : Innovation och infrastruktur",
     "about_obje_glob_msg_3_i":"Mål 9 : Minskning av ojämlikheter",
-    "about_obje_glob_msg_3_j":"Mål 10 :Partnerskap för globala mål"
+    "about_obje_glob_msg_3_j":"Mål 10 :Partnerskap för globala mål",
+    "about_obj_specif_title":"SÄRSKILT MÅL",
+    "about_obj_specif_msg_1":"1. Innovation: Digital är i centrum för våra program och initiativ. Vi är övertygade om att digitalt är den mycket eftertraktade lösningen i Afrika för att möta utmaningen med anställbarhet",
+    "about_obj_specif_msg_2":"2. Samarbete: Vi mobiliserar globala experter och näringslivet kring ungdomar för lärande. Stöd och skapande av möjligheter.",
+    "about_obj_specif_msg_3":"3. Autenticitet eller öppen kommunikation: vi uppmuntrar eller till och med skapar ramar för autentisk och öppen dialog mellan världsexperter och burundiska ungdomar för att tillåta burundiska ungdomar att skaffa verklig kunskap om yrkesvärlden och yrkeskrav.",
+    "about_obj_specif_msg_4":"4. Passion: Passion är innovationens kärl, utan passion kan vi inte förändra världen. Vi hjälper unga människor att lära känna varandra och hitta sin passion för att bli mer motiverade.",
+    "about_obj_specif_msg_5":"5. Social påverkan: våra program eller initiativ syftar alltid till att skapa en stabil och hållbar gemenskap. Vi uppmuntrar ungdomar att odla andan i UBUNTU, UJIMA.",
+    "about_access_title":"TILLGÅNG TILL KUNSKAP",
+    "about_access_msg":["Anställbarhet är en av de stora frågorna att ta itu med om man behöver se en generationsväxling i Burundi/Afrika, de flesta av de utexaminerade studenterna har begränsade praktiska eller användbara STEM-kunskaper.",
+    "Bristen på projektbaserat lärande och kontinuerligt innovationsprogram är ett stort hinder för hållbar utveckling och innovation.",
+    "Det lokala näringslivet och industrisektorn är inte kopplad till utbildnings- och utbildningsprogrammet, det är också det stora hindret när det kommer till anställningsbarhet.",
+    "Läroplanen är både skolor och organisation undervisning STEM är inaktuell, och grundläggande jämfört med anställningsbarhet krav. Skolor har inte anpassat eller uppdaterat STEM-program, lärare måste omskolas för att kunna utrusta eleverna med adekvat kunskap."]
   },
   "blog":{
     "title":"BLOGG"

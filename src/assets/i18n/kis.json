@@ -68,7 +68,18 @@
     "about_obje_glob_msg_3_g":"Lengo 7 : Kazi Yenye Heshima na Ukuaji wa Uchumi",
     "about_obje_glob_msg_3_h":"Lengo 8 : Ubunifu na miundombinu",
     "about_obje_glob_msg_3_i":"Lengo 9 : Kupunguza usawa",
-    "about_obje_glob_msg_3_j":"Lengo 10 :Ushirikiano wa Malengo ya Dunia"
+    "about_obje_glob_msg_3_j":"Lengo 10 :Ushirikiano wa Malengo ya Dunia",
+    "about_obj_specif_title":"LENGO MAALUM",
+    "about_obj_specif_msg_1":"1. Ubunifu: Dijitali ndio kitovu cha programu na mipango yetu. Tuna imani kuwa dijiti ndilo suluhisho linalotafutwa sana barani Afrika ili kukabiliana na changamoto ya kuajiriwa",
+    "about_obj_specif_msg_2":"2. Ushirikiano: Tunahamasisha wataalam wa kimataifa na jumuiya ya wafanyabiashara karibu na vijana kwa ajili ya kujifunza. Msaada na uundaji wa fursa.",
+    "about_obj_specif_msg_3":"3. Uhalisi au mawasiliano ya wazi: tunahimiza au hata kuunda mifumo ya mazungumzo ya kweli na ya wazi kati ya wataalamu wa dunia na vijana wa Burundi ili kuruhusu vijana wa Burundi kupata ujuzi halisi wa ulimwengu wa kitaaluma na mahitaji ya kitaaluma.",
+    "about_obj_specif_msg_4":"4. Shauku: Shauku ni chombo cha uvumbuzi, bila shauku hatuwezi kubadilisha ulimwengu. Tunasaidia vijana kufahamiana na kutafuta mapenzi yao ili kuhamasika zaidi.",
+    "about_obj_specif_msg_5":"5. Athari za Kijamii: programu au mipango yetu daima inalenga kuunda jumuiya thabiti na endelevu. Tunawahimiza vijana kukuza ari ya UBUNTU, UJIMA.",
+    "about_access_title":"KUPATA MAARIFA",
+    "about_access_msg":["Kuajiriwa ni mojawapo ya masuala makubwa ya kushughulikiwa ikiwa mtu anahitaji kuona mabadiliko ya kizazi nchini Burundi/Afrika, wanafunzi wengi waliohitimu wana ujuzi mdogo wa vitendo au wa kutumia STEM.",
+    "Ukosefu wa ujifunzaji wa msingi wa mradi na programu inayoendelea ya uvumbuzi ni kikwazo kikubwa kwa maendeleo endelevu na uvumbuzi.",
+    "Sekta ya biashara ya ndani na viwanda haijaunganishwa na programu ya kujifunza na elimu, hii pia ni kizuizi kikubwa linapokuja suala la kuajiriwa.",
+    "Mtaala ni wa shule na shirika wa kufundisha STEM umepitwa na wakati, na msingi ukilinganisha na mahitaji ya kuajiriwa. Shule hazijarekebisha au kusasisha mpango wa STEM, walimu wanapaswa kujizoeza ili kuweza kuwapa wanafunzi maarifa ya kutosha."]
   },
   "blog":{
     "title":"BLOG"

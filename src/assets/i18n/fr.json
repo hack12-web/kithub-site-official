@@ -68,7 +68,18 @@
     "about_obje_glob_msg_3_g":"Objectif 7 : Travaux Décent et Croissance Économique",
     "about_obje_glob_msg_3_h":"Objectif 8 : Innovation et infrastructures ",
     "about_obje_glob_msg_3_i":"Objectif 9 : Réduction des inégalités",
-    "about_obje_glob_msg_3_j":"Objectif 10 : Partenariat pour objectifs mondiaux"
+    "about_obje_glob_msg_3_j":"Objectif 10 : Partenariat pour objectifs mondiaux",
+    "about_obj_specif_title":"OBJECTIF SPECIFIQUE",
+    "about_obj_specif_msg_1":"1. Innovation : Le numérique est au centre de nos programmes et initiatives. Nous sommes confiants que le numérique est la solution tant recherchée en Afrique pour relever le défi de l’employabilité",
+    "about_obj_specif_msg_2":"2. Collaboration : Nous mobilisons les experts mondiaux et la communauté d’affaire autours de la jeunesse pour l’apprentissage. Accompagnement et création des opportunités.",
+    "about_obj_specif_msg_3":"3. Authenticité ou open communication : nous encourageons ou créons même les cadres de dialogues authentiques et ouvertes entre les experts mondiaux et la jeunesse burundaise afin de permettre à la jeunesse burundaise d’acquérir une connaissance réelle du monde professionnel et les exigences professionnelles.",
+    "about_obj_specif_msg_4":"4. Passion : La passion est vaisseau de l’innovation, sans la passion on ne pourra pas change le monde. Nous aidons la jeunesse à se connaitre et trouver sa passion afin d’être plus motivée. ",
+    "about_obj_specif_msg_5":"5. Impact Social : nos programmes ou initiatives viser toujours à créer une communauté stable et durable. Nous encourageons la jeunesse à cultiver l’esprit de UBUNTU, UJIMA.",
+    "about_access_title":"ACCÈS AU SAVOIR",
+    "about_access_msg":["L'employabilité est l'un des grands problèmes à résoudre si l'on a besoin de voir un changement de génération au Burundi / en Afrique, la plupart des étudiants diplômés ont une connaissance STEM pratique ou utilisable limitée.",
+    "Le manque d'apprentissage par projet et de programme d'innovation continue est un énorme obstacle au développement durable et à l'innovation.",
+    "Le secteur commercial et industriel local n'est pas lié au programme d'apprentissage et d'éducation, c'est aussi l'énorme obstacle en matière d'employabilité.",
+    "Le programme scolaire et organisationnel qui enseigne les STEM est obsolète et de base par rapport aux exigences d'employabilité. Les écoles n'ont pas adapté ou mis à jour le programme STEM, les enseignants doivent se recycler afin de pouvoir doter les élèves de connaissances adéquates."]
   },
   "blog":{
     "title":"BLOG"
