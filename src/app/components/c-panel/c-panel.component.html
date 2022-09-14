@@ -1,4 +1,43 @@
 <section>
-  <br><br><br><br>
+  <br><br>
+  <mat-toolbar class="nav-bar">
+    <span class="text-white display-6">ADMIN DASHBOARD</span>
+  </mat-toolbar>
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p class="text-center">
+        <img src="assets/img/passport.jpg" class="img_admin_profile" width="100px" height="100px" alt="" srcset="">
+      </p>
+      <mat-list role="list">
+        <mat-list-item class="listitem" (click)="showFxEquip()" role="listitem">Equipe management</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="listitem" role="listitem">Events management</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="listitem" role="listitem">Pathner management</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="listitem" role="listitem">Subcribe management</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="listitem" role="listitem">Contact us management</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item class="listitem" role="listitem">Blog management</mat-list-item>
+      </mat-list>
+    </mat-drawer>
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        <i class="fa-solid fa-house-chimney fa-2x clrs"></i>
+      </button>
+      <div id="equipe" *ngIf="showEquipe">
+        <app-equip-management></app-equip-management>
+      </div>
+      <div id="events"></div>
+      <div id="pathner"></div>
+      <div id="subscribe"></div>
+      <div id="contact"></div>
+      <div id="blog"></div>
+      <div>
+        <!--<img src="assets/img/ordinogram-kithub.png" class="img-fluid" alt="" srcset="">-->
+      </div>
+    </div>
 
+  </mat-drawer-container>
 </section>

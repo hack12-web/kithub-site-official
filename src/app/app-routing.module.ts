@@ -43,7 +43,7 @@ const routes: Routes = [
   },
   {
     path:"cx_panel",
-    loadChildren:() => import('./components/c-panel/admin/admin.module').then((m) => m.AdminModule)
+    component: CPanelComponent
   }
 ];
 

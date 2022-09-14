@@ -79,13 +79,31 @@
     "about_access_msg":["L'employabilité est l'un des grands problèmes à résoudre si l'on a besoin de voir un changement de génération au Burundi / en Afrique, la plupart des étudiants diplômés ont une connaissance STEM pratique ou utilisable limitée.",
     "Le manque d'apprentissage par projet et de programme d'innovation continue est un énorme obstacle au développement durable et à l'innovation.",
     "Le secteur commercial et industriel local n'est pas lié au programme d'apprentissage et d'éducation, c'est aussi l'énorme obstacle en matière d'employabilité.",
-    "Le programme scolaire et organisationnel qui enseigne les STEM est obsolète et de base par rapport aux exigences d'employabilité. Les écoles n'ont pas adapté ou mis à jour le programme STEM, les enseignants doivent se recycler afin de pouvoir doter les élèves de connaissances adéquates."]
+    "Le programme scolaire et organisationnel qui enseigne les STEM est obsolète et de base par rapport aux exigences d'employabilité. Les écoles n'ont pas adapté ou mis à jour le programme STEM, les enseignants doivent se recycler afin de pouvoir doter les élèves de connaissances adéquates."],
+    "about_why_title":"POUR QUOI KIT-HUB",
+    "about_why_msg":" ",
+    "about_pathner_title":"PARTENAIRES",
+    "about_pathner_msg":"",
+    "about_ordino_title":"Structure organisationnelle et leadership"
   },
   "blog":{
     "title":"BLOG"
   },
   "domain":{
-    "title":"DOMAINES DE"
+    "title":"DOMAINES DE",
+    "domain_title_one":"INNOVATION ET IMPACT SOCIALE",
+    "domain_one_msg":" ",
+    "domain_title_two":"REIVENTION DE LA MAIN D'OEUVRE LOCALE",
+    "domain_two_msg":" ",
+    "domain_title_three":"CREATION D'EMPLOIS",
+    "domain_three_msg":" ",
+    "domain_title_four":"EDUCATION DURABLE",
+    "domain_four_msg":" ",
+    "domain_title_five":"DEVELOPPEMENT DES TALENTS",
+    "domain_five_msg":" "
+  },
+  "event":{
+    "title":"ÉVÉNEMENTS"
   },
   "dialog":{
     "title":"CONTACTER NOUS POUR PLUS D'INFORMATIONS",
@@ -99,6 +117,9 @@
     "title_two":"Lettre d'information",
     "news_info":"KITHUB au service des Jeunes pour leurs Idées Innovantes",
     "subscribe_btn":"S'ABONNER"
+  },
+  "department":{
+    "title":"DÉPARTEMENT DE KIT-HUB"
   },
   "footer":{
     "col_one":"Suivez-nous sur",

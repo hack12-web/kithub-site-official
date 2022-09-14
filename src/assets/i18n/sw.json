@@ -79,13 +79,31 @@
     "about_access_msg":["Anställbarhet är en av de stora frågorna att ta itu med om man behöver se en generationsväxling i Burundi/Afrika, de flesta av de utexaminerade studenterna har begränsade praktiska eller användbara STEM-kunskaper.",
     "Bristen på projektbaserat lärande och kontinuerligt innovationsprogram är ett stort hinder för hållbar utveckling och innovation.",
     "Det lokala näringslivet och industrisektorn är inte kopplad till utbildnings- och utbildningsprogrammet, det är också det stora hindret när det kommer till anställningsbarhet.",
-    "Läroplanen är både skolor och organisation undervisning STEM är inaktuell, och grundläggande jämfört med anställningsbarhet krav. Skolor har inte anpassat eller uppdaterat STEM-program, lärare måste omskolas för att kunna utrusta eleverna med adekvat kunskap."]
+    "Läroplanen är både skolor och organisation undervisning STEM är inaktuell, och grundläggande jämfört med anställningsbarhet krav. Skolor har inte anpassat eller uppdaterat STEM-program, lärare måste omskolas för att kunna utrusta eleverna med adekvat kunskap."],
+    "about_why_title":"VARFÖR KIT-HUB",
+    "about_why_msg":" ",
+    "about_pathner_title":"PARTNERS",
+    "about_pathner_msg":"",
+    "about_ordino_title":"Organisationsstruktur och ledarskap"
   },
   "blog":{
     "title":"BLOGG"
   },
   "domain":{
-    "title":"DOMÄNER"
+    "title":"DOMÄNER",
+    "domain_title_one":"INNOVATION OCH SOCIAL PÅVERKAN",
+    "domain_one_msg":" ",
+    "domain_title_two":"ÅTERKOMMANDE AV LOKAL ARBETSKRAFTA",
+    "domain_two_msg":" ",
+    "domain_title_three":"SKAPA JOBB",
+    "domain_three_msg":" ",
+    "domain_title_four":"HÅLLBAR UTBILDNING",
+    "domain_four_msg":" ",
+    "domain_title_five":"TALENTUTVECKLING",
+    "domain_five_msg":" "
+  },
+  "event":{
+    "title":"EVENEMANG"
   },
   "dialog":{
     "title":"KONTAKTA OSS FÖR MER INFORMATION",
@@ -99,6 +117,9 @@
     "title_two":"Nyhetsbrev",
     "news_info":"KITHUB till tjänst för unga människor för deras Innovativa idéer",
     "subscribe_btn":"PRENUMERERA"
+  },
+  "department":{
+    "title":"KIT-HUB AVDELNING"
   },
   "footer":{
     "col_one":"Följ oss på",

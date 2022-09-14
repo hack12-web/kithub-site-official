@@ -1,16 +1,34 @@
 .example-container {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 80vh;
     border: 1px solid rgba(0, 0, 0, 0.5);
   }
-
   .example-sidenav-content {
-    display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
   }
-
   .example-sidenav {
     padding: 20px;
+    width: auto;
+  }
+  .nav-bar{
+    background-color: #495e57;
+    height: 15vh;
+  }
+  .img_admin_profile{
+    border-radius: 50%;
+  }
+  .listitem{
+    font-size: large;
+    color: white;
+    background-color: #495e57;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .listitem:hover{
+    background-color: #c0cfca;
+    color: #495e57;
+  }
+  .clrs{
+    color: #495e57;
   }

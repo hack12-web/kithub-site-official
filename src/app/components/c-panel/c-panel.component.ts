@@ -6,9 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./c-panel.component.scss']
 })
 export class CPanelComponent implements OnInit {
-  showFiller = false;
+  public showFiller: boolean = false;
+  public showEquipe: boolean = false;
 
   constructor() { }
+
+  public showFxEquip():void{
+    this.showEquipe = true;
+  }
 
   ngOnInit(): void {
   }

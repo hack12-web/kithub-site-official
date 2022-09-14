@@ -79,13 +79,31 @@
     "about_access_msg":["Kuajiriwa ni mojawapo ya masuala makubwa ya kushughulikiwa ikiwa mtu anahitaji kuona mabadiliko ya kizazi nchini Burundi/Afrika, wanafunzi wengi waliohitimu wana ujuzi mdogo wa vitendo au wa kutumia STEM.",
     "Ukosefu wa ujifunzaji wa msingi wa mradi na programu inayoendelea ya uvumbuzi ni kikwazo kikubwa kwa maendeleo endelevu na uvumbuzi.",
     "Sekta ya biashara ya ndani na viwanda haijaunganishwa na programu ya kujifunza na elimu, hii pia ni kizuizi kikubwa linapokuja suala la kuajiriwa.",
-    "Mtaala ni wa shule na shirika wa kufundisha STEM umepitwa na wakati, na msingi ukilinganisha na mahitaji ya kuajiriwa. Shule hazijarekebisha au kusasisha mpango wa STEM, walimu wanapaswa kujizoeza ili kuweza kuwapa wanafunzi maarifa ya kutosha."]
+    "Mtaala ni wa shule na shirika wa kufundisha STEM umepitwa na wakati, na msingi ukilinganisha na mahitaji ya kuajiriwa. Shule hazijarekebisha au kusasisha mpango wa STEM, walimu wanapaswa kujizoeza ili kuweza kuwapa wanafunzi maarifa ya kutosha."],
+    "about_why_title":"KWA NINI KIT-HUB",
+    "about_why_msg":" ",
+    "about_pathner_title":"WASHIRIKA",
+    "about_pathner_msg":"",
+    "about_ordino_title":"Muundo wa shirika na Uongozi"
   },
   "blog":{
     "title":"BLOG"
   },
   "domain":{
-    "title":"VIKOA VYA"
+    "title":"VIKOA VYA",
+    "domain_title_one":"UBUNIFU NA ATHARI ZA KIJAMII",
+    "domain_one_msg":" ",
+    "domain_title_two":"KURUDISHA WAFANYAKAZI WA MTAA",
+    "domain_two_msg":" ",
+    "domain_title_three":"KUTENGENEZA KAZI",
+    "domain_three_msg":" ",
+    "domain_title_four":"ELIMU ENDELEVU",
+    "domain_four_msg":" ",
+    "domain_title_five":"MAENDELEO YA VIPAJI",
+    "domain_five_msg":" "
+  },
+  "event":{
+    "title":"MATUKIO"
   },
   "dialog":{
     "title":"WASILIANA NASI KWA MAELEZO ZAIDI",
@@ -99,6 +117,9 @@
     "title_two":"Barua ya habari",
     "news_info":"KITHUB kwenye ibada ya vijana kwa ajili yao Mawazo ya Ubunifu",
     "subscribe_btn":"SUBSCRIBE"
+  },
+  "department":{
+    "title":"IDARA YA KIT-HUB"
   },
   "footer":{
     "col_one":"Tufuatilie",

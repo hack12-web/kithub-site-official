@@ -46,6 +46,9 @@ import { BlogContentCardComponent } from './components/blog/blog-content-card/bl
 import { BlogDialogComponent } from './components/blog/blog-dialog/blog-dialog.component';
 import { NetworkInterceptor } from './network.interceptor';
 
+import { CPanelComponent } from './components/c-panel/c-panel.component';
+import { EquipManagementComponent } from './components/c-panel/equip-management/equip-management.component';
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -83,7 +86,9 @@ export function createTranslateLoader(http: HttpClient) {
     EventDialogComponent,
     BlogContentDetailComponent,
     BlogContentCardComponent,
-    BlogDialogComponent
+    BlogDialogComponent,
+    CPanelComponent,
+    EquipManagementComponent,
   ],
   imports: [
     BrowserModule,

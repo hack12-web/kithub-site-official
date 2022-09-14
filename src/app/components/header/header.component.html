@@ -34,14 +34,14 @@
     <mat-divider></mat-divider>
     <br>
     <div class="contact">
-      <button class="contact-mob" routerLink=""  translate>header.element_eight</button>
+      <button class="contact-mob" (click)="openDialog()" translate>header.element_eight</button>
     </div>
     <br>
     <mat-divider></mat-divider>
     <div class="inside-menu">
       <a mat-button class="text-dark" (click)="changeLanguage('en')">english</a>
       <a mat-button class="text-dark" (click)="changeLanguage('fr')">francais</a>
-      <a mat-button class="text-dark" (click)="changeLanguage('sw')">suedois</a>
+      <a mat-button class="text-dark" (click)="changeLanguage('sw')">suédois</a>
       <a mat-button class="text-dark" (click)="changeLanguage('kis')">kiswahili</a>
       <a mat-button class="text-dark">kirundi</a>
     </div>
@@ -73,7 +73,7 @@
         <a mat-button  (click)="changeLanguage('fr')">francais</a>
       </button>
       <button mat-menu-item>
-        <a mat-button  (click)="changeLanguage('sw')">suedois</a>
+        <a mat-button  (click)="changeLanguage('sw')">suédois</a>
       </button>
       <button mat-menu-item>
         <a mat-button  (click)="changeLanguage('kis')">kiswahili</a>

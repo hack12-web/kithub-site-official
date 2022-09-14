@@ -79,13 +79,31 @@
     "about_access_msg":["Employability is one of big issues to be addressed if one needs to see a generational change in Burundi /Africa, most of graduated students have a limited practical or useable STEM knowledge.",
     "The lack of project based learning and continuously innovation program is huge barrier to sustainable development and innovation.",
     "The local business and industrial sector isn’t connected to the learning and education program, this is as well the huge barrier when it comes to employability.",
-    "The curriculum is both schools and organization teaching STEM is out of date, and basic compare to employability requirements. Schools don’t have adapted or update STEM program, teachers have to retrained in order to be able to equip students with adequate knowledge."]
+    "The curriculum is both schools and organization teaching STEM is out of date, and basic compare to employability requirements. Schools don’t have adapted or update STEM program, teachers have to retrained in order to be able to equip students with adequate knowledge."],
+    "about_why_title":"WHY KIT-HUB",
+    "about_why_msg":" ",
+    "about_pathner_title":"PARTNERS",
+    "about_pathner_msg":"",
+    "about_ordino_title":"Organisational structure and Leadership"
   },
   "blog": {
     "title": "BLOG"
   },
   "domain": {
-    "title": "DOMAINS OF"
+    "title": "DOMAINS OF",
+    "domain_title_one":"INNOVATION AND SOCIAL IMPACT",
+    "domain_one_msg":" ",
+    "domain_title_two":"RETURN OF LOCAL WORKFORCE",
+    "domain_two_msg":" ",
+    "domain_title_three":"JOB CREATION",
+    "domain_three_msg":" ",
+    "domain_title_four":"SUSTAINABLE EDUCATION",
+    "domain_four_msg":" ",
+    "domain_title_five":"TALENT DEVELOPMENT",
+    "domain_five_msg":" "
+  },
+  "event":{
+    "title":"EVENTS"
   },
   "dialog": {
     "title": "CONTACT US FOR MORE INFORMATION",
@@ -99,6 +117,9 @@
     "title_two": "Newsletter",
     "news_info": "KITHUB at the service of young people for their Innovative Ideas",
     "subscribe_btn": "SUBSCRIBE"
+  },
+  "department":{
+    "title":"KIT-HUB DEPARTMENT"
   },
   "footer": {
     "col_one": "Follow us on",
