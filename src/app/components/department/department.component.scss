@@ -10,8 +10,10 @@
   height: 100%;
 }
 .pro-sec{
-  background-color: #495e57;
-  color: white;
+  //background-color: #495e57;
+  background-color: white;
+  color: #495e57;
+
 }
 .devise-txt{
   text-align: justify;
@@ -20,11 +22,13 @@
   cursor: pointer;
   transition: 1s;
   position: relative;
+  color: #495e57;
 }
 .anim-text::before{
   content: '';
   position: absolute;
-  background-color: white;
+  //background-color: white;
+  background-color: #495e57;
   height: 3px;
   width: 100px;
   bottom: -10px;
@@ -45,24 +49,30 @@
 }
 .anim-text:hover{
   color: #bcc3c1;
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 .fdv-text{
   text-align: justify;
 }
 .pr-r-1{
-  border: 4px solid #ffffff;
+  //border: 4px solid #ffffff;
+  border: 4px solid #495e57;
   border-radius: 5px;
 }
 .pr-c-1{
-  background-color: white;
-  color: black;
+  //background-color: white;
+  background-color: #495e57;
+  //color: black;
+  color: white;
 }
 .pr-r-2{
-  border: 4px solid white;
+  //border: 4px solid white;
+  border: 4px solid #495e57;
   border-radius: 5px;
 }
 .pr-c-2{
-  background-color: white;
-  color: black;
+  //background-color: white;
+  background-color: #495e57;
+  //color: black;
+  color: white;
 }

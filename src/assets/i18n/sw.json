@@ -18,7 +18,7 @@
     "wea_message":"WEA (Women Empowerment Advocacy): Avdelning för empowerment av unga flickor och kvinnor, samt främja jämställdhet och social påverkan genom en inkluderande och entreprenöriell digital transformation.",
     "hudi_message":"HuDI (Humanitarian Direct Impact): Denna avdelning handlar om att skapa en mer mänsklig gemenskap genom att ta upp idén om kollektivt arbete och ansvar.",
     "dep_home_btn":"SE MER",
-    "program_name_four":"FemDev utbildar tjejer om digitalt yrke och jämställdhet kvinnor-män, i mitten skolan och i strukturerna ungdom",
+    "program_name_four":"FemDEV, 'Tech Kuri Bose' med sin slogan 'Digital is also Feminine', ett program som initierats för att inkludera kvinnor i teknikvärlden. FemDev är ett program som skapades med syftet att öka andelen kvinnor, inklusive kvinnor inom IKT, främja och lyfta fram kvinnors talanger inom digitaliseringsområdet.",
     "about_title":"OM OSS",
     "about_message":"KIT Hub är en social och professionell plattform som syftar till att utbilda, övervaka och stödja den burundiska befolkningen i förverkligandet av deras projekt, med särskild tonvikt på unga människor med innovativa projekt och inkludering av kvinnor. i Tech- och STEM-miljön i Burundi. , samt att främja ett inkluderande samhälle. Det är också ett multidimensionellt nätverk för kapacitetsuppbyggnad för ungdomars anställningsbarhet och för att förbättra det sociala skyddet.",
     "domain_one":"INNOVATION OCH SOCIAL PÅVERKAN",
@@ -81,7 +81,7 @@
     "Det lokala näringslivet och industrisektorn är inte kopplad till utbildnings- och utbildningsprogrammet, det är också det stora hindret när det kommer till anställningsbarhet.",
     "Läroplanen är både skolor och organisation undervisning STEM är inaktuell, och grundläggande jämfört med anställningsbarhet krav. Skolor har inte anpassat eller uppdaterat STEM-program, lärare måste omskolas för att kunna utrusta eleverna med adekvat kunskap."],
     "about_why_title":"VARFÖR KIT-HUB",
-    "about_why_msg":" ",
+    "about_why_msg":"Lösningen av de stora samhälleliga utmaningarna baseras på förståelsen av territorierna, deras särdrag och deras gemensamma poäng. Det är därför KIT Hub bygger ekosystem som främjar uppkomsten och spridningen av idéer och effektprojekt genom att förlita sig på den sociala och ekonomiska dynamiken hos territorier och lokala aktörer - stora och små företag, lokala myndigheter och samhällen. KIT Hub lägger särskild vikt vid principer som främjar transparens, etik och värderingar i affärer. Nyckelorden är medmänsklighet, kreativitet, innovationsförmåga, kapacitetsuppbyggnad, effektivitet och flexibilitet.",
     "about_pathner_title":"PARTNERS",
     "about_pathner_msg":"",
     "about_ordino_title":"Organisationsstruktur och ledarskap"
@@ -92,15 +92,15 @@
   "domain":{
     "title":"DOMÄNER",
     "domain_title_one":"INNOVATION OCH SOCIAL PÅVERKAN",
-    "domain_one_msg":" ",
+    "domain_one_msg":"Vår verksamhet syftar till positiv förändring med allmänheten och samhället. Därför utvecklar och implementerar vi kreativa och innovativa lösningar och initiativ.",
     "domain_title_two":"ÅTERKOMMANDE AV LOKAL ARBETSKRAFTA",
-    "domain_two_msg":" ",
+    "domain_two_msg":"Vi erbjuder ett annat sätt att arbeta baserat på delning och nätverkande.",
     "domain_title_three":"SKAPA JOBB",
-    "domain_three_msg":" ",
+    "domain_three_msg":"Att skapa arbetstillfällen, särskilt för ungdomar på arbetsmarknaden, är fortfarande ett grundläggande problem i varje samhälle. För att ge vårt bidrag till att minska ungdomsarbetslösheten och undersysselsättningen har vi antagit ''UJIMA''-modellen som är en modell för samhällsplanering och delat beslutsfattande i samhällena så att de får genomslag och initierar utveckling genom kollektiva investeringar.",
     "domain_title_four":"HÅLLBAR UTBILDNING",
-    "domain_four_msg":" ",
+    "domain_four_msg":"I denna komponent sätter vi upp program som syftar till att stärka offentlig service och utbildningskapacitet. Dessa program främjar också tillgängligheten till informations- och kommunikationsteknik.",
     "domain_title_five":"TALENTUTVECKLING",
-    "domain_five_msg":" "
+    "domain_five_msg":"Vi hjälper duktiga unga att lära känna varandra bättre, sedan visar vi dem hur de kan främja sina talanger i samhället genom de olika initiativen."
   },
   "event":{
     "title":"EVENEMANG"
@@ -120,6 +120,35 @@
   },
   "department":{
     "title":"KIT-HUB AVDELNING"
+  },
+  "program_home":{
+    "program_home_title":"PROGRAM YOUR FUTURE",
+    "program_msg":"KIT Hub är engagerad i att lösa ungdomsarbetslöshetskrisen i Burundi, lära engagerade unga arbetare färdigheter i arbetsberedskap och koppla dem till rätt nybörjarjobb som matchar deras kompetens, inom tjänstesektorn för att öka deras intjäningspotential.",
+    "program_msg_full":"KIT Hub är engagerad i att lösa ungdomsarbetslöshetskrisen i Burundi, lära engagerade unga arbetare färdigheter i arbetsberedskap och koppla dem till rätt nybörjarjobb som matchar deras kompetens, inom tjänstesektorn för att öka deras inkomstpotential. Genom att omvandla begåvade och motiverade ungdomar till seriöst humankapital för lokala företag uppmuntrar KIT Hub positiva förändringar i arbetsgivarnas attityder, vilket skapar en rättvisare och mer inkluderande arbetsmarknad. Prog Your Future är ett kapacitetsbyggande program för ungdomars anställbarhet och förbättrat socialt skydd. Programmet syftar till en global effekt som består i att bidra till att minska ungdomsarbetslösheten och förbättra befolkningens levnadsvillkor. Specifikt handlar det om att stärka unga människors kapacitet genom: Förstärkning av livsfärdigheter och kunskaper genom utveckling av personliga färdigheter (förmåga, konsekvens, självöverskridande, initiativförmåga, självkänsla, själv, etc) . Självkännedom (identifiera styrkor/svagheter, lagarbete, självsäkerhet, balans i livet, etc.). Kompetensutveckling för anställningsbarhet. Främjande av hälsa och social integration. Återuppfinna den lokala arbetskraften genom pooling och nätverkande. Deltagande i samhällsprojekt och socialt engagemang Entreprenörskap och effektivt ledarskap. För att leda burundiska ungdomar att hitta lösningar på problem i alla aspekter av livet erbjuder och organiserar KITHub programmet: InnoH@ck, minst två gånger om året i en utvald provins i Burundi för att skapa samma möjligheter för alla ungdomar . InnoH@ck (Innovation Hack) med dess sökord 'Innovation for Humanity', är ett bootcamp för innovation och kreativitet för att bygga kapacitet för ungas anställningsbarhet och återuppfinnandet av den lokala arbetskraften. Vårt uppdrag är att erbjuda alla unga människor en gemensam chans att samskapa innovativa lösningar och förverkliga sina drömmar för att visa upp sina talanger och kreativitet för alla att se."
+  },
+  "chida_home":{
+    "chida_home_title":"ChiDA",
+    "chida_home_msg":"Children's Direct Aid är ett stödprogram, beskyddare av barn med fokus på att stärka barn från missgynnade och marginaliserade familjer (barn på landsbygden och barn som bor på gatan) i Burundi.",
+    "chida_home_msg_full":"Children's Direct Aid är ett stödprogram, beskyddare av barn med fokus på att stärka barn från missgynnade och marginaliserade familjer (barn på landsbygden och barn som bor på gatan) i Burundi. ChiDA är ett icke-vinstdrivande humanitärt och socialt påverkansprogram som syftar till att på ett hållbart sätt stärka barn från missgynnade och marginaliserade familjer (barn på landsbygden och barn som bor på gatan) genom skyddande och gemenskapskompetens, utbildning och mentorskap. CHiDAs vision är att bygga ett Burundi, där alla barn har lika tillgång till kvalitetsutbildning och den grundläggande rätten att förverkliga sin fulla potential. Vi tror att systematiska generationsväxlingar är möjliga genom att stärka barns egenmakt, skyddande ledsagning, högkvalitativ utbildning för alla och respekt för barnets bästa."
+  },
+  "wip_home":{
+    "wip_home_title":"WIP",
+    "wip_home_msg":"WIP (Women In Process) är ett stöd- och empowermentprogram för kvinnor i botten av pyramiden. WIP (Women In Process) är ett ideellt humanitärt och socialt påverkansprogram som syftar till att hållbart stärka botten av pyramiden och marginaliserade kvinnor och deras familjer genom entreprenörskap, utbildning och mentorskap.",
+    "wip_home_msg_full":"WIP (Women In Process) är ett stöd- och empowermentprogram för kvinnor i botten av pyramiden. WIP (Women In Process) är ett ideellt humanitärt och socialt påverkansprogram som syftar till att hållbart stärka botten av pyramiden och marginaliserade kvinnor och deras familjer genom entreprenörskap, utbildning och mentorskap. WIP (Women In Process) vision är att bygga ett Burundi, där en kvinna är bemyndigad, har lika tillgång till kvalitetsutbildning och den grundläggande rätten att förverkliga sin fulla potential. COMLAB Hub KIT (COMMUNITY LAB), COWORKING, KIT Hub som 'Co-Working' stödjer vi unga startups genom att erbjuda dem coachning och arbete."
+  },
+  "fem_home":{
+    "fem_home_title":"FemDev",
+    "fem_home_msg_full":"FemDEV, 'Tech Kuri Bose' med sin slogan 'Digital is also Feminine', ett program som initierats för att inkludera kvinnor i teknikvärlden. FemDev är ett program som skapades med syftet att öka andelen kvinnor, inklusive kvinnor inom IKT, främja och lyfta fram kvinnors talanger inom digitaliseringsområdet. FemDev höjer flickors medvetenhet om digitala yrken och jämställdhet, i skolor och i ungdomsstrukturer. FemDev gör kunskap och möjligheter tillgänglig på landsbygden. FemDev mentorer kvinnor inom IKT och stödjer professionella kvinnor. FemDev är tillgängligt för alla kvinnor, erfarna och oerfarna, så att de kan trivas och känna sig bekväma inom IKT-området."
+  },
+  "digicom_home":{
+    "digicom_home_title":"DIGICOM LEN",
+    "digicom_home_msg":"'DigicomBurundi' är vägskälet för teknik- och STEM-företag i Burundi och alla de som bidrar till dess tillväxt och inflytande. 'DigiCom Burundi' syftar på alla som arbetar i eller för teknik- och STEM-företag i Burundi. Entreprenörer i första hand, men också investerare, ingenjörer, designers, utvecklare, stora koncerner, föreningar, media, offentliga aktörer, forskningsinstitut...",
+    "digicom_home_msg_full":"'DigicomBurundi' är vägskälet för teknik- och STEM-företag i Burundi och alla de som bidrar till dess tillväxt och inflytande. 'DigiCom Burundi' syftar på alla som arbetar i eller för teknik- och STEM-företag i Burundi. Entreprenörer i första hand, men också investerare, ingenjörer, designers, utvecklare, stora grupper, föreningar, media, offentliga aktörer, forskningsinstitut... som är engagerade i tillväxten av tech & STEM å ena sidan och deras internationella inflytande på andra handen. Vårt uppdrag är att erbjuda ett utrymme av synlighet, kreativitet och kollektivt arbete för att höja tech & STEM-vågen i Burundi. Vi erbjuder ett vägskäl av innovation, produktivitet och inkubator för unga entreprenörer och företag inom tech & STEM som vill utvecklas genom att identifiera alla aktörer i ekosystemet och stöd- och samverkansprogram (finansiering, synlighet, kontakter, kompetens). Slutligen accelererar vi synligheten och produktiviteten för Tech & STEM-företag på Burundis territorium tack vare lokala och internationella mentorer som kan vägleda och ge råd till entreprenörer."
+  },
+  "storrytelling_home":{
+    "storrytelling_home_title":"STORRY TELLING",
+    "storrytelling_home_msg":"För att stötta unga i deras idéer har KITHUB initierat dialogsessioner som kallas storytelling där mentorer, personer som har lyckats i sin karriär delar sina erfarenheter med unga och vägleder dem i beslutsfattande, riskhantering, innovation m.m.",
+    "storrytelling_home_msg_full":"För att stötta unga i deras idéer har KITHUB initierat dialogsessioner som kallas storytelling där mentorer, personer som har lyckats i sin karriär delar sina erfarenheter med unga och vägleder dem i beslutsfattande, riskhantering, innovation m.m. Story Telling är ett möte mellan unga människor och nationella och internationella mentorer där de senare vägleder dem enligt olika utvalda teman."
   },
   "footer":{
     "col_one":"Följ oss på",

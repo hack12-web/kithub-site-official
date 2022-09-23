@@ -18,7 +18,7 @@
     "wea_message":"WEA (Utetezi wa Uwezeshaji wa Wanawake): Idara ya uwezeshaji wasichana na wanawake wachanga, pamoja na kuendeleza usawa wa kijinsia na Athari za Kijamii kupitia mageuzi ya kidijitali yanayojumuisha ujasiriamali.",
     "hudi_message":"HuDI (Athari za Moja kwa Moja za Kibinadamu): Idara hii inahusu kuunda jumuiya zaidi ya binadamu kwa kuleta mezani wazo la kazi ya pamoja na wajibu.",
     "dep_home_btn":"ONA ZAIDI",
-    "program_name_four":"FemDev inaelimisha wasichana kuhusu taaluma ya kidijitali na usawa wanawake-wanaume, katikati shuleni na katika miundo vijana",
+    "program_name_four":"FemDEV, “Tech Kuri Bose” pamoja na kauli mbiu yake “Dijitali pia ni ya Kike”, mpango ulioanzishwa kwa ajili ya kujumuisha wanawake katika ulimwengu wa Tech. FemDev ni programu ambayo iliundwa kwa lengo la kuongeza kiwango cha wanawake, ikiwa ni pamoja na wanawake katika ICT, kukuza na kuangazia vipaji vya wanawake katika nyanja ya digital.",
     "about_title":"KUHUSU SISI",
     "about_message":"KIT Hub ni jukwaa la kijamii na kitaaluma ambalo linalenga kutoa mafunzo, kusimamia na kusaidia idadi ya watu wa Burundi katika utekelezaji wa miradi yao, kwa msisitizo hasa kwa vijana wenye miradi ya ubunifu na ushirikishwaji wa wanawake. katika mazingira ya Tech na STEM nchini Burundi. , pamoja na kukuza jamii jumuishi. Pia ni mtandao wa pande nyingi kwa ajili ya kujenga uwezo kwa vijana kuajiriwa na kuboresha ulinzi wa kijamii.",
     "domain_one":"UBUNIFU NA ATHARI ZA KIJAMII",
@@ -81,7 +81,7 @@
     "Sekta ya biashara ya ndani na viwanda haijaunganishwa na programu ya kujifunza na elimu, hii pia ni kizuizi kikubwa linapokuja suala la kuajiriwa.",
     "Mtaala ni wa shule na shirika wa kufundisha STEM umepitwa na wakati, na msingi ukilinganisha na mahitaji ya kuajiriwa. Shule hazijarekebisha au kusasisha mpango wa STEM, walimu wanapaswa kujizoeza ili kuweza kuwapa wanafunzi maarifa ya kutosha."],
     "about_why_title":"KWA NINI KIT-HUB",
-    "about_why_msg":" ",
+    "about_why_msg":"Utatuzi wa changamoto kuu za kijamii unategemea uelewa wa maeneo, umoja wao na mambo yao ya kawaida. Hii ndiyo sababu KIT Hub huunda mifumo ikolojia inayofaa kwa kuibuka na kusambaza mawazo na miradi ya athari kwa kutegemea mienendo ya kijamii na kiuchumi ya maeneo na watendaji wa ndani - makampuni makubwa na madogo, mamlaka za mitaa umma na jumuiya. KIT Hub inasisitiza hasa kanuni zinazokuza uwazi, maadili na maadili katika biashara. Maneno muhimu ni ubinadamu, ubunifu, uwezo wa uvumbuzi, kujenga uwezo, ufanisi na kubadilika.",
     "about_pathner_title":"WASHIRIKA",
     "about_pathner_msg":"",
     "about_ordino_title":"Muundo wa shirika na Uongozi"
@@ -92,15 +92,15 @@
   "domain":{
     "title":"VIKOA VYA",
     "domain_title_one":"UBUNIFU NA ATHARI ZA KIJAMII",
-    "domain_one_msg":" ",
+    "domain_one_msg":"Shughuli zetu zinalenga kuleta mabadiliko chanya kwa umma na jamii. Kwa hivyo, tunakuza na kutekeleza masuluhisho na mipango ya ubunifu na ya kibunifu.",
     "domain_title_two":"KURUDISHA WAFANYAKAZI WA MTAA",
-    "domain_two_msg":" ",
+    "domain_two_msg":"Tunatoa njia nyingine ya kufanya kazi kulingana na kushiriki na mitandao.",
     "domain_title_three":"KUTENGENEZA KAZI",
-    "domain_three_msg":" ",
+    "domain_three_msg":"Uundaji wa ajira, hasa kwa vijana katika soko la ajira, bado ni tatizo la msingi katika kila jamii. Ili kutoa mchango wetu katika kupunguza ukosefu wa ajira kwa vijana na ukosefu wa ajira, tumechukua mtindo wa ''UJIMA'' ambao ni kielelezo cha mipango ya jamii na kufanya maamuzi ya pamoja katika jamii ili ziwe na athari na kuanzisha maendeleo kupitia uwekezaji wa pamoja.",
     "domain_title_four":"ELIMU ENDELEVU",
-    "domain_four_msg":" ",
+    "domain_four_msg":"Katika kipengele hiki, tumeanzisha programu zinazolenga kuimarisha utumishi wa umma na uwezo wa elimu. Mipango hii pia inakuza upatikanaji wa Teknolojia ya Habari na Mawasiliano.",
     "domain_title_five":"MAENDELEO YA VIPAJI",
-    "domain_five_msg":" "
+    "domain_five_msg":"Tunasaidia vijana wenye vipaji kufahamiana zaidi, kisha tunawaonyesha namna ya kukuza vipaji vyao katika jamii kupitia mipango mbalimbali."
   },
   "event":{
     "title":"MATUKIO"
@@ -120,6 +120,35 @@
   },
   "department":{
     "title":"IDARA YA KIT-HUB"
+  },
+  "program_home":{
+    "program_home_title":"PROGRAM YOUR FUTURE",
+    "program_msg":"KIT Hub imejitolea kutatua mzozo wa ukosefu wa ajira kwa vijana nchini Burundi, kuwafundisha wafanyakazi vijana waliojitolea ujuzi wa utayari wa kazi na kuwaunganisha na kazi zinazofaa za ngazi ya kuingia zinazolingana na ujuzi wao, katika sekta ya huduma ili kuongeza uwezo wao wa mapato.",
+    "program_msg_full":"KIT Hub imejitolea kutatua tatizo la ukosefu wa ajira kwa vijana nchini Burundi, kufundisha wafanyakazi vijana waliojitolea ujuzi wa utayari wa kazi na kuwaunganisha na kazi zinazofaa za ngazi ya kuingia zinazolingana na ujuzi wao, katika sekta ya huduma ili kuongeza uwezo wao wa mapato. Kwa kubadilisha vijana wenye talanta na waliohamasishwa kuwa rasilimali watu muhimu kwa biashara za ndani, KIT Hub inahimiza mabadiliko chanya katika mitazamo ya waajiri, kuunda soko la kazi la haki na linalojumuisha zaidi. Prog Your Future ni programu ya kujenga uwezo kwa vijana kuajiriwa na ulinzi wa kijamii ulioboreshwa. Mpango huo unalenga athari ya kimataifa inayojumuisha kuchangia katika kupunguza ukosefu wa ajira kwa vijana na uboreshaji wa hali ya maisha ya idadi ya watu. Hasa, ni suala la kuimarisha uwezo wa vijana kupitia: Uimarishaji wa stadi za maisha na ujuzi kupitia ukuzaji wa ustadi wa kibinafsi (assiduity, uthabiti, kujithamini, hisia ya juhudi, kujistahi, ubinafsi, nk) . Kujijua (kutambua uwezo/udhaifu, kazi ya pamoja, uthubutu, usawa wa maisha, n.k.). Ukuzaji wa ujuzi kwa ajili ya kuajiriwa. Kukuza afya na ushirikishwaji wa kijamii. Kuanzisha upya nguvu kazi ya ndani kwa njia ya kuunganisha na mitandao. Ushiriki katika miradi ya jamii na ushirikishwaji wa kijamii Ujasiriamali na uongozi bora. Ili kuwaongoza vijana wa Burundi kutafuta suluhu za matatizo katika nyanja zote za maisha, KITHub inatoa na kuandaa programu hii: InnoH@ck, angalau mara mbili kwa mwaka katika jimbo lililochaguliwa la Burundi ili kuunda fursa sawa kwa vijana wote. . InnoH@ck (Innovation Hack) yenye neno lake kuu 'Innovation for Humanity', ni kambi ya boot kwa ajili ya uvumbuzi na ubunifu ili kujenga uwezo kwa vijana kuajiriwa na uvumbuzi upya wa nguvu kazi ya ndani. Dhamira yetu ni kuwapa vijana wote nafasi ya pamoja ya kuunda masuluhisho ya kiubunifu kwa pamoja na kutimiza ndoto zao ili kuonyesha vipaji na ubunifu wao ili watu wote waone."
+  },
+  "chida_home":{
+    "chida_home_title":"ChiDA",
+    "chida_home_msg":"Children's Direct Aid ni mpango wa usaidizi, mlinzi wa watoto unaozingatia uwezeshaji wa watoto kutoka kwa familia zisizo na uwezo na zilizotengwa (watoto katika maeneo ya vijijini na watoto wanaoishi mitaani) nchini Burundi.",
+    "chida_home_msg_full":"Children's Direct Aid ni mpango wa usaidizi, mlinzi wa watoto unaozingatia uwezeshaji wa watoto kutoka kwa familia zisizo na uwezo na zilizotengwa (watoto katika maeneo ya vijijini na watoto wanaoishi mitaani) nchini Burundi. ChiDA ni mpango wa athari za kibinadamu na kijamii usio wa faida ambao unalenga kuwawezesha watoto kutoka kwa familia zisizo na uwezo na zilizotengwa (watoto katika maeneo ya vijijini na watoto wanaoishi mitaani) kupitia ulinzi na usindikizaji wa jamii, elimu na ushauri. Dira ya CHIDA ni kujenga Burundi, ambapo kila mtoto ana fursa sawa ya kupata elimu bora na haki ya msingi ya kutambua uwezo wake kamili. Tunaamini kwamba mabadiliko ya utaratibu wa kizazi yanawezekana kupitia uwezeshaji wa watoto, usaidizi wa ulinzi, elimu bora kwa wote na kuheshimu maslahi ya mtoto."
+  },
+  "wip_home":{
+    "wip_home_title":"WIP",
+    "wip_home_msg":"WIP (Women In Process) ni programu ya msaada na uwezeshaji kwa wanawake chini ya piramidi. WIP (Women In Process) ni mpango usio na faida wa kibinadamu na athari za kijamii ambao unalenga kuwawezesha kwa uendelevu wanawake wa chini ya piramidi na waliotengwa na familia zao kupitia ujasiriamali, elimu, na ushauri.",
+    "wip_home_msg_full":"WIP (Women In Process) ni programu ya msaada na uwezeshaji kwa wanawake chini ya piramidi. WIP (Women In Process) ni mpango usio na faida wa kibinadamu na athari za kijamii ambao unalenga kuwawezesha kwa uendelevu wanawake wa chini ya piramidi na waliotengwa na familia zao kupitia ujasiriamali, elimu, na ushauri. Dira ya WIP (Women In Process) ni kujenga Burundi, ambapo mwanamke amewezeshwa, anapata fursa sawa ya elimu bora na haki ya msingi ya kutambua uwezo wake kamili. COMLAB Hub KIT (MAAbara YA JAMII), KUFANYA KAZI KIT Hub kama 'Co-Working', tunaunga mkono wanaoanza kwa kuwapa mafunzo na kazi."
+  },
+  "fem_home":{
+    "fem_home_title":"FemDev",
+    "fem_home_msg_full":"FemDEV, “Tech Kuri Bose” pamoja na kauli mbiu yake “Dijitali pia ni ya Kike”, mpango ulioanzishwa kwa ajili ya kujumuisha wanawake katika ulimwengu wa Tech. FemDev ni programu ambayo iliundwa kwa lengo la kuongeza kiwango cha wanawake, ikiwa ni pamoja na wanawake katika ICT, kukuza na kuangazia vipaji vya wanawake katika nyanja ya digital. FemDev inakuza ufahamu wa wasichana kuhusu taaluma za kidijitali na usawa wa kijinsia, shuleni na katika miundo ya vijana. FemDev hufanya maarifa na fursa kupatikana katika maeneo ya vijijini. FemDev inawashauri wanawake katika ICT na inasaidia wanawake wataalamu. FemDev inapatikana kwa wanawake wote, wenye uzoefu na wasio na uzoefu, ili waweze kustawi na kujisikia vizuri katika nyanja ya ICT."
+  },
+  "digicom_home":{
+    "digicom_home_title":"DIGICOM LEN",
+    "digicom_home_msg":"'DigicomBurundi' ni njia panda ya makampuni ya teknolojia na STEM nchini Burundi na wale wote wanaochangia ukuaji na ushawishi wake. 'DigiCom Burundi' inarejelea wale wote wanaofanya kazi ndani au kwa makampuni ya teknolojia na STEM nchini Burundi. Wajasiriamali katika nafasi ya kwanza, lakini pia wawekezaji, wahandisi, wabunifu, watengenezaji, makundi makubwa, vyama, vyombo vya habari, waendeshaji wa umma, taasisi za utafiti...",
+    "digicom_home_msg_full":"'DigicomBurundi' ni njia panda ya makampuni ya teknolojia na STEM nchini Burundi na wale wote wanaochangia ukuaji na ushawishi wake. 'DigiCom Burundi' inarejelea wale wote wanaofanya kazi ndani au kwa makampuni ya teknolojia na STEM nchini Burundi. Wajasiriamali katika nafasi ya kwanza, lakini pia wawekezaji, wahandisi, wabunifu, watengenezaji, makundi makubwa, vyama, vyombo vya habari, waendeshaji wa umma, taasisi za utafiti ... ambao wamejitolea kwa ukuaji wa tech & STEM kwa upande mmoja na ushawishi wao wa kimataifa juu ya. upande mwingine. Dhamira yetu ni kutoa nafasi ya mwonekano, ubunifu na kazi ya pamoja ili kuinua wimbi la teknolojia na STEM nchini Burundi Tunatoa njia panda ya uvumbuzi, tija na incubator kwa wajasiriamali wachanga na kampuni za tech & STEM ambao wanatafuta kukuza kwa kutambua. wachezaji wote katika mfumo wa ikolojia na programu za usaidizi na ushirikiano (ufadhili, mwonekano, mawasiliano, ujuzi). Hatimaye, tunaharakisha mwonekano na tija wa makampuni ya Tech & STEM katika eneo la Burundi kutokana na washauri wa ndani na kimataifa wenye uwezo wa kuwaelekeza na kuwashauri wajasiriamali."
+  },
+  "storrytelling_home":{
+    "storrytelling_home_title":"STORRY TELLING",
+    "storrytelling_home_msg":"Ili kusaidia vijana katika mawazo yao, KITHUB imeanzisha vipindi vya mazungumzo viitwavyo hadithi za hadithi ambapo washauri, watu ambao wamefanikiwa katika taaluma zao hushiriki uzoefu wao na vijana na kuwaongoza katika kufanya maamuzi, usimamizi wa hatari, uvumbuzi, nk.",
+    "storrytelling_home_msg_full":"Ili kusaidia vijana katika mawazo yao, KITHUB imeanzisha vipindi vya mazungumzo viitwavyo hadithi za hadithi ambapo washauri, watu ambao wamefanikiwa katika taaluma zao hushiriki uzoefu wao na vijana na kuwaongoza katika kufanya maamuzi, usimamizi wa hatari, uvumbuzi, nk. Kusimulia Hadithi ni kikao cha mkutano kati ya vijana na washauri wa kitaifa na kimataifa ambapo washauri huwaongoza kulingana na mada tofauti walizochagua."
   },
   "footer":{
     "col_one":"Tufuatilie",
