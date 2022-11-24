@@ -1,7 +1,16 @@
 <section>
   <br><br>
   <mat-toolbar class="nav-bar">
-    <span class="text-white display-6">ADMIN DASHBOARD</span>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10">
+          <span class="text-white display-6">ADMIN DASHBOARD</span>
+        </div>
+        <div class="col-2">
+          <span type="button" (click)="ControlX()" ><mat-icon>settings</mat-icon></span>
+        </div>
+      </div>
+    </div>
   </mat-toolbar>
   <mat-drawer-container class="example-container" autosize>
     <mat-drawer #drawer class="example-sidenav" mode="side">
@@ -11,29 +20,78 @@
       <mat-list role="list">
         <mat-list-item class="listitem" (click)="showFxEquip()" role="listitem">Equipe management</mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item class="listitem" role="listitem">Events management</mat-list-item>
+        <mat-list-item class="listitem" (click)="showFxEvents()" role="listitem">Events management</mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item class="listitem" role="listitem">Pathner management</mat-list-item>
+        <mat-list-item class="listitem" role="listitem" (click)="showFxPathner()" >Pathner management</mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item class="listitem" role="listitem">Subcribe management</mat-list-item>
+        <mat-list-item class="listitem" role="listitem" (click)="showFxSubscribe()" >Subcribe management</mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item class="listitem" role="listitem">Contact us management</mat-list-item>
+        <mat-list-item class="listitem" role="listitem" (click)="showFxContact()" >Contact us management</mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item class="listitem" role="listitem">Blog management</mat-list-item>
+        <mat-list-item class="listitem" role="listitem" (click)="showFxBlog()" >Blog management</mat-list-item>
       </mat-list>
     </mat-drawer>
     <div class="example-sidenav-content">
       <button type="button" mat-button (click)="drawer.toggle()">
-        <i class="fa-solid fa-house-chimney fa-2x clrs"></i>
+        <i class="fa-solid fa-house-chimney fa-2x clrs">.</i>
       </button>
+      <div id="welcome" class="container-fluid" *ngIf="showWelcome">
+        <div class="row">
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Equipe management statistics</p>
+              <label for="" class="fw-bold h2">Qte: <span class="fw-bold h2 text-danger">10</span></label>
+              <br>
+              <label for="" class="fw-bold h2">New: <span class="fw-bold h2 text-primary">0</span></label>
+            </mat-card>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Events management statistics</p>
+            </mat-card>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Pathner management statistics</p>
+            </mat-card>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Subscriber management statistics</p>
+            </mat-card>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Contact us management statistics</p>
+            </mat-card>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <mat-card class="shadow-lg card-item">
+              <p class="text-center fw-bold h6">Blog management statistics</p>
+            </mat-card>
+          </div>
+        </div>
+      </div>
       <div id="equipe" *ngIf="showEquipe">
         <app-equip-management></app-equip-management>
       </div>
-      <div id="events"></div>
-      <div id="pathner"></div>
-      <div id="subscribe"></div>
-      <div id="contact"></div>
-      <div id="blog"></div>
+      <div id="events" *ngIf="showEvents">
+        <app-events-management></app-events-management>
+      </div>
+      <div id="pathner" *ngIf="showPathner">
+        <p>Welcome pathner !</p>
+      </div>
+      <div id="subscribe" *ngIf="showSubscribe" >
+        <p>Welcome subscriber !</p>
+      </div>
+      <div id="contact" *ngIf="showContact">
+        <p>Welcome contact</p>
+      </div>
+      <div id="blog" *ngIf="showBlog">
+        <p>Welcome blog</p>
+      </div>
       <div>
         <!--<img src="assets/img/ordinogram-kithub.png" class="img-fluid" alt="" srcset="">-->
       </div>

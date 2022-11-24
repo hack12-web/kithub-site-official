@@ -21,7 +21,7 @@ export class BlogDialogComponent implements OnInit {
   ngOnInit(): void {
     this.myForm = this.fb.group({
       name: ['', Validators.required],
-      email:['', Validators.required, Validators.email],
+      email:['', Validators.required],
       message:['', Validators.required]
     })
   }

@@ -150,6 +150,17 @@
     "storrytelling_home_msg":"För att stötta unga i deras idéer har KITHUB initierat dialogsessioner som kallas storytelling där mentorer, personer som har lyckats i sin karriär delar sina erfarenheter med unga och vägleder dem i beslutsfattande, riskhantering, innovation m.m.",
     "storrytelling_home_msg_full":"För att stötta unga i deras idéer har KITHUB initierat dialogsessioner som kallas storytelling där mentorer, personer som har lyckats i sin karriär delar sina erfarenheter med unga och vägleder dem i beslutsfattande, riskhantering, innovation m.m. Story Telling är ett möte mellan unga människor och nationella och internationella mentorer där de senare vägleder dem enligt olika utvalda teman."
   },
+  "equipe_home":{
+    "clement_desc":"Chris Clément Igiraneza är promotor och styrelseordförande för KIT HUB. Brinner för innovation, pooling och samhällsarbete, han arbetar alltid för att främja talang och återuppfinna den lokala arbetskraften. Förälskad i sitt afrikanska ursprung vandrar han med sitt land Burundi i sitt hjärta och sina innovativa visioner. Medveten om behovet av ekonomiska frågor och anställningsbarheten för våra talanger, kämpar han dagligen för att ta sin sten till byggnaden. Efter en fin och rik karriär av studier och yrkesverksamhet utomlands inom områdena elektroteknik och hälsa, förnybar energi, exakta vetenskaper, hållbar utveckling av samhällen, projektledning och effektiv kommunikation, är han mer än någonsin övertygad om att det är dags för honom att ge tillbaka till sin kontinent, till sitt land, allt han har i form av intellektuellt bagage och yrkeserfarenhet. Det är därför han följer med genom strategisk rådgivning, personlig coachning i professionell utveckling, återuppfinnandet av arbetskraften, utveckling av talanger, ledning av säljkåren, nätverkande, innovation och främjande av KIT Hub. Vill du växa fram, förnya och åstadkomma stora saker i Burundi? Han delar också samma vision som du. Så allt du behöver göra är att ta kontakt och vidta åtgärder.",
+    "ferdinand_desc":["Alimasi Ferdinand Ernest är för närvarande C.E.O för KIT HUB.",
+        "En 24-åring som brinner för digitalt, innovation och konfliktlösning.",
+        "Han gjorde sina primära och sekundära studier vid Institut du Centre Scolaire Congolais i Bujumbura.",
+        "Han avslutade sina universitetsstudier vid universitetet i Tanganyikasjön där han fick sin kandidatexamen i datavetenskap, alternativ för programvaruteknik.",
+        "Han fortsatte sin utbildning i engelska, entreprenörskap, konfliktlösning i östra DRC av ARMMK-föreningen där han är vicerepresentant.",
+        "Han fick också ett certifikat för deltagande och gratulationer i debatttävlingen till försvar av kvinnors rättigheter där hans lag kom ut på första plats.",
+        "Inom IT-området har han utvecklat en modul från det digitala biblioteket till BMDSoft-plattformen (Baccalaureate Master Doctorate Soft) som är en mjukvara som täcker alla informationsflöden inom universitet i Burundi inom samhället ICTG (Information and Communications Technology Group).",
+        "Inom samma område har han utvecklat programvara för datortillgångshantering, KIT Home-mjukvara, programvara för ett kommersiellt företag Beau Décor och andra webbplatser."]
+  },
   "footer":{
     "col_one":"Följ oss på",
     "col_two_one":"Hem",

@@ -48,6 +48,8 @@ import { NetworkInterceptor } from './network.interceptor';
 
 import { CPanelComponent } from './components/c-panel/c-panel.component';
 import { EquipManagementComponent } from './components/c-panel/equip-management/equip-management.component';
+import { EventsManagementComponent } from './components/c-panel/events-management/events-management.component';
+import { AdminLoginComponent } from './components/c-panel/admin-login/admin-login.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -89,6 +91,8 @@ export function createTranslateLoader(http: HttpClient) {
     BlogDialogComponent,
     CPanelComponent,
     EquipManagementComponent,
+    EventsManagementComponent,
+    AdminLoginComponent,
   ],
   imports: [
     BrowserModule,

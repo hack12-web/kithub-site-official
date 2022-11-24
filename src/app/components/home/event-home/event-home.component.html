@@ -1,12 +1,13 @@
 <div class="container">
+  <br><br><br>
   <div class="display-6 text-center"><label class="anim-domaine" translate>header.element_four</label></div><br><br>
+  <br><br><br>
   <div class="container">
-    <div class="row">
-      <pre>{{ event_filter | json }}</pre>
-      <div class="col-sm-6 mt-3">
+    <div class="row scroll_row ">
+      <div class="col-lg-6 mt-3" *ngFor="let event of events">
         <mat-card class="shadow-lg">
           <mat-card-header>
-            <mat-card-subtitle class="sub-title text-center"> <a routerLink="#" translate>home.event_btn_sm</a></mat-card-subtitle>
+            <mat-card-subtitle class="sub-title text-center"><a routerLink="#" translate>home.event_btn_sm</a></mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
             <div>
@@ -14,8 +15,8 @@
             </div>
           </mat-card-content>
           <mat-card-actions>
-            <!--<p class="fw-bold">{{list.event_name}}</p>
-            <p class="fw-bold">{{ list.event_date.toDate() | date:'fullDate' }}</p>-->
+            <p class="fw-bold">{{event.event_name}}</p>
+            <p class="fw-bold">{{ event.event_date.toMillis() | date: 'MM/dd/yyyy' }}</p>
           </mat-card-actions>
         </mat-card>
       </div>
@@ -23,5 +24,6 @@
     <div class="text-center mt-3">
       <button routerLink="/events" class="event-btn btn btn-sm btn-light" translate>home.event_btn</button>
     </div>
+    <br>
   </div>
 </div>

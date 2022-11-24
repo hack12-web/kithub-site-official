@@ -8,8 +8,8 @@ import { collection, Firestore, getDocs } from '@angular/fire/firestore';
 })
 export class EventHomeComponent implements OnInit {
 
-  public events: any = [];
-  public event_filter: any = {};
+  public events: any[] = [];
+  public events_filter: any[] = [];
 
   constructor(private firestore: Firestore ) { }
 
@@ -18,15 +18,10 @@ export class EventHomeComponent implements OnInit {
     getDocs(DbInstance).then((response) =>{
       this.events = [...response.docs.map((item) =>{
         return {...item.data(), id: item.id }
-      })]
-      for (let index = 2; index < this.events.length; index++) {
-         const element:[] = this.events[index];
-         this.event_filter = element;
-      }
-    })
+      })];
+    });
   }
   ngOnInit(): void {
     this.get_all_events();
   }
-
 }

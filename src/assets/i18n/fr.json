@@ -54,11 +54,11 @@
     "about_miss_msg_3":"3. Création d’emploi : La création d’emploi et en particulier pour les jeunes dans le marché de travail reste une problématique fondamentale inhérente à chaque société. Pour y apporter notre contribution à la réduction du chômage et du sous-emploi des jeunes, nous avons adoptés le modèle ‘’UJIMA’’ qui est un modèle de planification communautaire et de prise de décision partagée dans les communautés pour que celles-ci aient un impact et initient le développement grâce à un investissement collectif.",
     "about_miss_msg_4":"4. Éducation durable : Dans ce volet, nous mettons en place des programmes visant le renforcement du service public et des capacités éducatives. Ces programmes favorisent aussi l’accessibilité aux Technologies de l’Information et de la Communication.",
     "about_miss_msg_5":"5. Développement des talents : Nous aidons les jeunes talentueux à mieux se connaitre d’abord et ensuite, nous leur montrons comment faire valoir leurs talents dans la société.",
-    "about_obj_glob_title":"BOJECTIF GLOBAL",
+    "about_obj_glob_title":"OBJECTIF GLOBAL",
     "about_obje_glob_msg":"Notre objectif global est de :",
     "about_obje_glob_msg_1":"1. Construire un écosystème d’impact social et communautaire qui soutient la démocratisation des connaissances et des opportunités, ainsi que toutes les initiatives visant à améliorer la vie sociale et économique de tous les Burundais sans distinction d'ethnie, de religion et de sexe.",
     "about_obje_glob_msg_2":"2. Initier et accompagner des initiatives de développement social, d'employabilité et de développement économique axées sur la mise en valeur de professions ainsi que la démocratisation des opportunités et connaissances.",
-    "about_obje_glob_msg_3":"3. Contribuer aux objectifs des de développement durable (ODD) suivants :",
+    "about_obje_glob_msg_3":"3. Contribuer aux objectifs des développements durables (ODD) suivants :",
     "about_obje_glob_msg_3_a":"Objectif 1 : Éradication de la pauvreté ",
     "about_obje_glob_msg_3_b":"Objectif 2 : Lutte contre la faim",
     "about_obje_glob_msg_3_c":"Objectif 3 : Bonne Santé et Bien être",
@@ -149,6 +149,17 @@
     "storrytelling_home_title":"STORRY TELLING",
     "storrytelling_home_msg":"Dans le but d’accompagner les jeunes dans leur idées, KITHUB a initié des séances des dialogue appelées storytelling où les mentors, les personnes qui ont réussi dans leur carrières partagent aux jeunes leurs expériences et les orientent dans la prise de décision, la gestion de risques, l’innovation, etc…",
     "storrytelling_home_msg_full":"Dans le but d’accompagner les jeunes dans leur idées, KITHUB a initié des séances des dialogue appelées storytelling où les mentors, les personnes qui ont réussi dans leur carrières partagent aux jeunes leurs expériences et les orientent dans la prise de décision, la gestion de risques, l’innovation, etc… Story Telling est une séance de rencontre entre les jeunes et les mentors nationaux comme internationaux ou ces derniers les orientent selon différentes thématiques choisies."
+  },
+  "equipe_home":{
+    "clement_desc":"Chris Clément Igiraneza est promoteur et président du conseil d’administration de KIT HUB. Passionné par l’innovation, la mutualisation et le travail en communauté, il œuvre toujours pour la valorisation des talents et réinvention de la main d’œuvre locale. Amoureux de ses origines africaines, il marche avec son pays le Burundi dans son cœur et ses visions innovantes. Conscient de la nécessité des enjeux économiques et employabilité des nos talents, il se bat au quotidien afin d’apporter sa pierre à l’édifice. Après un beau et riche parcours d’études et activités professionnelles à l’international dans les domaines d’électrotechnique et santé, énergies renouvelables, sciences exactes, développements durables des communautés, management de projet et de la communication effective, plus que jamais il est convaincu qu’il est temps pour lui de rendre à son continent, à son pays tout ce qu’il a comme bagage intellectuel et expérience professionnellement. C’est pourquoi il accompagne à travers les conseils stratégiques, le coaching personnalisé en développement professionnel, la réinvention de la main d’œuvre, le développement des talents, la gestion de la force de vente, le networking, l’innovation et fais la promotion de KIT Hub. Vous avez envie d’émerger, d’innover et accomplir les grandes choses au Burundi ? Lui aussi partage la même vision que vous. Donc, Il ne vous reste plus qu’à entrer en contact, et à passer à l’action.",
+    "ferdinand_desc":["Alimasi Ferdinand Ernest est actuellement le C.E.O de KIT HUB.",
+        "Un jeune de 24 ans passionné du numérique, l’innovation et la résolution des conflits.",
+        "Il a fait ses études primaires et secondaires à l’Institut du Centre Scolaire Congolais à Bujumbura.",
+        "Il finit ses études universitaires à l'Université du lac Tanganyika où il a obtenu son diplôme baccalauréat en Informatique, option Génie Logiciel.",
+        "Il a poursuivi ses formations en anglais, en entrepreneuriat, en résolution des conflits à l’Est de la RDC par l’association ARMMK où il est vice représentant.",
+        "Il obtient aussi un certificat de participation et de félicitation dans le concours de débat dans la défense des droits des femmes où son équipe est sortie en première place.",
+        "Dans le domaine de l'informatique, il a développé un module de la bibliothèque numérique à la plateforme BMDSoft(Baccalauréat Master Doctorat Soft) qui est un logiciel qui couvre tous les flux d'informations au sein des universités au Burundi au sein de la société ICTG(Informations and Communications Technology Group).",
+        "Dans ce même domaine, il a développé un logiciel de gestion d’un parc informatique, un logiciel KIT Home, un logiciel d’une entreprise commerciale Beau Décor, et d’autres sites internet."]
   },
   "footer":{
     "col_one":"Suivez-nous sur",

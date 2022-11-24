@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { AdminLoginComponent } from './components/c-panel/admin-login/admin-login.component';
+import { AuthenticationGuard } from './components/c-panel/auth/authentication.guard';
 import { CPanelComponent } from './components/c-panel/c-panel.component';
 import { DepartmentComponent } from './components/department/department.component';
 import { DomainComponent } from './components/domain/domain.component';
@@ -43,7 +45,16 @@ const routes: Routes = [
   },
   {
     path:"cx_panel",
+    canActivate: [AuthenticationGuard],
     component: CPanelComponent
+  },
+  {
+    path:"Auth/admin/control-pannel",
+    component: CPanelComponent
+  },
+  {
+    path:"Auth/adminLogin",
+    component: AdminLoginComponent
   }
 ];
 

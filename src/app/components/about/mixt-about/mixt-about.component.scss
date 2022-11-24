@@ -6,7 +6,7 @@
 .card-1{
   background-color: #495e57;
   transition: 1s;
-  height: 65vh;
+  min-height: 65vh;
 }
 .card-1:hover{
   transform: scale(1.1);
@@ -18,7 +18,7 @@
   background-color: #ffffff;
   border-left: solid 4px #495e57;
   color: #495e57;
-  height: 65vh;
+  min-height: 65vh;
   transition: 1s;
 }
 .card-2:hover{
@@ -27,7 +27,7 @@
 .card-3{
   background-color: #495e57;
   transition: 1s;
-  height: 65vh;
+  min-height: 65vh;
 }
 .card-3:hover{
   transform: scale(1.1);

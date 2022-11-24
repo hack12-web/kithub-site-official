@@ -1,7 +1,7 @@
 <div class="container">
-  <br><br>
+  <br><br><br>
   <div class="display-6 text-center"><label class="anim-domaine" translate>home.equipe_title</label></div>
-  <br><br>
+  <br><br><br>
   <div class="row">
     <!--
     <div class="col-md-4 mt-3">
@@ -75,10 +75,41 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6">
-            <img [src]="img_one_url" class="img-fluid img-ani" alt="" srcset="">
+            <img src="assets/img/clement.jpg" class="img-fluid img-ani shadow-lg " alt="" srcset="">
           </div>
           <div class="col-sm-6">
-            <p class="txt-just">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis aut explicabo dolore exercitationem, amet nostrum voluptatum vitae ipsa laudantium, cupiditate distinctio at inventore repudiandae culpa sequi voluptates? Suscipit distinctio facere sint dolorem laudantium corrupti, consectetur accusantium libero voluptas dicta facilis aperiam quo veniam nesciunt modi? Qui architecto deserunt molestiae?</p>
+            <p class="txt-just">
+              <span><span class="fw-bold">Chris Clément Igiraneza,</span><br> est promoteur et président du conseil d’administration de KIT HUB.</span>
+              <br><br>
+              <span>
+                <!--<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Lire plus</button>-->
+                <label class="label_style" data-bs-toggle="modal" data-bs-target="#open_clement">Lire plus</label>
+              </span>
+              <br><br>
+              <span>Ir&MSc IGIRANEZA Chris Clément</span>
+              <br>
+              <span>chris.igiraneza@kit-hub.com</span>
+            </p>
+            <div class="modal fade" id="open_clement" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabelOne" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="staticBackdropLabelOne">Ir&MSc IGIRANEZA Chris Clément</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/clement.jpg" class="img-fluid shadow-lg " alt="" srcset="">
+                    <br>
+                    <p class="txt-just" translate>
+                      <br>
+                      equipe_home.clement_desc
+                      <br><br>
+                      <a href="mailto:chris.igiraneza@kit-hub.com">Ir&MSc IGIRANEZA Chris Clément</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -87,10 +118,34 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6">
-            <img [src]="img_one_url" class="img-fluid img-ani" alt="" srcset="">
+            <img [src]="img_one_url" class="img-fluid img-ani shadow-lg " alt="" srcset="">
           </div>
           <div class="col-sm-6">
-            <p class="txt-just">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quibusdam ratione sapiente vitae inventore at nisi quis, impedit dolorum, minima facilis? Recusandae ratione quas aut voluptatum quo porro. Nihil alias id maxime nostrum nulla mollitia necessitatibus assumenda. Aut modi hic possimus nihil! Deleniti mollitia commodi sapiente dignissimos assumenda quam doloremque.</p>
+            <p class="txt-just">
+              <span><span class="fw-bold">Alimasi Ferdinand Ernest,</span><br>est actuellement le C.E.O de KIT HUB.</span>
+              <br><br>
+              <label class="label_style" data-bs-toggle="modal" data-bs-target="#open_ferdinad">Lire plus</label>
+            </p>
+            <div class="modal fade" id="open_ferdinad" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="staticBackdropLabel">Ir Alimasi Ferdinand Ernest </h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img [src]="img_one_url" class="img-fluid shadow-lg " alt="" srcset="">
+                    <br>
+                    <p class="txt-just" translate>
+                      <br>
+                      equipe_home.ferdinand_desc
+                      <br><br>
+                      <a href="mailto:ferdinand-ernest.alimasi@kit-hub.com">Ir Alimasi Ferdinand Ernest</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

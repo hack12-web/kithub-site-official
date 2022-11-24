@@ -10,16 +10,14 @@ export class NewsLetterComponent implements OnInit {
 
   public myForm: FormGroup | any;
 
-  constructor(private fb : FormBuilder ) { }
-
+  constructor(private fb : FormBuilder ) {}
   public sendNewsLetters(val:any):void{
-    alert(val);
+    console.log(val);
     this.myForm.reset();
   }
   ngOnInit(): void {
     this.myForm = this.fb.group({
-      email : ['', Validators.required, Validators.email]
-    });
+      email : ['', Validators.required]
+    })
   }
-
 }

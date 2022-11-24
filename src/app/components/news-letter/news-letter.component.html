@@ -1,20 +1,27 @@
 <div class="news-letter">
-  <div class="letters">
-    <br><br><br><br>
+  <div class="letters mt-3">
+    <br><br>
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-lg-6 mt-3">
           <p class="display-4" translate>news_letter.title_one</p>
-          <br><br><br><br>
+          <br><br>
           <p class="" translate>news_letter.news_info</p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-lg-6">
           <p class="display-6" translate>news_letter.title_two</p>
           <form [formGroup]="myForm" (submit)="sendNewsLetters(myForm.value)">
-            <input formControlName="email" name="email" type="email" class="form-control"  placeholder="Ex. sarahsolo@gmail.com" autocomplete="off">
-            <br><br>
-            <button type="submit" class="btn btn-sm btn-primary" [disabled]="myForm.invalid" translate>news_letter.subscribe_btn</button>
+            <input formControlName="email" name="email" type="email" class="form-control"  placeholder="Ex. info@kit-hub.com " autocomplete="off">
+            <div *ngIf=" myForm.get('email').touched && myForm.get('email').errors?.required ">
+              <span class="text-danger">the email is required</span>
+            </div>
+            <div *ngIf=" myForm.get('email').touched && myForm.get('email').errors?.email ">
+              <span class="text-danger">the email is invalid</span>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-sm btn-primary" translate [disabled]="myForm.invalid" >news_letter.subscribe_btn</button>
           </form>
+          <br>
         </div>
       </div>
     </div>

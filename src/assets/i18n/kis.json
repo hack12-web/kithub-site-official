@@ -150,6 +150,17 @@
     "storrytelling_home_msg":"Ili kusaidia vijana katika mawazo yao, KITHUB imeanzisha vipindi vya mazungumzo viitwavyo hadithi za hadithi ambapo washauri, watu ambao wamefanikiwa katika taaluma zao hushiriki uzoefu wao na vijana na kuwaongoza katika kufanya maamuzi, usimamizi wa hatari, uvumbuzi, nk.",
     "storrytelling_home_msg_full":"Ili kusaidia vijana katika mawazo yao, KITHUB imeanzisha vipindi vya mazungumzo viitwavyo hadithi za hadithi ambapo washauri, watu ambao wamefanikiwa katika taaluma zao hushiriki uzoefu wao na vijana na kuwaongoza katika kufanya maamuzi, usimamizi wa hatari, uvumbuzi, nk. Kusimulia Hadithi ni kikao cha mkutano kati ya vijana na washauri wa kitaifa na kimataifa ambapo washauri huwaongoza kulingana na mada tofauti walizochagua."
   },
+  "equipe_home":{
+    "clement_desc":"Chris Clément Igiraneza ni promota na mwenyekiti wa bodi ya wakurugenzi ya KIT HUB. Akiwa na shauku ya uvumbuzi, ushirikiano na kazi ya jamii, yeye hufanya kazi kila wakati kukuza talanta na kuunda tena nguvu kazi ya ndani. Kwa upendo na asili yake ya Kiafrika, anatembea na nchi yake Burundi moyoni mwake na maono yake ya ubunifu. Akifahamu hitaji la masuala ya kiuchumi na uwezo wa kuajiriwa wa talanta zetu, anapigana kila siku kuleta jiwe lake kwenye jengo hilo. Baada ya kazi nzuri na tajiri ya masomo na shughuli za kitaalam nje ya nchi katika nyanja za uhandisi wa umeme na afya, nishati mbadala, sayansi halisi, maendeleo endelevu ya jamii, usimamizi wa mradi na mawasiliano bora, zaidi ya hapo awali ana hakika kuwa ni wakati wake. kurudisha bara lake, kwa nchi yake, yote aliyo nayo katika suala la mizigo ya kiakili na uzoefu wa kitaaluma. Ndio maana anaandamana kupitia ushauri wa kimkakati, kufundisha kibinafsi katika ukuzaji wa taaluma, uvumbuzi wa wafanyikazi, ukuzaji wa talanta, usimamizi wa nguvu ya mauzo, mitandao, uvumbuzi na kukuza KIT Hub. Je, unataka kuibuka, kuvumbua na kukamilisha mambo makubwa nchini Burundi? Yeye pia anashiriki maono sawa na wewe. Kwa hivyo, unachotakiwa kufanya ni kuwasiliana, na kuchukua hatua.",
+    "ferdinand_desc":["Alimasi Ferdinand Ernest kwa sasa ni C.E.O wa KIT HUB.",
+        "Kijana mwenye umri wa miaka 24 anayependa sana dijitali, uvumbuzi na utatuzi wa migogoro.",
+        "Alifanya masomo yake ya msingi na sekondari katika Institut du Centre Scolaire Congolais mjini Bujumbura.",
+        "Alimaliza masomo yake ya chuo kikuu katika Chuo Kikuu cha Ziwa Tanganyika ambapo alipata shahada ya kwanza ya Sayansi ya Kompyuta, chaguo la Uhandisi wa Programu.",
+        "Aliendelea na mafunzo yake ya Kiingereza, ujasiriamali, utatuzi wa migogoro mashariki mwa DRC na chama cha ARMMK ambapo yeye ni makamu mwakilishi.",
+        "Pia alipata cheti cha ushiriki na pongezi katika shindano la mdahalo wa kutetea haki za wanawake ambapo timu yake ilitoka nafasi ya kwanza.",
+        "Katika uwanja wa IT, ameunda moduli kutoka kwa maktaba ya dijiti hadi jukwaa la BMDSoft (Baccalaureate Master Doctorate Soft) ambayo ni programu ambayo inashughulikia mtiririko wa habari zote ndani ya vyuo vikuu nchini Burundi ndani ya jamii ICTG (Kikundi cha Teknolojia ya Habari na Mawasiliano).",
+        "Katika uwanja huu huu, ametengeneza programu ya usimamizi wa mali ya kompyuta, programu ya KIT Home, programu ya kampuni ya kibiashara ya Beau Décor, na tovuti zingine."]
+  },
   "footer":{
     "col_one":"Tufuatilie",
     "col_two_one":"Nyumbani",

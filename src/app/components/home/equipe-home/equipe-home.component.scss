@@ -38,4 +38,14 @@
 }
 .txt-just{
   text-align: justify;
+  color: black;
+}
+.label_style{
+  cursor: pointer;
+  transition: 1s;
+  text-decoration: underline;
+}
+.label_style:hover{
+  color: #495e57;
+  transform: scale(0.9);
 }
