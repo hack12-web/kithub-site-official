@@ -11,9 +11,10 @@ import {
   deleteDoc,
   snapToData
  } from '@angular/fire/firestore';
-import { BehaviorSubject, delay, of } from 'rxjs';
+import { BehaviorSubject, delay, Observable, of } from 'rxjs';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { user } from '@angular/fire/auth';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -24,12 +25,17 @@ export class SharedService {
   private _loading = new BehaviorSubject<boolean>(false);
   public readonly loading$ = this._loading.asObservable();
 
+  private readonly ApiUrl = "https://localhost:7226/api/v1";
+
   public uname: any;
   public pwd: any;
   public returnBool: boolean = false;
 
-  constructor(private firestore: Firestore, private _snackBar: MatSnackBar) { }
+  constructor(private firestore: Firestore, private _snackBar: MatSnackBar, private http: HttpClient) { }
 
+  public getCollines():Observable<any[]>{
+    return this.http.get<any[]>(this.ApiUrl+'/collines');
+  }
   public show(): void{
     this._loading.next(true);
   }

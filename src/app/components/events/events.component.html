@@ -4,10 +4,13 @@
     <div class="col-sm-12 mt-3 py-3">
       <mat-card class="shadow-lg">
         <mat-card-title>
-          <p>{{ event.event_name }}</p>
+          <p>{{ event.event_name | uppercase }}</p>
         </mat-card-title>
         <mat-card-content>
-          <p class="py-3 txt-css">{{ event.event_details }}</p>
+          <div class="text-center">
+            <img [src]="event.event_img_name ?? 'assets/img/img-placeholder.png'" class="img-fluid img-round" alt="">
+            <p class="py-3 txt-css">{{ event.event_details }}</p>
+          </div>
         </mat-card-content>
         <mat-card-actions>
           <p class="h6">{{ event.event_date.toDate() | date:'fullDate'}}</p>

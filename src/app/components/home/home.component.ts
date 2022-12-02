@@ -22,6 +22,8 @@ export class HomeComponent implements OnInit {
   public russie:boolean = false;
   public usa:boolean = false;
 
+  constructor(private fb : FormBuilder) { }
+
   public show_all():void{
     this.tous = true;
     this.burundi = false;
@@ -73,8 +75,6 @@ export class HomeComponent implements OnInit {
   public submi_news_letters(value:any){
     this.newsForm.reset();
   }
-
-  constructor(private fb : FormBuilder) { }
 
   ngOnInit(): void {
     this.newsForm = this.fb.group({

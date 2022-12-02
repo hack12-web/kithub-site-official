@@ -113,7 +113,6 @@ export function createTranslateLoader(http: HttpClient) {
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage())
-
   ],
   providers: [{
     provide : HTTP_INTERCEPTORS,

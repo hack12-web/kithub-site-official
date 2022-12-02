@@ -28,6 +28,7 @@ export class EventsComponent implements OnInit {
       this.events$ = [...response.docs.map((item) =>{
         return {...item.data(), id: item.id }
       })]
+      console.log(this.events$);
     })
   }
   openEventDetails(id : any){
