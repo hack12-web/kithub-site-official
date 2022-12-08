@@ -19,6 +19,7 @@ import {
 })
 export class BlogContentCardComponent implements OnInit {
   @Input() selectedEvents: any = [];
+
   public formComment: FormGroup | any;
   public comments:any = [];
 
@@ -27,15 +28,6 @@ export class BlogContentCardComponent implements OnInit {
 
   constructor(private fb: FormBuilder, private s_service: SharedService, private firestore: Firestore) { }
 
-  ngOnInit(): void {
-    this.getAllComment();
-    this.formComment = this.fb.group({
-      comment: ['', Validators.required],
-      name:['', Validators.required],
-      email:['', Validators.required],
-      event_name:['',Validators.required],
-    });
-  }
   public isNotEmpty(){
     return Object.keys(this.selectedEvents).length > 0;
   }
@@ -45,11 +37,20 @@ export class BlogContentCardComponent implements OnInit {
       this.comments = [...response.docs.map((item) =>{
         return {...item.data(), id: item.id }
       })]
-    })
+    });
   }
   public send_comment(val : any){
     this.s_service.post_comment(val);
     this.formComment.reset();
     this.getAllComment();
+  }
+  ngOnInit(): void {
+    this.getAllComment();
+    this.formComment = this.fb.group({
+      comment: ['', Validators.required],
+      name:['', Validators.required],
+      email:['', Validators.required],
+      event_name:[Validators.required]
+    });
   }
 }

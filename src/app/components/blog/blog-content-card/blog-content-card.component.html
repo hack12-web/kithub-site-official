@@ -6,7 +6,9 @@
     <p class="h4">{{selectedEvents.event_name}}</p>
   </mat-card-title>
   <mat-card-content>
-    <img [src]="selectedEvents.event_img_name ?? 'assets/img/img-placeholder.png'" class="img-fluid" alt="">
+    <div class="text-center">
+      <img [src]="selectedEvents.event_img_name ?? 'assets/img/img-placeholder.png'" class="img-fluid  " alt="">
+    </div>
     <p class="py-3">{{selectedEvents.event_details}}</p>
   </mat-card-content>
   <mat-card-actions>
@@ -14,7 +16,11 @@
   </mat-card-actions>
   <p class="text-center h7">REACTION</p>
   <mat-list *ngFor="let item of comments">
-    <mat-list-item *ngIf="item.event_name === selectedEvents.event_name"><small class="name">{{ item.name }}</small> :&nbsp; <span class="comment">{{ item.comment }}</span> </mat-list-item>
+    <mat-list-item *ngIf="item.event_name === selectedEvents.event_name">
+      <small class="name">{{ item.name }}</small>
+      :&nbsp;
+      <span class="comment">{{ item.comment }}</span>
+    </mat-list-item>
   </mat-list>
   <mat-divider></mat-divider>
   <mat-card-footer>
@@ -28,8 +34,8 @@
           &nbsp;
           <mat-form-field appearance="fill">
             <mat-label>Event name</mat-label>
-            <input type="text" matInput placeholder="Ex: Tech kuribose " formControlName="event_name"  name="event_name" id="event_name" autocomplete="off">
-          </mat-form-field>ō
+            <input type="text" matInput placeholder="Ex: Tech kuribose " [value]="selectedEvents.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
+          </mat-form-field>
         </div>
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Leave a comment</mat-label>
@@ -50,3 +56,5 @@
     </div>
   </mat-card-footer>
 </mat-card>
+
+<!-- Right side -->

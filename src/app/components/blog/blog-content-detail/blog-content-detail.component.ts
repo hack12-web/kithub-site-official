@@ -45,7 +45,7 @@ export class BlogContentDetailComponent implements OnInit {
       })]
       //console.log(this.events);
       this.eventsFilter = this.events;
-      console.log(this.eventsFilter);
+      // console.log(this.eventsFilter);
     })
   }
 
