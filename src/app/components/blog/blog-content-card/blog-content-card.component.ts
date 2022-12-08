@@ -47,7 +47,7 @@ export class BlogContentCardComponent implements OnInit {
   ngOnInit(): void {
     this.getAllComment();
     this.formComment = this.fb.group({
-      comment: ['', Validators.required],
+      comment:['', Validators.required],
       name:['', Validators.required],
       email:['', Validators.required],
       event_name:[Validators.required]
