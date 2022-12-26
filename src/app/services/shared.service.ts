@@ -25,17 +25,12 @@ export class SharedService {
   private _loading = new BehaviorSubject<boolean>(false);
   public readonly loading$ = this._loading.asObservable();
 
-  private readonly ApiUrl = "https://localhost:7226/api/v1";
-
   public uname: any;
   public pwd: any;
   public returnBool: boolean = false;
 
   constructor(private firestore: Firestore, private _snackBar: MatSnackBar, private http: HttpClient) { }
 
-  public getCollines():Observable<any[]>{
-    return this.http.get<any[]>(this.ApiUrl+'/collines');
-  }
   public show(): void{
     this._loading.next(true);
   }
@@ -54,13 +49,20 @@ export class SharedService {
   public post_equipe(val : any){
     const DbInstance = collection(this.firestore, 'equipe');
     addDoc(DbInstance, val).then(() =>{
-      alert("Adding successfully");
+      this.openSnackBar("Adding successfully","close");
     }).catch((error) =>{
-      alert("Adding fail :");
+      this.openSnackBar("Adding fail","close");
       console.log(error.message);
     });
   }
-  public put_equipe(val : any){ }
+  public delete_equipe(val : any){
+    const DataToDelete = doc(this.firestore, 'equipe', val);
+    deleteDoc(DataToDelete).then(() =>{
+      this.openSnackBar("Delete successful","close");
+    }).catch((error) =>{
+      this.openSnackBar(error.message,"close");
+    })
+  }
   public post_contact_us(val: any):void{
     const DbInstance = collection(this.firestore, 'contactUs');
     addDoc(DbInstance, val).then(() =>{

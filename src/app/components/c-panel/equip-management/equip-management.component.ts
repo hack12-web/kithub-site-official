@@ -44,7 +44,7 @@ import { SharedService } from 'src/app/services/shared.service';
             </div>
             <br /><br />
             <p class="text-center">
-              <button type="submit" mat-flat-button class="btn-color bnt_design ">ADD RECORD</button>
+              <button type="submit" mat-flat-button class="btn-color bnt_design" [disabled]="myForm.invalid" >ADD RECORD</button>
             </p>
           </form>
         </div>
@@ -72,7 +72,7 @@ import { SharedService } from 'src/app/services/shared.service';
             </mat-form-field>
             <br />
             <div>
-              <input aria-label="picture" type="file" name="picture"  id="picture" (change)="chooseFile($event)" />
+              <input aria-label="picture" type="file" name="picture"  id="picture" formControlName="PName" (change)="chooseFile($event)" />
             </div>
             <br /><br />
           </form>
@@ -172,8 +172,16 @@ export class EquipManagementComponent implements OnInit {
   public equipes: any = [];
   public equipesFilter: any = [];
   public _filterInput: string = "";
+  public image_url: string = "";
 
-  constructor(private fb: FormBuilder, private storage: Storage, private firestore: Firestore, private s_service: SharedService) {}
+  constructor(private fb: FormBuilder, private storage: Storage, private firestore: Firestore, private s_service: SharedService) {
+    this.myForm = this.fb.group({
+      Fname: ['', Validators.required],
+      Lname: ['', Validators.required],
+      Role : ['', Validators.required],
+      PName: ['']
+    });
+  }
 
   chooseFile(event : any){
     this.file = event.target.files[0];
@@ -192,14 +200,15 @@ export class EquipManagementComponent implements OnInit {
     },
     () => {
       getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) =>{
-        console.log('File available at', downloadURL);
+        // this.image_url = downloadURL;
+        this.myForm.value.PName = downloadURL;
       });
     })
   }
   public addEquipe(val : any){
+    this.addImg();
     this.s_service.post_equipe(val);
     this.getEquipe();
-    this.addImg();
     this.myForm.reset();
   }
   public updateEquipe(id : any){
@@ -217,13 +226,8 @@ export class EquipManagementComponent implements OnInit {
     })
   }
   public deleteEquipe(id:any){
-    const DataToDelete = doc(this.firestore, 'equipe', id);
-    deleteDoc(DataToDelete).then(() =>{
-      alert('Delete successful');
-      this.getEquipe();
-    }).catch((error) =>{
-      alert(error.message);
-    })
+    this.s_service.delete_equipe(id);
+    this.getEquipe();
   }
   public getEquipe(){
     const DbInstance = collection(this.firestore, 'equipe');
@@ -254,11 +258,5 @@ export class EquipManagementComponent implements OnInit {
   }
   ngOnInit(): void {
     this.getEquipe();
-    this.myForm = this.fb.group({
-      Fname: ['', Validators.required],
-      Lname: ['', Validators.required],
-      Role : ['', Validators.required],
-      PName: [this.file.name],
-    });
   }
 }

@@ -95,7 +95,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
               <tr>
                 <th scope="col">#Id</th>
                 <th scope="col">Event name</th>
-                <th scope="col">Event img</th>
+                <th scope="col">Event img url</th>
                 <th scope="col">Date</th>
                 <th scope="col">Event details</th>
                 <th scope="col">Update</th>
@@ -106,7 +106,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
               <tr *ngFor="let item of eventFilter">
                 <th scope="row"> {{item.id.substr(item.id.length -5) }} </th>
                 <td>{{item.event_name}}</td>
-                <td>{{item.event_img_name}}</td>
+                <td>{{item.imag_link}}</td>
                 <td>{{item.event_date.toMillis() | date:'MM/dd/yyyy' }}</td>
                 <td class="event_design">{{ item.event_details }}</td>
                   <td>
@@ -146,7 +146,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
             <tr>
               <th scope="col">#Id</th>
               <th scope="col">Event name</th>
-              <th scope="col">Event img</th>
+              <th scope="col">Event img url</th>
               <th scope="col">Date</th>
               <th scope="row" >Event details</th>
             </tr>
@@ -155,7 +155,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
             <tr *ngFor="let item of eventFilter">
               <th scope="row"> {{item.id.substr(item.id.length - 5)}} </th>
               <td>{{item.event_name}}</td>
-              <td>{{item.event_img_name}}</td>
+              <td>{{item.imag_link}}</td>
               <td>{{item.event_date.toMillis() | date:'MM/dd/yyyy' }}</td>
               <td>{{ item.event_details }}</td>
             </tr>
@@ -244,7 +244,7 @@ export class EventsManagementComponent implements OnInit {
     updateDoc(DataToUpdate, {
       event_name : this.myForm.value.event_name,
       event_details : this.myForm.value.event_details,
-      event_date : this.myForm.value.event_date
+      event_date : this.myForm.value.event_date,
     }).then(() =>{
       alert('Data updated');
       this.getEvents();
@@ -279,7 +279,6 @@ export class EventsManagementComponent implements OnInit {
       event_name : ['', Validators.required],
       event_details : ['', Validators.required],
       event_date : ['', Validators.required],
-      event_img_name : []
     });
   }
 }
