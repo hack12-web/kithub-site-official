@@ -64,7 +64,8 @@
   <div class="language">
     <button mat-button [matMenuTriggerFor]="menu_lang" aria-label="Example icon-button with a menu" class="text-white">
       <!--<label translate>header.langue</label>-->
-      <mat-icon>language</mat-icon>
+      <!-- <mat-icon>language</mat-icon> -->
+      <i class="fa-solid fa-earth-africa fa-1x"></i>
     </button>
     <mat-menu #menu_lang="matMenu">
       <button mat-menu-item>
@@ -78,9 +79,6 @@
       </button>
       <button mat-menu-item>
         <a mat-button  (click)="changeLanguage('kis')">kiswahili</a>
-      </button>
-      <button mat-menu-item>
-        <a mat-button >kirundi</a>
       </button>
     </mat-menu>
   </div>
