@@ -6,33 +6,140 @@
     <div class="row">
       <div class="col-6 col-sm mt-3"><button  class="btn-paternaire" (click)="show_all()" translate>home.btn_all_name</button></div>
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_burundi()" >Burundi</button></div>
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div>
+      <!-- <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div> -->
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_france()" >France</button></div>
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_russie()" >Russie</button></div>
+      <!-- <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_russie()" >Russie</button></div>
       <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_usa()" >Usa</button></div>
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_all()" >Tous</button></div>
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_burundi()" >Burundi</button></div>
-      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_tanzanie()" >Tanzanie</button></div>
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_all()" >Tous</button></div> -->
+      <div class="col-6 col-sm mt-3"><button mat-raised-button class="btn-paternaire" (click)="show_benin()" >Benin</button></div>
     </div>
   </div>
   <div class="container mt-3">
     <div id="tous" *ngIf="tous">
-      <p>Tous nos partenaires !</p>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner1" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner2" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner3" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner4" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner5" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner6" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner7" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner8" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner9" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner10" class="img-fluid" alt="" srcset="">
+        </div>
+        <!-- <div class="col-6 col-sm-2">
+          <img [src]="pathner11" class="img-fluid" alt="" srcset="">
+        </div> -->
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner12" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner13" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
+      <div class="row">
+        <!-- <div class="col-6 col-sm-2">
+          <img [src]="pathner14" class="img-fluid" alt="" srcset="">
+        </div> -->
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner15" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner16" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner17" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner18" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner19" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner20" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner21" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
     </div>
     <div id="burundi" *ngIf="burundi">
-      <p>Nos partenaire au burundi</p>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner1" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner2" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner3" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner4" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner5" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner6" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner8" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner9" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner10" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner18" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner20" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
     </div>
-    <div id="tanzanie" *ngIf="tanzanie">
-      <p>Nos partenaire en tanzanie</p>
+    <div id="benin" *ngIf="benin">
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner12" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
     </div>
     <div class="france" *ngIf="france">
-      <p>Nos partenaire en france </p>
-    </div>
-    <div id="russie" *ngIf="russie">
-      <p>Nos partenaire en russie</p>
-    </div>
-    <div class="usa" *ngIf="usa">
-      <p>Nos partenaire aux usa </p>
+      <div class="row">
+        <div class="col-6 col-sm-2">
+          <img [src]="pathner7" class="img-fluid" alt="" srcset="">
+        </div>
+      </div>
     </div>
   </div>
   <br><br><br><br>

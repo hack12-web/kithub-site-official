@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let item of equipes">
+      <img [src]="item.PName" alt="" srcset="">
+      <p>{{item.Fname | uppercase }} {{item.Lname | uppercase }} <br> {{item.Role}}</p>
+    </div>
+  </div>
+</div>
+<p>Hello</p>

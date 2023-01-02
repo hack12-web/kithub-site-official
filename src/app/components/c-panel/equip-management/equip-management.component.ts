@@ -38,6 +38,12 @@ import { SharedService } from 'src/app/services/shared.service';
               <textarea matInput placeholder="eg: CEO " formControlName="Role" ></textarea>
               <mat-icon matSuffix>mode_edit</mat-icon>
             </mat-form-field>
+            &nbsp;
+            <mat-form-field appearance="fill">
+              <mat-label>Description</mat-label>
+              <textarea matInput placeholder="eg: Details " formControlName="Description" ></textarea>
+              <mat-icon matSuffix>mode_edit</mat-icon>
+            </mat-form-field>
             <br />
             <div>
               <input aria-label="picture" type="file" name="picture"  id="picture" (change)="chooseFile($event)" />
@@ -70,6 +76,12 @@ import { SharedService } from 'src/app/services/shared.service';
               <textarea matInput placeholder="eg: CEO " formControlName="Role" ></textarea>
               <mat-icon matSuffix>mode_edit</mat-icon>
             </mat-form-field>
+            &nbsp;
+            <mat-form-field appearance="fill">
+              <mat-label>Description</mat-label>
+              <textarea matInput placeholder="eg: Details " formControlName="Description" ></textarea>
+              <mat-icon matSuffix>mode_edit</mat-icon>
+            </mat-form-field>
             <br />
             <div>
               <input aria-label="picture" type="file" name="picture"  id="picture" formControlName="PName" (change)="chooseFile($event)" />
@@ -84,6 +96,7 @@ import { SharedService } from 'src/app/services/shared.service';
                   <th scope="col">First name</th>
                   <th scope="col">Last name</th>
                   <th scope="col">Role</th>
+                  <th scope="col">Description</th>
                   <th scope="col" >Update</th>
                   <th scope="col" >Delete</th>
                 </tr>
@@ -94,6 +107,7 @@ import { SharedService } from 'src/app/services/shared.service';
                   <td>{{item.Fname}}</td>
                   <td>{{item.Lname}}</td>
                   <td>{{item.Role}}</td>
+                  <td>{{item.Description}}</td>
                   <td>
                     <button mat-raised-button (click)="updateEquipe(item.id)" [disabled]="myForm.invalid">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -122,7 +136,7 @@ import { SharedService } from 'src/app/services/shared.service';
           <p class="mt-3">
             <mat-form-field appearance="outline">
               <mat-label>Find By First name</mat-label>
-              <input matInput placeholder="Eg: Kaluya..." [(ngModel)]="filterInput">
+              <input matInput placeholder="Eg: Kaluya..." [(ngModel)]="filterInput" autocomplete="off">
               <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
               <mat-hint>Hint</mat-hint>
             </mat-form-field>
@@ -135,6 +149,7 @@ import { SharedService } from 'src/app/services/shared.service';
                   <th scope="col">First name</th>
                   <th scope="col">Last name</th>
                   <th scope="col">Role</th>
+                  <th scope="col">Description</th>
                   <th scope="row" >Image</th>
                 </tr>
               </thead>
@@ -144,6 +159,7 @@ import { SharedService } from 'src/app/services/shared.service';
                   <td>{{item.Fname}}</td>
                   <td>{{item.Lname}}</td>
                   <td>{{item.Role}}</td>
+                  <td>{{item.Description}}</td>
                   <td>{{item.PName }}</td>
                 </tr>
               </tbody>
@@ -179,6 +195,7 @@ export class EquipManagementComponent implements OnInit {
       Fname: ['', Validators.required],
       Lname: ['', Validators.required],
       Role : ['', Validators.required],
+      Description: ['', Validators.required],
       PName: ['']
     });
   }
@@ -201,7 +218,8 @@ export class EquipManagementComponent implements OnInit {
     () => {
       getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) =>{
         // this.image_url = downloadURL;
-        this.myForm.value.PName = downloadURL;
+        //this.myForm.value.PName = downloadURL;
+        console.log(downloadURL);
       });
     })
   }
@@ -216,7 +234,8 @@ export class EquipManagementComponent implements OnInit {
     updateDoc(DataToUpdate, {
       Fname : this.myForm.value.Fname,
       Lname : this.myForm.value.Lname,
-      Role : this.myForm.value.Role
+      Role : this.myForm.value.Role,
+      Description: this.myForm.value.Description
     }).then(() =>{
       alert('Data updated');
       this.getEquipe();

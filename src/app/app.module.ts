@@ -50,6 +50,7 @@ import { CPanelComponent } from './components/c-panel/c-panel.component';
 import { EquipManagementComponent } from './components/c-panel/equip-management/equip-management.component';
 import { EventsManagementComponent } from './components/c-panel/events-management/events-management.component';
 import { AdminLoginComponent } from './components/c-panel/admin-login/admin-login.component';
+import { EquipeDetailComponent } from './components/home/equipe-detail/equipe-detail.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -93,6 +94,7 @@ export function createTranslateLoader(http: HttpClient) {
     EquipManagementComponent,
     EventsManagementComponent,
     AdminLoginComponent,
+    EquipeDetailComponent,
   ],
   imports: [
     BrowserModule,

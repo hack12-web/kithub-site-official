@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { collection, Firestore, getDocs, } from '@angular/fire/firestore';
+import { collection, getDocs, Firestore } from '@angular/fire/firestore';
+
 @Component({
-  selector: 'app-equipe-home',
-  templateUrl: './equipe-home.component.html',
-  styleUrls: ['./equipe-home.component.scss']
+  selector: 'app-equipe-detail',
+  templateUrl: './equipe-detail.component.html',
+  styleUrls: ['./equipe-detail.component.scss']
 })
-export class EquipeHomeComponent implements OnInit {
+export class EquipeDetailComponent implements OnInit {
 
   public equipes: any = [];
 
@@ -17,9 +18,11 @@ export class EquipeHomeComponent implements OnInit {
       this.equipes = [...response.docs.map((item) =>{
         return{...item.data(), id: item.id }
       })]
+      console.log(this.equipes);
     })
   }
+
   ngOnInit(): void {
-    this.getEquipe();
   }
+
 }
