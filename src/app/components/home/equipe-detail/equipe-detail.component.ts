@@ -18,11 +18,11 @@ export class EquipeDetailComponent implements OnInit {
       this.equipes = [...response.docs.map((item) =>{
         return{...item.data(), id: item.id }
       })]
-      console.log(this.equipes);
+      // console.log(this.equipes);
     })
   }
-
   ngOnInit(): void {
+    this.getEquipe();
   }
 
 }
