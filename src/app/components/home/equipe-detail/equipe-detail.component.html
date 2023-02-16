@@ -1,11 +1,13 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-6 col-sm-6" *ngFor="let item of equipes">
-      <img [src]="item.PName" alt="" class="img-fluid" srcset="">
+    <div class="col-12 col-6" *ngFor="let item of equipes">
+      <img [src]="item.PName" alt="" class="img-fluid img-anim" srcset="">
+      <br>
       <p>{{item.Fname | uppercase }} {{item.Lname | uppercase }},{{item.Role}}</p>
+      <br>
       <hr>
       <p class="text-design" >{{item.Description}}</p>
+      <hr>
     </div>
   </div>
 </div>
-<p>Hello</p>

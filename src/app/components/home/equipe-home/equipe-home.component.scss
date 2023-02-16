@@ -32,6 +32,7 @@
 .img-ani{
   transition: 1s;
   cursor: pointer;
+  border-radius: 50%;
 }
 .img-ani:hover{
   transform: scale(0.9);
@@ -53,5 +54,5 @@
 .scrol-row{
   width: 100%;
   max-height: 50vh;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
