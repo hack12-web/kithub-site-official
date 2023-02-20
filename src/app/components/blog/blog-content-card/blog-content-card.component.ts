@@ -23,6 +23,7 @@ export class BlogContentCardComponent implements OnInit {
   public formComment: FormGroup | any;
   public comments:any = [];
 
+
   e_id: any;
   e_name: any;
 
