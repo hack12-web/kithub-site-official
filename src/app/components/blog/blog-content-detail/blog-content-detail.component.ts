@@ -26,8 +26,8 @@ export class BlogContentDetailComponent implements OnInit {
   public events: any = [];
   public eventsFilter: any = [];
   public _filterInput: string = "";
-  constructor(private firestore: Firestore) { }
 
+  constructor(private firestore: Firestore) { }
 
   public get filterInput(){
     return this._filterInput;

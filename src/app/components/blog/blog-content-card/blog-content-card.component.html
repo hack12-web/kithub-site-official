@@ -29,12 +29,12 @@
       <form [formGroup]="formComment" (submit)="send_comment(formComment.value)">
         <div *ngIf="true">
           <mat-form-field appearance="fill" *ngIf="false">
-            <input type="text" matInput placeholder="event id..." [value]="selectedEvents.id" name="event_id" id="event_id">
+            <input type="text" matInput placeholder="event id..." [ngModel]="selectedEvents.id" formControlName="event_id" name="event_id" id="event_id">
           </mat-form-field>
           &nbsp;
           <mat-form-field appearance="fill">
             <mat-label>Event name</mat-label>
-            <input type="text" matInput placeholder="Ex: Tech kuribose " [value]="selectedEvents.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
+            <input type="text" matInput placeholder="Ex: Tech kuribose " [ngModel]="selectedEvents.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
           </mat-form-field>
         </div>
         <mat-form-field class="example-full-width" appearance="fill">
