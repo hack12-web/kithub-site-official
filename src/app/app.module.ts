@@ -57,6 +57,8 @@ export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -118,11 +120,14 @@ export function createTranslateLoader(http: HttpClient) {
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage())
   ],
-  providers: [{
+  providers: [
+  {
     provide : HTTP_INTERCEPTORS,
     useClass: NetworkInterceptor,
-    multi: true
-  }],
+    multi: true,
+  },
+  {provide:LocationStrategy, useClass: HashLocationStrategy}
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
