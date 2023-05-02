@@ -26,9 +26,18 @@ export class BlogContentDetailComponent implements OnInit {
   public events: any = [];
   public eventsFilter: any = [];
   public _filterInput: string = "";
+  public countX: number = 0;
 
-  constructor(private firestore: Firestore) { }
+  constructor(private firestore: Firestore, private _service: SharedService) { }
 
+  public increaseCount(){
+    for (let index = 0; index < this.events.length; index++) {
+      const element = this.events[index];
+      console.log(element);
+    }
+    //this._service.post_events
+    this.countX ++;
+  }
   public get filterInput(){
     return this._filterInput;
   }

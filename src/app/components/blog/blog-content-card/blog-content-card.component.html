@@ -1,5 +1,23 @@
 <div *ngIf="!isNotEmpty()">
-  <p class="display-6 text-center py-5">CLICK TO THE EVENT TO READ MORE</p>
+  <!-- <app-last-news-home></app-last-news-home> -->
+  <p class="display-6 text-center announce_text py-5">CLICK TO THE EVENT TO READ MORE</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <iframe 
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkithubnews&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+          width="500" height="800" 
+          style="border:none;overflow:hidden" 
+          scrolling="no" 
+          frameborder="0" 
+          allowfullscreen="true" 
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="col-6">
+         
+      </div>
+    </div>
+  </div>
 </div>
 <mat-card class="shadow-lg mb-3 " *ngIf="isNotEmpty()">
   <mat-card-title>
@@ -10,50 +28,74 @@
       <img [src]="selectedEvents.imag_link ?? 'assets/img/img-placeholder.png'" class="img-fluid  " alt="">
     </div>
     <p class="py-3 text-design">{{selectedEvents.event_details}}</p>
+    <br>
+    {{selectedEvents.event_date.toDate() | date:'fullDate'}}
   </mat-card-content>
   <mat-card-actions>
-    <p>{{ selectedEvents.event_date.toDate() | date:'fullDate'}}</p>
+    <button mat-icon-button color="accent"><mat-icon>favorite</mat-icon></button>
+    <button mat-icon-button color="primary"><mat-icon>share</mat-icon></button>
   </mat-card-actions>
   <p class="text-center h7">REACTION</p>
-  <mat-list *ngFor="let item of comments">
-    <mat-list-item *ngIf="item.event_name === selectedEvents.event_name">
-      <small class="name">{{ item.name }}</small>
-      :&nbsp;
-      <span class="comment">{{ item.comment }}</span>
-    </mat-list-item>
-  </mat-list>
-  <mat-divider></mat-divider>
+  <div class="scrol-row">
+    <ul *ngFor="let item of comments">
+      <li *ngIf="item.event_name === selectedEvents.event_name">
+        <div class="design_chat">
+          <small><span class="name">{{ item.name }}</span> : {{ item.comment }} </small>
+          <!-- :&nbsp;
+          <span class="comment">{{ item.comment }}</span> -->
+        </div>
+      </li>
+    </ul>
+  </div>
+  <br>
+  <p class="text-center" *ngIf="!commentDisable" ><button mat-raised-button class="btn_color" (click)="windowRefresh()">Refresh</button></p>
   <mat-card-footer>
-    <p class="text-center py-3 h7">COMMENTAIRES</p>
     <div class="container">
-      <form [formGroup]="formComment" (submit)="send_comment(formComment.value)">
-        <div *ngIf="true">
-          <mat-form-field appearance="fill" *ngIf="false">
-            <input type="text" matInput placeholder="event id..." [ngModel]="selectedEvents.id" formControlName="event_id" name="event_id" id="event_id">
+      <div class="row" *ngIf="commentDisable">
+        <p class="text-center py-3 h7">COMMENTAIRES</p>
+        <form [formGroup]="formComment" (submit)="send_comment(formComment.value)">
+          <div *ngIf="true">
+            <mat-form-field appearance="fill" *ngIf="false">
+              <input type="text" matInput placeholder="event id..." [ngModel]="selectedEvents.id" formControlName="event_id" name="event_id" id="event_id">
+            </mat-form-field>
+            &nbsp;
+            <mat-form-field appearance="fill" [hidden]="true">
+              <mat-label>Event name</mat-label>
+              <input type="text" matInput placeholder="Ex: Tech kuribose " [ngModel]="selectedEvents.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
+            </mat-form-field>
+          </div>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Leave a comment</mat-label>
+            <textarea matInput placeholder="Comment..." formControlName="comment" name="comment" id="comment" autocomplete="off" class="inputsField"></textarea>
+          </mat-form-field>
+          <mat-form-field appearance="fill" [hidden]="true">
+            <mat-label>Leave your name</mat-label>
+            <input type="text" matInput placeholder="ex: Sarah Solo" formControlName="name" [ngModel]="valueAnnon" name="name" id="name" autocomplete="off">
           </mat-form-field>
           &nbsp;
-          <mat-form-field appearance="fill">
-            <mat-label>Event name</mat-label>
-            <input type="text" matInput placeholder="Ex: Tech kuribose " [ngModel]="selectedEvents.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
+          <mat-form-field appearance="fill" [hidden]="true">
+            <mat-label>Leave your email</mat-label>
+            <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" formControlName="email" [ngModel]="valueAnnon" name="email" id="email" autocomplete="off">
           </mat-form-field>
+          <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
+          <button mat-raised-button class="btn_color" [disabled]="formComment.invalid">Envoyer</button>
+        </form>
+      </div>
+      <br>
+      <div class="row">
+        <div>
+          <iframe 
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkithubnews&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+            width="500" height="800" 
+            style="border:none;overflow:hidden" 
+            scrolling="no" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
-        <mat-form-field class="example-full-width" appearance="fill">
-          <mat-label>Leave a comment</mat-label>
-          <textarea matInput placeholder="Comment..." formControlName="comment" name="comment" id="comment" autocomplete="off"></textarea>
-        </mat-form-field>
-        <mat-form-field appearance="fill">
-          <mat-label>Leave your name</mat-label>
-          <input type="text" matInput placeholder="ex: Sarah Solo" formControlName="name" name="name" id="name" autocomplete="off">
-        </mat-form-field>
-        &nbsp;
-        <mat-form-field appearance="fill">
-          <mat-label>Leave your email</mat-label>
-          <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" formControlName="email" name="email" id="email" autocomplete="off">
-        </mat-form-field>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <button mat-raised-button color="primary" [disabled]="formComment.invalid">Envoyer</button>
-      </form>
+      </div>
     </div>
+    <br>
   </mat-card-footer>
 </mat-card>
 <!-- Right side -->

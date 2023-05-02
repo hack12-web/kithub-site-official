@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SlideHomeComponent } from './components/home/slide-home/slide-home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ProgrammeHomeComponent } from './components/home/programme-home/programme-home.component';
+
 import { AboutHomeComponent } from './components/home/about-home/about-home.component';
 import { DomainHomeComponent } from './components/home/domain-home/domain-home.component';
 import { EquipeHomeComponent } from './components/home/equipe-home/equipe-home.component';
@@ -66,7 +66,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     SlideHomeComponent,
     AboutComponent,
     HeaderComponent,
-    ProgrammeHomeComponent,
+
     AboutHomeComponent,
     DomainHomeComponent,
     EquipeHomeComponent,

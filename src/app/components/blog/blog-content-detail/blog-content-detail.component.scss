@@ -1,5 +1,6 @@
 .anim-card{
-  cursor: pointer;
+  //cursor: pointer;
+  
 }
 .input-filter{
   width: 100%;
@@ -10,4 +11,14 @@
 }
 .input:hover{
 
+}
+.title_css{
+  cursor: pointer;
+}
+.title_css:hover{
+  color: #495e57;
+  transition: 1s;
+}
+.img_click{
+  cursor: pointer;
 }

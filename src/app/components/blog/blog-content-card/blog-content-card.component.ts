@@ -22,16 +22,21 @@ export class BlogContentCardComponent implements OnInit {
 
   public formComment: FormGroup | any;
   public comments:any = [];
+  public valueAnnon:string = "annoymous";
+  public commentDisable: boolean = true;
 
 
   e_id: any;
   e_name: any;
+  showOrhidden: boolean = false;
+
 
   constructor(private fb: FormBuilder, private s_service: SharedService, private firestore: Firestore) { }
 
   public isNotEmpty(){
     return Object.keys(this.selectedEvents).length > 0;
   }
+  
   public getAllComment(){
     const DbInstance = collection(this.firestore, 'comments');
     getDocs(DbInstance).then((response) =>{
@@ -44,6 +49,10 @@ export class BlogContentCardComponent implements OnInit {
     this.s_service.post_comment(val);
     this.formComment.reset();
     this.getAllComment();
+    this.commentDisable = false;
+  }
+  public windowRefresh(){
+    window.location.reload();
   }
   ngOnInit(): void {
     this.getAllComment();
