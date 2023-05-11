@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { SharedService } from 'src/app/services/shared.service';
 
 import {
@@ -18,20 +18,24 @@ import { EventDialogComponent } from './event-dialog/event-dialog.component';
 })
 export class EventsComponent implements OnInit {
 
-  events$!: Observable<any[]> | any;
+  @Output() shareEvent = new EventEmitter(); 
+
+  events: Observable<any[]> | any;
+
+  currentItem = "Television";
 
   constructor(private firestore: Firestore, public dialog: MatDialog) { }
 
-  public async get_all_events(){
-    const DbInstance = await collection(this.firestore, 'events');
+  public get_all_events(){
+    const DbInstance = collection(this.firestore, 'events');
     getDocs(DbInstance).then((response) =>{
-      this.events$ = [...response.docs.map((item) =>{
+      this.events = [...response.docs.map((item) =>{
         return {...item.data(), id: item.id }
       })]
-      console.log(this.events$);
+      // console.log(this.events$);
     })
   }
-  openEventDetails(id : any){
+  public OpenEventDetails(){
     //alert(id);
    const dialogRef = this.dialog.open(EventDialogComponent);
    dialogRef.afterClosed().subscribe(result => {
@@ -40,5 +44,9 @@ export class EventsComponent implements OnInit {
   }
   ngOnInit(): void {
     this.get_all_events();
+  }
+  public selectEvent(event : any){
+    this.shareEvent.emit(event);
+    this.OpenEventDetails();
   }
 }

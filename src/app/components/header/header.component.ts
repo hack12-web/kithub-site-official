@@ -15,7 +15,12 @@ export class HeaderComponent implements OnInit {
   constructor( private serviceTranslate: TranslateConfigService, private dialog: MatDialog ) {
     this.getTime();
   }
-
+  public scrollTop(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+  public scrollBottom(){
+    window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
+  }
   public getDate():string{
     return new Date().toLocaleDateString();
   }

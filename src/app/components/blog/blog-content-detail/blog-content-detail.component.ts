@@ -23,6 +23,7 @@ import {
 export class BlogContentDetailComponent implements OnInit {
 
   @Output() sendEvents = new EventEmitter();
+  
   public events: any = [];
   public eventsFilter: any = [];
   public _filterInput: string = "";

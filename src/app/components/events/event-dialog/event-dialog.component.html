@@ -1,1 +1,31 @@
-<p>event-dialog works!</p>
+<h2 mat-dialog-title>Event title</h2>
+<mat-dialog-content class="mat-typography">
+  <div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 mt-3">
+          {{ selectedEvent | json }}
+            <mat-card class="shadow-lg card-design" *ngIf="isNotEmpty()">
+                <mat-card-title>
+                  <p>{{ selectedEvent.event_name | uppercase }}</p>
+                </mat-card-title>
+                <mat-card-content>
+                  <div class="text-center">
+                    <img [src]="selectedEvent.imag_link ?? 'assets/img/img-placeholder.png'" class="img-fluid shadow-lg" alt="">
+                    <p class="py-3 txt-css">{{ selectedEvent.event_details }}</p>
+                  </div>
+                  <p class="h6">{{ selectedEvent.event_date.toDate() | date:'fullDate'}}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                  
+                </mat-card-actions>
+            </mat-card>
+
+        </div>
+    </div>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button>
+</mat-dialog-actions>

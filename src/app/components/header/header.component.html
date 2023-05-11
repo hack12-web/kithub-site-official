@@ -58,7 +58,7 @@
     <a routerLink="department" class="menu-item" translate>header.element_six <small>&</small><a translate> header.element_seven</a></a>
   </div>
   <div class="calender">
-    <a class="element-cal">{{ getDate() }}</a>
+    <a class="element-cal date-design">{{ getDate() }}</a>
     <a class="element-cal">{{ time }}</a>
   </div>
   <div class="language">
@@ -84,5 +84,9 @@
   </div>
   <div class="contact">
     <button class="header-contact"  (click)="openDialog()"  translate>header.element_eight</button>
+  </div>
+  <div>
+    <button mat-icon-button class="arrow-design" (click)="scrollTop()"><mat-icon>arrow_upward</mat-icon></button>
+    <button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button>
   </div>
 </mat-toolbar>

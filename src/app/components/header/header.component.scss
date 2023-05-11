@@ -72,12 +72,22 @@ small a{
   background-color: white;
   color: #495e57;
 }
+.arrow-design{
+  color: white;
+  transition: 1s
+}
+.arrow-design:hover{
+  filter: drop-shadow(0 0 2em #646cffaa)
+}
 @media only screen and (max-width: 700px) {
   .language{
     display: none;
   }
   .inside-menu{
     display: block;
+  }
+  .date-design{
+    display: none;
   }
 }
 @media only screen and (max-width: 1190px){

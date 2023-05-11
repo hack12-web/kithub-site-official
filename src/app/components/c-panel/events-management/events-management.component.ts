@@ -277,6 +277,7 @@ export class EventsManagementComponent implements OnInit {
     this.getEvents();
     this.myForm = this.fb.group({
       event_name : ['', Validators.required],
+      imag_link: [''],
       event_details : ['', Validators.required],
       event_date : ['', Validators.required],
     });

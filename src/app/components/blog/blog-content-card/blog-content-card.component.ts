@@ -18,6 +18,7 @@ import {
   styleUrls: ['./blog-content-card.component.scss']
 })
 export class BlogContentCardComponent implements OnInit {
+  
   @Input() selectedEvents: any = [];
 
   public formComment: FormGroup | any;
