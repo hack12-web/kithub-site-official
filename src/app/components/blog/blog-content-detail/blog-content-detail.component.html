@@ -7,7 +7,7 @@
   <mat-card class="shadow-lg anim-card">
     <mat-card-title>
       <p *ngIf=" event.count === 1"></p>
-      <p class="h4 title_css" (click)="selectEvent(event)">{{event.event_name }}</p>
+      <p class="h5 title_css" (click)="selectEvent(event)">{{event.event_name }}</p>
     </mat-card-title>
     <mat-card-content>
       <!-- img -->
@@ -19,5 +19,6 @@
   </mat-card>
   <br>
 </div>
+<mat-paginator [length]="100" [pageSize]="defaultRecords" [pageSizeOptions]="[5, 10, 25, 100]" (page)="pageEvent = $event; onPaginateChange($event)"></mat-paginator>
 
 <!-- Left Card -->

@@ -1,5 +1,6 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 import { SharedService } from 'src/app/services/shared.service';
+import { MatPaginator, PageEvent } from '@angular/material/paginator';
 
 import {
   Firestore,
@@ -19,10 +20,16 @@ import { EventDialogComponent } from './event-dialog/event-dialog.component';
 export class EventsComponent implements OnInit {
 
   @Output() shareEvent = new EventEmitter(); 
+  @ViewChild(MatPaginator) paginator : MatPaginator | undefined;
 
-  events: Observable<any[]> | any;
+  events: any[] = [];
+  collection: any[] = [];
+  pageEvent: PageEvent | any;
+  public eventFilter: any[] = [];
 
   currentItem = "Television";
+
+  defaultRecords: any = 5;
 
   constructor(private firestore: Firestore, public dialog: MatDialog) { }
 
@@ -32,8 +39,8 @@ export class EventsComponent implements OnInit {
       this.events = [...response.docs.map((item) =>{
         return {...item.data(), id: item.id }
       })]
-      // console.log(this.events$);
-    })
+      this.collection = this.events.slice(0, this.defaultRecords);
+    });
   }
   public OpenEventDetails(){
     //alert(id);
@@ -45,8 +52,11 @@ export class EventsComponent implements OnInit {
   ngOnInit(): void {
     this.get_all_events();
   }
+  onPaginateChange(data:any) {
+    this.collection = this.events.slice(0, data.pageSize);
+  }
   public selectEvent(event : any){
-    this.shareEvent.emit(event);
-    this.OpenEventDetails();
+    // this.shareEvent.emit(event);
+    // this.OpenEventDetails();
   }
 }

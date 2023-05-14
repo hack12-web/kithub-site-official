@@ -1,10 +1,10 @@
 <app-event-slide></app-event-slide>
-<section class="container" *ngFor="let event of events">
+<section class="container" *ngFor="let event of collection" >
   <div class="row">
     <div class="col-sm-12 mt-3 py-3">
       <mat-card class="shadow-lg card-design" (click)="selectEvent(event)">
         <mat-card-title>
-          <p class="">{{ event.event_name | uppercase }}</p>
+          <p class="h5">{{ event.event_name | uppercase }}</p>
         </mat-card-title>
         <mat-card-content>
           <div class="text-center">
@@ -20,6 +20,7 @@
     </div>
   </div>
 </section>
+<mat-paginator [length]="100" [pageSize]="defaultRecords" [pageSizeOptions]="[5, 10, 25, 100]" (page)="pageEvent = $event; onPaginateChange($event)"></mat-paginator>
 
 <div>
   <app-news-letter></app-news-letter>

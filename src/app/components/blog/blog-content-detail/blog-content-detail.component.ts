@@ -14,6 +14,7 @@ import {
   deleteDoc,
   snapToData
  } from '@angular/fire/firestore';
+import { PageEvent } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-blog-content-detail',
@@ -25,9 +26,12 @@ export class BlogContentDetailComponent implements OnInit {
   @Output() sendEvents = new EventEmitter();
   
   public events: any = [];
+  public collection: any[] = []
   public eventsFilter: any = [];
   public _filterInput: string = "";
   public countX: number = 0;
+  defaultRecords: any = 5;
+  pageEvent: PageEvent | any;
 
   constructor(private firestore: Firestore, private _service: SharedService) { }
 
@@ -55,12 +59,16 @@ export class BlogContentDetailComponent implements OnInit {
       })]
       //console.log(this.events);
       this.eventsFilter = this.events;
-      // console.log(this.eventsFilter);
+      this.eventsFilter = this.events.slice(0, this.defaultRecords);
+      
     })
   }
 
   ngOnInit(): void {
     this.getEvent();
+  }
+  onPaginateChange(data:any) {
+    this.eventsFilter = this.events.slice(0, data.pageSize);
   }
   public filterEventByName(filterTerm: string){
     if(this.events === 0 || this.filterInput ==='')
