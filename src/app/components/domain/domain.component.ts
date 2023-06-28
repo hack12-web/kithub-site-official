@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DomainComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {

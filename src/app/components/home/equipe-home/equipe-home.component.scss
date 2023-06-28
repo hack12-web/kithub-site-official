@@ -2,11 +2,13 @@
   cursor: pointer;
   transition: 1s;
   position: relative;
+  color: #3e53a4;
 }
 .anim-domaine::before{
   content: '';
   position: absolute;
-  background-color: #495e57;
+  // background-color: #495e57;
+  background-color: #3e53a4;
   height: 3px;
   width: 100px;
   bottom: -10px;
@@ -26,7 +28,8 @@
   }
 }
 .anim-domaine:hover{
-  color: #495e57;
+  // color: #495e57;
+  color: #3e53a4;
   transform: scale(0.8);
 }
 .img-ani{
@@ -48,7 +51,8 @@
   float: right;
 }
 .label_style:hover{
-  color: #495e57;
+  // color: #495e57;
+  color: #3e53a4;
   transform: scale(0.9);
 }
 .scrol-row{

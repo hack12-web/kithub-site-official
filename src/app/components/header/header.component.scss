@@ -1,3 +1,107 @@
+*{
+  // background-color: #000;
+  // min-height: 200vh;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: auto;
+  display: none;
+  cursor: pointer;
+}
+#check{
+  display: none;
+}
+nav{
+  // width: 100%;
+  // height: 100px;
+  // background-color: #3e53a4;
+  // position: static;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 30px 80px;
+  z-index: 100000;
+  text-transform: uppercase;
+}
+nav.sticky{
+  padding: 5px 50px;
+  background-color: #3e53a4;
+}
+nav.sticky ul li a{
+  color: #fff;
+}
+nav .logo{
+  position: relative;
+  font-weight: 700;
+  color: #3e53a4;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+nav ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+  position: relative;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.5s;
+}
+nav ul li a:focus {
+  background-color: #fff;
+  color: #3e53a4;
+  transition: 0.5s;
+  border-radius: 20px;
+  padding: 5px;
+}
+nav ul li a.active, a:hover{
+  // background: white;
+  // transition: .5s;
+}
+ol{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  z-index: 1;
+}
+ol a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+ol:focus{
+  display: block;
+}
+// .banner{
+//   position: relative;
+//   width: 100%;
+//   height: 100vh;
+//   background: url(/assets/img/kithub_back.png) no-repeat scroll;
+//   // background: url(/assets/img/kitone.jpg) no-repeat scroll;
+//   background-size: cover;
+// }
+
 small a{
   text-decoration: none;
   color: black;
@@ -47,7 +151,8 @@ small a{
 .header-contact{
   width: auto;
   height: auto;
-  background-color: #495e57;
+  // background-color: #495e57;
+  background-color: #3e53a4;
   color: white;
   border: white 1px solid;
   border-radius: 5px;
@@ -56,12 +161,14 @@ small a{
 }
 .header-contact:hover{
   background-color: white;
-  color: #495e57;
+  // color: #495e57;
+  color: #3e53a4;
 }
 .contact-mob{
   width: auto;
   height: auto;
-  background-color: #495e57;
+  // background-color: #495e57;
+  background-color: #3e53a4;
   color: white;
   border: white 1px solid;
   border-radius: 5px;
@@ -70,7 +177,8 @@ small a{
 }
 .contact-mob:hover{
   background-color: white;
-  color: #495e57;
+  // color: #495e57;
+  color: #3e53a4;
 }
 .arrow-design{
   color: white;
@@ -101,6 +209,22 @@ small a{
 @media only screen and (max-width: 1310px)
 {
   .header-contact{
+    display: none;
+  }
+}
+@media (max-width: 960px)
+{
+  .checkbtn{
+    display: block;
+  }
+  nav ul{
+    // position: fixed;
+    // width: 100%;
+    // height: 100vh;
+    // background-color: #3e53a4;
+    // line-height: 10px;
+  }
+  nav ul{
     display: none;
   }
 }

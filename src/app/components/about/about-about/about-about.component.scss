@@ -1,12 +1,14 @@
 .anim-text{
-  cursor: pointer;
+  // cursor: pointer;
   transition: 1s;
   position: relative;
+  color: #3e53a4;
 }
 .anim-text::before{
   content: '';
   position: absolute;
-  background-color: #495e57;
+  // background-color: #495e57;
+  background-color: #3e53a4;
   height: 3px;
   width: 100px;
   bottom: -10px;
@@ -26,16 +28,24 @@
   }
 }
 .anim-text:hover{
-  color: #495e57;
-  transform: scale(0.8);
+  // color: #495e57;
+  // color: #3e53a4;
+  // transform: scale(0.8);
 }
 .rs-1{
-  border: solid 4px #495e57;
+  border: solid 4px #3e53a4;
 }
 .cs-1{
-  background-color: #495e57;
+  background-color: #3e53a4;
   color: white;
 }
 .historique-text{
   text-align: justify;
+}
+.view_button{
+  width: 90px;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  color: #3e53a4;
 }

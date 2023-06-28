@@ -1,18 +1,23 @@
 <section class="container">
   <br><br><br><br>
   <div>
-    <p class="display-6 text-center"><label class="anim-text" translate>about.about_title_one</label></p>
+    <p class="display-6 text-center"><label class="anim-text" translate data-aos="fade-down">about.about_title_one</label></p>
   </div>
   <br><br><br><br>
-  <div class="row rs-1 shadow-lg">
+  <div class="row rs-1 shadow-lg" data-aos="fade-up">
     <div class="col-sm-6 mt-3">
-      <img src="assets/img/002.png" class="img-fluid" alt="">
+      <img src="assets/img/historiqueO.jpg" class="img-fluid" alt="" data-aos="fade-up">
+      <img src="assets/img/historique.jpg" class="img-fluid mt-2 mb-2" alt="" data-aos="fade-up">
     </div>
-    <div class="col-sm-6 cs-1">
+    <div class="col-sm-6 cs-1 text-center" data-aos="fade-up">
       <p class="historique-text" translate><br>
-        <span class="h4" translate>about.about_historique_title</span><br><br>
-        about.about_historique_msg
+        <span class="h4" translate data-aos="fade-up">about.about_historique_title</span>
+        <br><br>
+        <span translate data-aos="fade-up">about.about_historique_msg_one</span>
+        <br>
+        <span translate *ngIf="setVisible" data-aos="fade-up">about.about_historique_msg_two</span>
       </p>
+      <button class="view_button" (click)="viewAction()" data-aos="fade-down" >{{ textButton }}</button>
     </div>
   </div>
 </section>

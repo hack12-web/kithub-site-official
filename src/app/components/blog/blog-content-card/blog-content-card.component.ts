@@ -23,7 +23,7 @@ export class BlogContentCardComponent implements OnInit {
 
   public formComment: FormGroup | any;
   public comments:any = [];
-  public valueAnnon:string = "annoymous";
+  public valueAnnon:string = "anonymous";
   public commentDisable: boolean = true;
 
 

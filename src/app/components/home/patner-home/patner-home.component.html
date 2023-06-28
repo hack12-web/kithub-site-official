@@ -15,80 +15,91 @@
     </div>
   </div>
   <div class="container mt-3">
-    <div id="tous" *ngIf="tous">
-      <div class="row">
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner1" class="img-fluid" alt="" srcset="">
+    <section id="tous" *ngIf="tous" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner1" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner2" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner3" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner4" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner5" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner6" class="img-fluid" alt="" srcset="">
+          </div>
         </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner2" class="img-fluid" alt="" srcset="">
+        <div class="row">
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner7" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner8" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner9" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner10" class="img-fluid" alt="" srcset="">
+          </div>
+          
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner12" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner13" class="img-fluid" alt="" srcset="">
+          </div>
         </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner3" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner4" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner5" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner6" class="img-fluid" alt="" srcset="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner7" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner8" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner9" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner10" class="img-fluid" alt="" srcset="">
-        </div>
-        <!-- <div class="col-6 col-sm-2">
-          <img [src]="pathner11" class="img-fluid" alt="" srcset="">
-        </div> -->
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner12" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner13" class="img-fluid" alt="" srcset="">
-        </div>
-      </div>
-      <div class="row">
-        <!-- <div class="col-6 col-sm-2">
-          <img [src]="pathner14" class="img-fluid" alt="" srcset="">
-        </div> -->
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner15" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner16" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner17" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner18" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner19" class="img-fluid" alt="" srcset="">
-        </div>
-        <div class="col-6 col-sm-2">
-          <img [src]="pathner20" class="img-fluid" alt="" srcset="">
+        <div class="row">
+         
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner15" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner16" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner17" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner18" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner19" class="img-fluid" alt="" srcset="">
+          </div>
+          <div class="col-6 col-sm-2">
+            <img [src]="pathner20" class="img-fluid" alt="" srcset="">
+          </div>
         </div>
       </div>
-      <div class="row">
+      <!-- <swiper [config]="config">
+        <div class="swiper-wrapper">
+          <img class="swiper-slide img-fluid " [src]="pathner1" />
+          <img class="swiper-slide img-fluid " [src]="pathner2" />
+          <img class="swiper-slide img-fluid " [src]="pathner3" />
+          <img class="swiper-slide img-fluid " [src]="pathner4" />
+          <img class="swiper-slide img-fluid " [src]="pathner5" />
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </swiper> -->
+      
+      <!-- <div class="row">
         <div class="col-6 col-sm-2">
           <img [src]="pathner21" class="img-fluid" alt="" srcset="">
         </div>
-      </div>
-    </div>
-    <div id="burundi" *ngIf="burundi">
+      </div>-->
+    </section>
+    <div id="burundi" *ngIf="burundi" data-aos="fade-right">
       <div class="row">
         <div class="col-6 col-sm-2">
           <img [src]="pathner1" class="img-fluid" alt="" srcset="">
@@ -127,14 +138,14 @@
         </div>
       </div>
     </div>
-    <div id="benin" *ngIf="benin">
+    <div id="benin" *ngIf="benin" data-aos="fade-left">
       <div class="row">
         <div class="col-6 col-sm-2">
           <img [src]="pathner12" class="img-fluid" alt="" srcset="">
         </div>
       </div>
     </div>
-    <div class="france" *ngIf="france">
+    <div class="france" *ngIf="france" data-aos="fade-down">
       <div class="row">
         <div class="col-6 col-sm-2">
           <img [src]="pathner7" class="img-fluid" alt="" srcset="">

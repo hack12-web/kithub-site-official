@@ -12,8 +12,14 @@ export class HeaderComponent implements OnInit {
 
   public time:string = new Date().toLocaleTimeString();
 
+  
   constructor( private serviceTranslate: TranslateConfigService, private dialog: MatDialog ) {
     this.getTime();
+
+    window.addEventListener("scroll", function(){
+      var nav = document.querySelector("nav");
+      nav?.classList.toggle("sticky", window.scrollY > 0);
+    });
   }
   public scrollTop(){
     window.scrollTo({top:0, behavior:'smooth'});
@@ -41,6 +47,7 @@ export class HeaderComponent implements OnInit {
     });
   }
   ngOnInit(): void {
+    
   }
 
 }

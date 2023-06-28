@@ -1,19 +1,19 @@
 <div class="container">
   <br><br><br><br>
-  <div><p class="display-6 text-center"><label class="anim-domaine" translate>header.element_six</label></p></div>
+  <div><p class="display-6 text-center"><label class="anim-domaine" translate data-aos="fade-up">header.element_six</label></p></div>
   <br><br><br>
   <div class="row">
-    <div class="col-lg-3">
+    <!-- <div class="col-lg-3">
       <mat-card class="shadow-lg card-anim-dep mt-3">
         <p class="h4 dep-card-title text-center">CATA</p>
         <mat-card-content>
           <p class="text-femm-dev" translate>home.cata_message</p>
         </mat-card-content>
       </mat-card>
-    </div>
-    <div class="col-lg-3">
+    </div> -->
+    <div class="col-lg-4" data-aos="fade-left">
       <mat-card class="shadow-lg card-anim-dep mt-3">
-        <p class="h4 dep-card-title text-center">COMLAB</p>
+        <h2 class="dep-card-title text-center">COMLAB</h2>
         <mat-card-content>
           <p class="text-femm-dev" translate>
             home.comlab_message
@@ -22,9 +22,9 @@
         </mat-card-content>
       </mat-card>
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-4" data-aos="fade-up">
       <mat-card class="shadow-lg card-anim-dep mt-3">
-        <p class="h4 dep-card-title text-center">WEA</p>
+        <h2 class="dep-card-title text-center">WEA</h2>
         <mat-card-content>
           <p class="text-femm-dev" translate>
             home.wea_message
@@ -32,9 +32,9 @@
         </mat-card-content>
       </mat-card>
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-4" data-aos="fade-right">
       <mat-card class="shadow-lg card-anim-dep mt-3">
-        <p class="h4 dep-card-title text-center">HUDI</p>
+        <h2 class="dep-card-title text-center">HUDI</h2>
         <mat-card-content>
           <p class="text-femm-dev" translate>
             home.hudi_message
@@ -47,6 +47,8 @@
   </div>
   <br><br>
   <div class="row">
-    <p class="text-center"><button routerLink="department" class="more-btn btn btn-sm btn-light" translate>home.dep_home_btn</button></p>
+    <a href="/#department" class="text-center">
+      <button class="more-btn btn btn-sm btn-light" translate>home.dep_home_btn</button>
+    </a>
   </div>
 </div>

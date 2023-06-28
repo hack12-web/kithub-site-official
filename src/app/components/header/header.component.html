@@ -1,4 +1,42 @@
-<mat-toolbar class="fixed-top c-toolbar shadow-lg">
+<nav>
+  <a href="/#" class="logo">
+    <img src="assets/img/Logokitwhit.png" class="home-img" width="100px" height="60px" alt="">
+  </a>
+  <ul>
+    <li><a href="/#" class="active">Acceuil</a></li>
+    <li><a href="/#about">A propos</a></li>
+    <li><a href="/#domain">Domaines</a></li>
+    <li><a href="/#events">Evenements</a></li>
+    <li><a href="/#blog">Blog</a></li>
+    <li><a href="/#department">Departement</a></li>
+    <li class="dropdown">
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      <ol>
+        <li><a href="">Français</a></li>
+        <li><a href="">English</a></li>
+        <li><a href="">Kiswahili</a></li>
+        <li><a href="">Swenden</a></li>
+      </ol>
+    </li>
+    <li><a ><button class="header-contact"  (click)="openDialog()"  translate>header.element_eight</button></a></li>
+    <li><a class="element-cal">{{ time }}</a></li>
+    <li><button mat-icon-button class="arrow-design" (click)="scrollTop()"><mat-icon>arrow_upward</mat-icon></button></li>
+    <li><button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button></li>
+  </ul>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+</nav>
+
+
+<section class="banner">
+  <!-- <script src="text/javascript">
+    window.addEventListener("scroll", function(){
+      var nav = document.querySelector("nav");
+      nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script> -->
+</section>
+<!-- <mat-toolbar class="fixed-top c-toolbar shadow-lg">
   <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="text-white menu_point">
     <mat-icon>more_vert</mat-icon>
   </button>
@@ -25,7 +63,7 @@
     <mat-divider></mat-divider>
     <button mat-menu-item>
       <mat-icon>language</mat-icon>
-      <small><a routerLink="blog" translate>header.element_five</a></small>
+      <small><a routerLink="blog" translate>header.element_five</a></small>s
     </button>
     <button mat-menu-item>
       <mat-icon>contact</mat-icon>
@@ -63,8 +101,8 @@
   </div>
   <div class="language">
     <button mat-button [matMenuTriggerFor]="menu_lang" aria-label="Example icon-button with a menu" class="text-white">
-      <!--<label translate>header.langue</label>-->
-      <!-- <mat-icon>language</mat-icon> -->
+      <label translate>header.langue</label>
+      <mat-icon>language</mat-icon>
       <i class="fa-solid fa-earth-africa fa-1x"></i>
     </button>
     <mat-menu #menu_lang="matMenu">
@@ -89,4 +127,4 @@
     <button mat-icon-button class="arrow-design" (click)="scrollTop()"><mat-icon>arrow_upward</mat-icon></button>
     <button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button>
   </div>
-</mat-toolbar>
+</mat-toolbar> -->

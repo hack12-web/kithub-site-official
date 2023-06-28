@@ -4,8 +4,9 @@
   background-color: #ffffff;
 }
 .card-1{
-  background-color: #495e57;
-  transition: 1s;
+  // background-color: #495e57;
+  background-color: #3e53a4;
+  transition: 2s;
   min-height: 65vh;
 }
 .card-1:hover{
@@ -16,17 +17,20 @@
 }
 .card-2{
   background-color: #ffffff;
-  border-left: solid 4px #495e57;
-  color: #495e57;
+  // border-left: solid 4px #495e57;
+  border-left: solid 4px #3e53a4;
+  // color: #495e57;
+  color: #3e53a4;
   min-height: 65vh;
-  transition: 1s;
+  transition: 2s;
 }
 .card-2:hover{
   transform: scale(1.1);
 }
 .card-3{
-  background-color: #495e57;
-  transition: 1s;
+  // background-color: #495e57;
+  background-color: #3e53a4;
+  transition: 2s;
   min-height: 65vh;
 }
 .card-3:hover{

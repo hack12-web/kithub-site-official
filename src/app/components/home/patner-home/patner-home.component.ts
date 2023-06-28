@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SwiperOptions } from 'swiper';
 
 @Component({
   selector: 'app-patner-home',
@@ -30,6 +31,15 @@ export class PatnerHomeComponent implements OnInit {
   pathner21: string = "https://firebasestorage.googleapis.com/v0/b/kithub-fire.appspot.com/o/pathner%2F021.jpg?alt=media&token=9d06afe3-cb62-4d52-8c32-a623fc684a10";
 
   constructor() { }
+
+  config: SwiperOptions = {
+    pagination: { el: '.swiper-pagination', clickable: true },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    spaceBetween: 30
+  };
 
   public isHidden: boolean = true;
   public tous:boolean = true;
@@ -63,6 +73,6 @@ export class PatnerHomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-  }
 
+  }
 }

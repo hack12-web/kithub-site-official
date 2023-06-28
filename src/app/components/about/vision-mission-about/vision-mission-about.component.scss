@@ -1,11 +1,12 @@
 .sec-2{
-  background: #495e57;
+  // background: #495e57;
+  background-color: #3e53a4;
   width: 100%;
   height: auto;
   color: white;
 }
 .anim-text{
-  cursor: pointer;
+  // cursor: pointer;
   transition: 1s;
   position: relative;
 }
@@ -32,11 +33,12 @@
   }
 }
 .anim-text:hover{
-  color: #bdd0c9;
-  transform: scale(0.8);
+  // color: #bdd0c9;
+  // transform: scale(0.8);
 }
 .objectifif-text{
   text-align: justify;
+  color: #3e53a4;
 }
 .rs-2{
   border: solid 4px white;
@@ -47,4 +49,13 @@
 }
 .miss-text{
   text-align: justify;
+  color: #3e53a4;
+}
+.object-global-text{
+  text-align: justify;
+  color: white;
+}
+.object-specific-text{
+  text-align: justify;
+  color: white;
 }

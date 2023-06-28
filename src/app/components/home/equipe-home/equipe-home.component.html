@@ -71,19 +71,12 @@
       </mat-card>
     </div>
     -->
-    <div class="col-6 col-sm-3" *ngFor="let item of equipes">
-      <div class="container-fluid">
-        <div class="row">
-          <div>
-            <img [src]="item.PName" class="img-fluid img-ani shadow-lg " alt="" srcset="">
-          </div>
-          <br><br>
-          <div>
-            <p class="txt-just">
-              <span><span class="fw-bold">{{item.Fname | uppercase }} {{item.Lname | uppercase }}</span><br> {{item.Role}} </span>
-            </p>
-          </div>
-          <br>
+    <div class="col-md-3" *ngFor="let item of equipes">
+      <div class="card mt-3">
+        <img [src]="item.PName" class="card-img-top shadow-lg " alt="" srcset="">
+        <div class="card-body">
+          <h3 class="card-title">{{item.Fname}} {{item.Lname}}</h3>
+          <p class="card-text"> {{ item.Role }} </p>
         </div>
       </div>
     </div>

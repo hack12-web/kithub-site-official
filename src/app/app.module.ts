@@ -57,7 +57,16 @@ export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
+import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { LightgalleryModule } from 'lightgallery/angular';
+
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { DomainSlideComponent } from './components/domain/domain-slide/domain-slide.component';
+import { InnotechComponent } from './components/domain/innotech/innotech.component';
+import { ReveiventionComponent } from './components/domain/reveivention/reveivention.component';
+import { CreationComponent } from './components/domain/creation/creation.component';
+import { EducationComponent } from './components/domain/education/education.component';
+import { DeveloppementComponent } from './components/domain/developpement/developpement.component';
 
 @NgModule({
   declarations: [
@@ -99,6 +108,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AdminLoginComponent,
     EquipeDetailComponent,
     HeaderBarComponent,
+    DomainSlideComponent,
+    InnotechComponent,
+    ReveiventionComponent,
+    CreationComponent,
+    EducationComponent,
+    DeveloppementComponent,
   ],
   imports: [
     BrowserModule,
@@ -108,6 +123,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    NgxUsefulSwiperModule,
+    LightgalleryModule,
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
@@ -127,6 +144,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     multi: true,
   },
   {provide:LocationStrategy, useClass: HashLocationStrategy}
+
 ],
   bootstrap: [AppComponent]
 })

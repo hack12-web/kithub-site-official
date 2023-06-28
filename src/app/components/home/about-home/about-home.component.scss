@@ -2,17 +2,19 @@
   transition: 1s;
   cursor: pointer;
 }
-.kithub-logo:hover{
-  transform: scale(1.1);
-}
+// .kithub-logo:hover{
+//   transform: scale(1.1);
+// }
 .nos-prog{
   cursor: pointer;
   transition: 1s;
+  color: #3e53a4;
 }
-.nos-prog:hover{
-  color: #495e57;
-  transform: scale(1.1);
-}
+// .nos-prog:hover{
+//   // color: #495e57;
+//   color: #3e53a4;
+//   transform: scale(1.1);
+// }
 .text-femm-dev{
   text-align: justify;
 }
@@ -20,7 +22,8 @@
   transition: 1s;
 }
 .more-btn:hover{
-  background: #495e57;
+  // background: #495e57;
+  background: #3e53a4;
   color: white;
   transform: scale(1.2);
 }
