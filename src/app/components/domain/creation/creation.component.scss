@@ -1,9 +1,40 @@
 
-.devise-txt{
+  .devise-txt{
     text-align: justify;
     color: white;
-    margin-top: 10rem;
+    margin-top: 13rem;
     font-size: 17px;
+  }
+  .anim-text{
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    /*color: #495e57;*/
+    color: #3e53a4;
+  }
+  .anim-text::before{
+    content: '';
+    position: absolute;
+    //background-color: white;
+    // background-color: #495e57;
+    background-color: #3e53a4;
+    height: 3px;
+    width: 100px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+      width: 100px;
+    }
+    50%{
+      width: 200px;
+    }
+    100%{
+      width: 100px;
+    }
   }
   .rd-3{
     //border: 4px solid white;

@@ -14,3 +14,15 @@
 .event-date{
   color: #3e53a4;
 }
+.input-filter{
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+}
+.input-filter:focus{
+  border: 1px solid #3e53a4;
+}
+.btn-find{
+  width: auto;
+  height: 50px;
+}

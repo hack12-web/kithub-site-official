@@ -1,7 +1,25 @@
 <app-event-slide></app-event-slide>
-<section class="container" *ngFor="let event of collection" >
-  <div class="row">
-    <div class=" col-sm-6 col-sm-12 mt-3 py-3">
+<div class="container mt-3">
+  <div class="row" data-aos="fade-up">
+    <span>
+      <!-- <i class="fa fa-search fa-2x" aria-hidden="true"></i>&nbsp; -->
+      <input type="text" class="input-filter" placeholder="Find Events..." >&nbsp;
+      <button mat-raised-button color="primary" class="mt-1 btn-find" >Find Events</button>
+    </span>
+  </div>
+</div>
+<div class="container" *ngFor="let event of collection">
+  <div class="row mt-3">
+    <div class="col-sm-10" data-aos="fade-down">
+      <small>{{ event.event_date.toDate() | date:'fullDate'}}</small>
+      <h3 class="fw-bold" >{{ event.event_name | uppercase }}</h3>
+      <p class="py-3 txt-css">{{ event.event_details }}</p>
+    </div>
+    <div class="col-sm-2" data-aos="fade-up">
+      <img [src]="event.imag_link ?? 'assets/img/img-placeholder.png'" class="img-fluid shadow-lg" alt="">
+    </div>
+    <hr class="mt-3">
+    <!-- <div class="col-sm-6 col-sm-12 mt-3 py-3">
       <mat-card class="shadow-lg card-design" (click)="selectEvent(event)">
         <mat-card-title>
           <p class="h5 event-title">{{ event.event_name | uppercase }}</p>
@@ -17,9 +35,9 @@
     
         </mat-card-actions>
       </mat-card>
-    </div>
+    </div> -->
   </div>
-</section>
+</div>
 <mat-paginator [length]="100" [pageSize]="defaultRecords" [pageSizeOptions]="[5, 10, 25, 100]" (page)="pageEvent = $event; onPaginateChange($event)"></mat-paginator>
 
 <div>

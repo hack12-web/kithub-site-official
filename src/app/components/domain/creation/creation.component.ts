@@ -17,6 +17,7 @@ export class CreationComponent implements OnInit {
   public imgr8: string = "https://firebasestorage.googleapis.com/v0/b/kithub-fire.appspot.com/o/kit_mix_picture%2Fright_side%2FIMG_0682.jpg?alt=media&token=b5f1824d-ba05-439e-bd6e-b9576413c3c1";
   public imgr9: string = "https://firebasestorage.googleapis.com/v0/b/kithub-fire.appspot.com/o/kit_mix_picture%2Fright_side%2FIMG_0684.jpg?alt=media&token=542ac8d9-7525-45d5-b078-df8d718064ca";
   public imgr10: string = "https://firebasestorage.googleapis.com/v0/b/kithub-fire.appspot.com/o/kit_mix_picture%2Fright_side%2FIMG_0720.jpg?alt=media&token=c6ea4516-3c59-4ffb-bc0a-89c5a24880c0";
+  
   constructor() { }
 
   ngOnInit(): void {

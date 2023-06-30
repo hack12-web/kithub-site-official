@@ -85,10 +85,13 @@ ol{
   background-color: red;
   z-index: 1;
 }
-ol a:hover {
-  background-color: #eee;
-  color: black;
+ol:focus{
+  display: none;
 }
+// ol a:hover {
+//   background-color: #eee;
+//   color: black;
+// }
 
 ol:focus{
   display: block;
@@ -146,7 +149,8 @@ small a{
   padding: 10px;
 }
 .inside-menu{
-  display: none;
+  // display: none;
+  display: block;
 }
 .header-contact{
   width: auto;
@@ -204,6 +208,9 @@ small a{
   }
   .menu_point{
     display: block;
+  }
+  .element-cal{
+    display: none;
   }
 }
 @media only screen and (max-width: 1310px)

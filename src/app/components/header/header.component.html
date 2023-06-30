@@ -9,7 +9,7 @@
     <li><a href="/#events">Evenements</a></li>
     <li><a href="/#blog">Blog</a></li>
     <li><a href="/#department">Departement</a></li>
-    <li class="dropdown">
+    <!-- <li class="dropdown">
       <i class="fa fa-globe" aria-hidden="true"></i>
       <ol>
         <li><a href="">Français</a></li>
@@ -17,6 +17,27 @@
         <li><a href="">Kiswahili</a></li>
         <li><a href="">Swenden</a></li>
       </ol>
+    </li> -->
+    <li>
+      <button mat-button [matMenuTriggerFor]="menu_lang" aria-label="Example icon-button with a menu" class="text-white">
+        <!-- <label translate>header.langue</label> -->
+        <!-- <mat-icon>language</mat-icon> -->
+        <i class="fa fa-globe fa-1x" aria-hidden="true"></i>
+      </button>
+      <mat-menu #menu_lang="matMenu">
+        <button mat-menu-item>
+          <a mat-button (click)="changeLanguage('en')">english</a>
+        </button>
+        <button mat-menu-item>
+          <a mat-button  (click)="changeLanguage('fr')">francais</a>
+        </button>
+        <button mat-menu-item>
+          <a mat-button  (click)="changeLanguage('sw')">suédois</a>
+        </button>
+        <button mat-menu-item>
+          <a mat-button  (click)="changeLanguage('kis')">kiswahili</a>
+        </button>
+      </mat-menu>
     </li>
     <li><a ><button class="header-contact"  (click)="openDialog()"  translate>header.element_eight</button></a></li>
     <li><a class="element-cal">{{ time }}</a></li>
@@ -24,7 +45,7 @@
     <li><button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button></li>
   </ul>
   <input type="checkbox" id="check">
-  <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+  <label for="check" class="checkbtn" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="text-white menu_point"><i class="fas fa-bars"></i></label>
 </nav>
 
 
@@ -36,54 +57,55 @@
     })
   </script> -->
 </section>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <i class="fa fa-home" aria-hidden="true"></i>
+    <small><a routerLink="/" translate>header.element_one</a></small>
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item>
+    <mat-icon>accessibility</mat-icon>
+    <small><a routerLink="about" translate>header.element_two</a></small>
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item>
+    <mat-icon>domain</mat-icon>
+    <small><a routerLink="domain" translate>header.element_three</a></small>
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item>
+    <mat-icon>calendar_today</mat-icon>
+    <small><a routerLink="events" translate>header.element_four</a></small>
+  </button>
+  <mat-divider></mat-divider>
+  <button mat-menu-item>
+    <mat-icon>language</mat-icon>
+    <small><a routerLink="blog" translate>header.element_five</a></small>s
+  </button>
+  <button mat-menu-item>
+    <mat-icon>contact</mat-icon>
+    <small><a routerLink="department" translate>header.element_six <small>&</small><a translate> header.element_seven</a></a></small>
+  </button>
+  <mat-divider></mat-divider>
+  <br>
+  <div class="contact">
+    <button class="contact-mob" (click)="openDialog()" translate>header.element_eight</button>
+  </div>
+  <br>
+  <mat-divider></mat-divider>
+  <div class="inside-menu">
+    <a mat-button class="text-dark" (click)="changeLanguage('en')">english</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('fr')">francais</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('sw')">suédois</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('kis')">kiswahili</a>
+    <a mat-button class="text-dark">kirundi</a>
+  </div>
+</mat-menu>
 <!-- <mat-toolbar class="fixed-top c-toolbar shadow-lg">
   <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="text-white menu_point">
     <mat-icon>more_vert</mat-icon>
   </button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>
-      <mat-icon>home</mat-icon>
-      <small><a routerLink="/" translate>header.element_one</a></small>
-    </button>
-    <mat-divider></mat-divider>
-    <button mat-menu-item>
-      <mat-icon>accessibility</mat-icon>
-      <small><a routerLink="about" translate>header.element_two</a></small>
-    </button>
-    <mat-divider></mat-divider>
-    <button mat-menu-item>
-      <mat-icon>domain</mat-icon>
-      <small><a routerLink="domain" translate>header.element_three</a></small>
-    </button>
-    <mat-divider></mat-divider>
-    <button mat-menu-item>
-      <mat-icon>calendar_today</mat-icon>
-      <small><a routerLink="events" translate>header.element_four</a></small>
-    </button>
-    <mat-divider></mat-divider>
-    <button mat-menu-item>
-      <mat-icon>language</mat-icon>
-      <small><a routerLink="blog" translate>header.element_five</a></small>s
-    </button>
-    <button mat-menu-item>
-      <mat-icon>contact</mat-icon>
-      <small><a routerLink="department" translate>header.element_six <small>&</small><a translate> header.element_seven</a></a></small>
-    </button>
-    <mat-divider></mat-divider>
-    <br>
-    <div class="contact">
-      <button class="contact-mob" (click)="openDialog()" translate>header.element_eight</button>
-    </div>
-    <br>
-    <mat-divider></mat-divider>
-    <div class="inside-menu">
-      <a mat-button class="text-dark" (click)="changeLanguage('en')">english</a>
-      <a mat-button class="text-dark" (click)="changeLanguage('fr')">francais</a>
-      <a mat-button class="text-dark" (click)="changeLanguage('sw')">suédois</a>
-      <a mat-button class="text-dark" (click)="changeLanguage('kis')">kiswahili</a>
-      <a mat-button class="text-dark">kirundi</a>
-    </div>
-  </mat-menu>
+  
   <div class="img-logo">
     <a routerLink="/"><img src="assets/img/Logokitwhit.png" class="home-img" width="100px" height="60px" alt=""></a>
   </div>

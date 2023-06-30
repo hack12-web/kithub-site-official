@@ -67,6 +67,11 @@ import { ReveiventionComponent } from './components/domain/reveivention/reveiven
 import { CreationComponent } from './components/domain/creation/creation.component';
 import { EducationComponent } from './components/domain/education/education.component';
 import { DeveloppementComponent } from './components/domain/developpement/developpement.component';
+import { CataComponent } from './components/department/cata/cata.component';
+import { ComlabComponent } from './components/department/comlab/comlab.component';
+import { WeaComponent } from './components/department/wea/wea.component';
+import { HudiComponent } from './components/department/hudi/hudi.component';
+import { DepartmentSlideComponent } from './components/department/department-slide/department-slide.component';
 
 @NgModule({
   declarations: [
@@ -114,6 +119,11 @@ import { DeveloppementComponent } from './components/domain/developpement/develo
     CreationComponent,
     EducationComponent,
     DeveloppementComponent,
+    CataComponent,
+    ComlabComponent,
+    WeaComponent,
+    HudiComponent,
+    DepartmentSlideComponent,
   ],
   imports: [
     BrowserModule,
