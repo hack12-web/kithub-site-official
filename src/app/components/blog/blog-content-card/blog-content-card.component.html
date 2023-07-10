@@ -1,5 +1,13 @@
-<div *ngIf="!isNotEmpty()">
-  <!-- <app-last-news-home></app-last-news-home> -->
+<iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkithubnews&tabs=timeline&width=250&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="250" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        
+<!-- <div *ngIf="!isNotEmpty()">
+
+  <app-last-news-home></app-last-news-home>
+
   <p class="display-6 text-center announce_text py-5">CLICK TO THE EVENT TO READ MORE</p>
   <div class="container-fluid">
     <div class="row">
@@ -41,8 +49,10 @@
       <li *ngIf="item.event_name === selectedEvents.event_name">
         <div class="design_chat">
           <small><span class="name">{{ item.name }}</span> : {{ item.comment }} </small>
-          <!-- :&nbsp;
-          <span class="comment">{{ item.comment }}</span> -->
+
+          :&nbsp;
+          <span class="comment">{{ item.comment }}</span>
+
         </div>
       </li>
     </ul>
@@ -77,7 +87,9 @@
             <mat-label>Leave your email</mat-label>
             <input type="email" matInput placeholder="ex: sarahsolo@gmail.com" formControlName="email" [ngModel]="valueAnnon" name="email" id="email" autocomplete="off">
           </mat-form-field>
-          <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
+
+          &nbsp;&nbsp;&nbsp;&nbsp;
+
           <button mat-raised-button class="btn_color" [disabled]="formComment.invalid">Envoyer</button>
         </form>
       </div>
@@ -97,5 +109,5 @@
     </div>
     <br>
   </mat-card-footer>
-</mat-card>
+</mat-card> -->
 <!-- Right side -->

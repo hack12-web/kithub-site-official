@@ -72,6 +72,8 @@ import { ComlabComponent } from './components/department/comlab/comlab.component
 import { WeaComponent } from './components/department/wea/wea.component';
 import { HudiComponent } from './components/department/hudi/hudi.component';
 import { DepartmentSlideComponent } from './components/department/department-slide/department-slide.component';
+import { NotfoundpageComponent } from './components/notfoundpage/notfoundpage.component';
+import { CpanelSlideComponent } from './components/c-panel/cpanel-slide/cpanel-slide.component';
 
 @NgModule({
   declarations: [
@@ -124,6 +126,8 @@ import { DepartmentSlideComponent } from './components/department/department-sli
     WeaComponent,
     HudiComponent,
     DepartmentSlideComponent,
+    NotfoundpageComponent,
+    CpanelSlideComponent,
   ],
   imports: [
     BrowserModule,

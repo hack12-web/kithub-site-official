@@ -6,7 +6,7 @@
     <div class="row scroll_row ">
       <div class="col-lg-6 mt-3" *ngFor="let event of events">
         <div class="card shadow-lg">
-          <img [src]="event.imag_link ?? 'assets/img/img-placeholder.png'" class="card-img-top" alt="">
+          <img [src]="event.imag_link ?? 'assets/img/img-placeholder.png'" class="card-img-top styl" alt="" [routerLink]="['/events', event.id]" >
           <div class="card-body">
             <h5 class="card-title fw-bold">{{event.event_name | uppercase }}</h5>
             <p class="card-text fw-bold">{{ event.event_date.toMillis() | date: 'MM/dd/yyyy' }}</p>

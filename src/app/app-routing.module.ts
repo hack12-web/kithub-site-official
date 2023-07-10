@@ -12,6 +12,7 @@ import { EventsComponent } from './components/events/events.component';
 import { HomeComponent } from './components/home/home.component';
 
 import { ProgrammsComponent } from './components/programms/programms.component';
+import { NotfoundpageComponent } from './components/notfoundpage/notfoundpage.component';
 
 const routes: Routes = [
   {
@@ -41,7 +42,11 @@ const routes: Routes = [
   {
     path:'events',
     component: EventsComponent,
-    children:[ { path:':id', component: EventDetailsComponent } ]
+    // children:[ { path:':id', component: EventDetailsComponent } ]
+  },
+  {
+    path:'events/:id',
+    component: EventDetailsComponent
   },
   {
     path:"cx_panel",
@@ -55,6 +60,10 @@ const routes: Routes = [
   {
     path:"Auth/adminLogin",
     component: AdminLoginComponent
+  },
+  {
+    path:"**",
+    component: NotfoundpageComponent
   }
 ];
 

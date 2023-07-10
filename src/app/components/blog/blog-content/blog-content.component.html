@@ -1,12 +1,11 @@
-<section class="the_contenent">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4 mt-3">
-        <app-blog-content-detail (sendEvents)="selectedEvents=$event" ></app-blog-content-detail>
-      </div>
-      <div class="col-sm-8 mt-3">
-        <app-blog-content-card [selectedEvents]="selectedEvents" ></app-blog-content-card>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 mt-3">
+      <app-blog-content-detail (sendEvents)="selectedEvents=$event" ></app-blog-content-detail>
+    </div>
+    <div class="col-sm-2 mt-3">
+      <!-- <app-blog-content-card [selectedEvents]="selectedEvents" ></app-blog-content-card> -->
+      <app-blog-content-card></app-blog-content-card>
     </div>
   </div>
-</section>
+</div>

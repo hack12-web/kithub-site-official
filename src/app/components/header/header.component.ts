@@ -11,7 +11,11 @@ import { BlogDialogComponent } from '../blog/blog-dialog/blog-dialog.component';
 export class HeaderComponent implements OnInit {
 
   public time:string = new Date().toLocaleTimeString();
-
+  public langName:string = 'fr';
+  public nameOne:string = 'english';
+  public nameTwo:string = 'francais';
+  public nameThree:string = 'suédois';
+  public nameFour:string = 'kiswahili';
   
   constructor( private serviceTranslate: TranslateConfigService, private dialog: MatDialog ) {
     this.getTime();
@@ -38,6 +42,7 @@ export class HeaderComponent implements OnInit {
   }
   public changeLanguage(type:string){
     this.serviceTranslate.changeLanguage(type);
+    this.langName = type;
   }
   public openDialog(){
     //this.dialog.open(BlogDialogComponent);

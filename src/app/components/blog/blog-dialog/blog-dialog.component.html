@@ -5,8 +5,7 @@
   <div mat-dialog-content>
     <form [formGroup]="myForm" (submit)="send_contact_us(myForm.value)">
       <div class="mt-3">
-        <label translate>dialog.name</label>
-        <br>
+        <!-- <label translate>dialog.name</label> -->
         <input type="text" formControlName="name" placeholder="NYONGERO Claude" autocomplete="off" class="form-control inputs">
         <div *ngIf=" myForm.get('name').touched && myForm.get('name').errors?.required ">
           <span class="text-danger">the full name is required is required</span>
@@ -14,8 +13,7 @@
       </div>
       <br>
       <div class="mt-3">
-        <label translate>dialog.email</label>
-        <br>
+        <!-- <label translate>dialog.email</label> -->
         <input type="email" formControlName="email" placeholder="Eg: nyongeroclaude@gmail.com" autocomplete="off" class="form-control">
         <div *ngIf=" myForm.get('email').touched && myForm.get('email').errors?.required ">
           <span class="text-danger">the email is required</span>
@@ -26,8 +24,7 @@
       </div>
       <br>
       <div class="mt-3">
-        <label translate>dialog.message</label>
-        <br>
+        <!-- <label translate>dialog.message</label> -->
         <textarea rows="5" class="text-area" type="text" formControlName="message" placeholder="Eg: Hello world" autocomplete="off" class="form-control"></textarea>
         <div *ngIf=" myForm.get('message').touched && myForm.get('message').errors?.required ">
           <span class="text-danger">the message is required</span>

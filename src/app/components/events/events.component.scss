@@ -15,12 +15,13 @@
   color: #3e53a4;
 }
 .input-filter{
-  width: 90%;
+  width: 100%;
   height: 50px;
   border-radius: 5px;
 }
 .input-filter:focus{
   border: 1px solid #3e53a4;
+  transition: 0.5s;
 }
 .btn-find{
   width: auto;

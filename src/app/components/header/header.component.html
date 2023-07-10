@@ -3,12 +3,12 @@
     <img src="assets/img/Logokitwhit.png" class="home-img" width="100px" height="60px" alt="">
   </a>
   <ul>
-    <li><a href="/#" class="active">Acceuil</a></li>
-    <li><a href="/#about">A propos</a></li>
-    <li><a href="/#domain">Domaines</a></li>
-    <li><a href="/#events">Evenements</a></li>
-    <li><a href="/#blog">Blog</a></li>
-    <li><a href="/#department">Departement</a></li>
+    <li><a href="/#" class="active" translate>header.element_one</a></li>
+    <li><a href="/#about" translate>header.element_two</a></li>
+    <li><a href="/#domain" translate>header.element_three</a></li>
+    <li><a href="/#events" translate>header.element_four</a></li>
+    <li><a href="/#blog" translate>header.element_five</a></li>
+    <li><a href="/#department" translate>header.element_six</a></li>
     <!-- <li class="dropdown">
       <i class="fa fa-globe" aria-hidden="true"></i>
       <ol>
@@ -23,26 +23,27 @@
         <!-- <label translate>header.langue</label> -->
         <!-- <mat-icon>language</mat-icon> -->
         <i class="fa fa-globe fa-1x" aria-hidden="true"></i>
+        {{ langName | uppercase }}
       </button>
       <mat-menu #menu_lang="matMenu">
         <button mat-menu-item>
-          <a mat-button (click)="changeLanguage('en')">english</a>
+          <a mat-button (click)="changeLanguage('en')">{{ nameOne | uppercase }}</a>
         </button>
         <button mat-menu-item>
-          <a mat-button  (click)="changeLanguage('fr')">francais</a>
+          <a mat-button  (click)="changeLanguage('fr')">{{ nameTwo | uppercase }}</a>
         </button>
         <button mat-menu-item>
-          <a mat-button  (click)="changeLanguage('sw')">suédois</a>
+          <a mat-button  (click)="changeLanguage('sw')">{{ nameThree | uppercase }}</a>
         </button>
         <button mat-menu-item>
-          <a mat-button  (click)="changeLanguage('kis')">kiswahili</a>
+          <a mat-button  (click)="changeLanguage('kis')">{{ nameFour | uppercase }}</a>
         </button>
       </mat-menu>
     </li>
     <li><a ><button class="header-contact"  (click)="openDialog()"  translate>header.element_eight</button></a></li>
     <li><a class="element-cal">{{ time }}</a></li>
-    <li><button mat-icon-button class="arrow-design" (click)="scrollTop()"><mat-icon>arrow_upward</mat-icon></button></li>
-    <li><button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button></li>
+    <!-- <li><button mat-icon-button class="arrow-design" (click)="scrollTop()"><mat-icon>arrow_upward</mat-icon></button></li>
+    <li><button mat-icon-button class="arrow-design" (click)="scrollBottom()"><mat-icon>arrow_downward</mat-icon></button></li> -->
   </ul>
   <input type="checkbox" id="check">
   <label for="check" class="checkbtn" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="text-white menu_point"><i class="fas fa-bars"></i></label>
@@ -94,11 +95,10 @@
   <br>
   <mat-divider></mat-divider>
   <div class="inside-menu">
-    <a mat-button class="text-dark" (click)="changeLanguage('en')">english</a>
-    <a mat-button class="text-dark" (click)="changeLanguage('fr')">francais</a>
-    <a mat-button class="text-dark" (click)="changeLanguage('sw')">suédois</a>
-    <a mat-button class="text-dark" (click)="changeLanguage('kis')">kiswahili</a>
-    <a mat-button class="text-dark">kirundi</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('en')">{{ nameOne | uppercase }}</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('fr')">{{ nameTwo | uppercase }}</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('sw')">{{ nameThree | uppercase }}</a>
+    <a mat-button class="text-dark" (click)="changeLanguage('kis')">{{ nameFour | uppercase }}</a>
   </div>
 </mat-menu>
 <!-- <mat-toolbar class="fixed-top c-toolbar shadow-lg">

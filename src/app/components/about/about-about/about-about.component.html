@@ -10,14 +10,19 @@
       <img src="assets/img/historique.jpg" class="img-fluid mt-2 mb-2" alt="" data-aos="fade-up">
     </div>
     <div class="col-sm-6 cs-1 text-center" data-aos="fade-up">
-      <p class="historique-text" translate><br>
+      <p class="historique-text"><br>
         <span class="h4" translate data-aos="fade-up">about.about_historique_title</span>
         <br><br>
         <span translate data-aos="fade-up">about.about_historique_msg_one</span>
         <br>
         <span translate *ngIf="setVisible" data-aos="fade-up">about.about_historique_msg_two</span>
       </p>
-      <button class="view_button" (click)="viewAction()" data-aos="fade-down" >{{ textButton }}</button>
+      <mat-label (click)="viewAction()" class="styl">
+        <i class="fa fa-arrow-down" *ngIf="arrowIconDown" aria-hidden="true"></i>
+        <i class="fa fa-arrow-up" *ngIf="arrowIconUp" aria-hidden="true"></i>
+        {{ textButton }}
+      </mat-label>
+      <!-- <button class="view_button" (click)="viewAction()" data-aos="fade-down" >{{ textButton }}</button> -->
     </div>
   </div>
 </section>

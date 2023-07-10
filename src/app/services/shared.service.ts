@@ -66,7 +66,7 @@ export class SharedService {
   public post_contact_us(val: any):void{
     const DbInstance = collection(this.firestore, 'contactUs');
     addDoc(DbInstance, val).then(() =>{
-      this.openSnackBar("Thanks","close");
+      this.openSnackBar("Thanks for your courage :)","close");
     }).catch(() =>{
       this.openSnackBar('sorry something want wrong refresh page and try again ! (:','close');
     });

@@ -1,22 +1,81 @@
-
-<div class="input-filter">
-  <input type="text" class="form-control input " placeholder="Filter here..." [(ngModel)]="filterInput">
+<div class="container-fluid">
+  <div class="row" data-aos="fade-up">
+    <div class="col-sm">
+      <span>
+        <!-- <i class="fa fa-search fa-2x" aria-hidden="true"></i>&nbsp; -->
+        <input type="text" class="input" placeholder="Find Events..." [(ngModel)]="filterInput">
+      </span>
+    </div>
+  </div>
 </div>
-<br>
-<div class="content" *ngFor="let event of eventsFilter">
-  <mat-card class="shadow-lg anim-card">
+<div class="container-fluid" *ngFor="let event of eventsFilter">
+  <div class="row mt-3 mb-3" data-aos="fade-down">
+    <div class="col-sm-10">
+      <small>{{ event.event_date.toDate() | date:'fullDate'}}</small>
+      <h3 class="fw-bold">{{event.event_name }}</h3>
+      <p class="py-3 txt-css">{{ event.event_details }}</p>
+    </div>
+    <div class="col-sm-2 mt-3">
+      <img [src]="event.imag_link ?? 'assets/img/img-placeholder.png'" class="img-fluid img_click" alt="">
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm">
+          <p class="text-center fw-bold pointer" [routerLink]="['/events', event.id ]">----------------{{button_name}}----------------</p>
+          <div class="scrol-row" *ngIf="read_more">
+            <mat-stepper orientation="vertical" *ngFor="let item of comments">
+              <mat-step *ngIf="item.event_name === event.event_name" data-aos="fade-down">
+                <ng-template matStepLabel data-aos="fade-down">{{ item.name }}</ng-template>
+                <ng-template matStepContent data-aos="fade-down">
+                  <p class="txt-css">{{ item.comment }}</p>
+                </ng-template>
+              </mat-step>
+            </mat-stepper>
+            <div class="container-fluid">
+              <div class="row" *ngIf="commentDisable">
+                <p class="text-center py-3 h7" data-aos="fade-down">COMMENTAIRES</p>
+                <form [formGroup]="formComment" (submit)="send_comment(formComment.value)">
+                  <div>
+                    <mat-form-field appearance="fill" data-aos="fade-down">
+                      <mat-label>Event id</mat-label>
+                      <input type="text" matInput placeholder="event id..." [ngModel]="event.id" formControlName="event_id" name="event_id" id="event_id">
+                    </mat-form-field>
+                    &nbsp;
+                    <mat-form-field appearance="fill" data-aos="fade-down">
+                      <mat-label>Event name</mat-label>
+                      <input type="text" matInput placeholder="Ex: Tech kuribose " [ngModel]="event.event_name" formControlName="event_name" name="event_name" id="event_name" autocomplete="off">
+                    </mat-form-field>
+                  </div>
+                  <mat-form-field class="example-full-width" appearance="fill" data-aos="fade-down">
+                    <mat-label>Leave a comment</mat-label>
+                    <textarea matInput placeholder="Comment..." formControlName="comment" name="comment" id="comment" autocomplete="off" class="inputsField"></textarea>
+                  </mat-form-field>
+                  <mat-form-field appearance="fill" [hidden]="false" data-aos="fade-down">
+                    <mat-label>Leave your name</mat-label>
+                    <input type="text" matInput placeholder="ex: Sarah Solo" formControlName="name" [ngModel]="valueAnnon" name="name" id="name" autocomplete="off">
+                  </mat-form-field>
+                  <button mat-raised-button color="primary" [disabled]="formComment.invalid" data-aos="fade-down">Envoyer</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="mt-3">
+  <!-- <mat-card class="shadow-lg anim-card">
     <mat-card-title>
       <p *ngIf=" event.count === 1"></p>
       <p class="h5 title_css" (click)="selectEvent(event)">{{event.event_name }}</p>
     </mat-card-title>
     <mat-card-content>
-      <!-- img -->
       <img [src]="event.imag_link ?? 'assets/img/img-placeholder.png'" class="img-fluid img_click" alt="" (click)="selectEvent(event)">
       <br><br>
       {{ event.event_date.toDate() | date:'fullDate'}}
     </mat-card-content>
     <mat-card-actions></mat-card-actions>
-  </mat-card>
+  </mat-card> -->
   <br>
 </div>
 <mat-paginator [length]="100" [pageSize]="defaultRecords" [pageSizeOptions]="[5, 10, 25, 100]" (page)="pageEvent = $event; onPaginateChange($event)"></mat-paginator>

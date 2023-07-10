@@ -15,6 +15,7 @@ import {
   snapToData
  } from '@angular/fire/firestore';
 import { PageEvent } from '@angular/material/paginator';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-blog-content-detail',
@@ -33,8 +34,26 @@ export class BlogContentDetailComponent implements OnInit {
   defaultRecords: any = 5;
   pageEvent: PageEvent | any;
 
-  constructor(private firestore: Firestore, private _service: SharedService) { }
+  public read_more: boolean = false;
+  public button_name: string = "see reaction";
 
+  //all about comment
+  public formComment: FormGroup | any;
+  public comments:any = [];
+  public valueAnnon:string = "anonymous";
+  public commentDisable: boolean = true;
+
+  constructor(private fb: FormBuilder, private firestore: Firestore, private _service: SharedService) { }
+
+  public readMoreAction(){
+    if(this.read_more === true){
+      this.button_name = "see reaction";
+      this.read_more = false;
+    }else{
+      this.button_name = "hide reaction";
+      this.read_more = true
+    }
+  }
   public increaseCount(){
     for (let index = 0; index < this.events.length; index++) {
       const element = this.events[index];
@@ -60,12 +79,34 @@ export class BlogContentDetailComponent implements OnInit {
       //console.log(this.events);
       this.eventsFilter = this.events;
       this.eventsFilter = this.events.slice(0, this.defaultRecords);
-      
+      console.log(this.events);
     })
+  }
+  public send_comment(val : any){
+    // this._service.post_comment(val);
+    // this.formComment.reset();
+    // this.getAllComment();
+    // this.commentDisable = false;
+    console.log(val);
+  }
+  public getAllComment(){
+    const DbInstance = collection(this.firestore, 'comments');
+    getDocs(DbInstance).then((response) =>{
+      this.comments = [...response.docs.map((item) =>{
+        return {...item.data(), id: item.id }
+      })]
+    });
   }
 
   ngOnInit(): void {
     this.getEvent();
+    this.getAllComment();
+    this.formComment = this.fb.group({
+      comment:['', Validators.required],
+      name:['', Validators.required],
+      event_id:['', Validators.required],
+      event_name:['' ,Validators.required]
+    });
   }
   onPaginateChange(data:any) {
     this.eventsFilter = this.events.slice(0, data.pageSize);
