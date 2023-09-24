@@ -2,8 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url(/assets/img/kithub_back.png) no-repeat scroll;
-  // background: url(/assets/img/kitone.jpg) no-repeat scroll;
+  background: url("https://firebasestorage.googleapis.com/v0/b/kithub-fire.appspot.com/o/kit_mix_picture%2Fkithub_back.jpg?alt=media&token=96cbff30-7166-4576-bbc5-41da29fceb67") no-repeat scroll;
   background-size: cover;
 }
 .slide{
@@ -16,8 +15,8 @@
   color: white;
 }
 .wrapper{
-  // background-color: rgba(0,0,0,0.8);
-  // height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  height: 100%;
 }
 .ready-more{
   width: 200px;
